@@ -1,0 +1,18 @@
+object_type,expected_name,source_or_members
+assembly,ASTERION_FCTA_1.asm,All subsystem part files
+part,AST_1100_OPTIMIZED_STRUCTURE.prt,source_stl/AST-1100-OPTIMIZED-STRUCTURE.stl
+part,AST_2000_HABITAT.prt,source_stl/AST-2000-HABITAT.stl
+part,AST_3000_MODULES.prt,source_stl/AST-3000-MODULES.stl
+part,AST_4000_TANKS.prt,source_stl/AST-4000-TANKS.stl
+part,AST_5000_PROPULSION.prt,source_stl/AST-5000-PROPULSION.stl
+part,AST_6000_SOLAR.prt,source_stl/AST-6000-SOLAR.stl
+part,AST_7000_RADIATORS.prt,source_stl/AST-7000-RADIATORS.stl
+part,AST_8000_DOCKING.prt,source_stl/AST-8000-DOCKING.stl
+part,AST_9000_ROBOTICS.prt,source_stl/AST-9000-ROBOTICS.stl
+part,AST_9100_AVIONICS.prt,source_stl/AST-9100-AVIONICS.stl
+part,AST_9200_SKIMMER.prt,source_stl/AST-9200-SKIMMER.stl
+drawing,ASTERION_FCTA_1_GA.drw,ASTERION_FCTA_1.asm
+drawing,AST_TP_2101.drw,AST-TP-2101-THRUSTER-GIMBAL-BRACKET.stl
+drawing,AST_RG_3201.drw,AST-RG-3201-RING-BEARING-HOUSING.stl
+drawing,AST_SK_4301.drw,AST-SK-4301-SKIMMER-WING-RIB.stl
+drawing,AST_ST_1401.drw,AST-ST-1401-LIGHTWEIGHT-BULKHEAD.stl
