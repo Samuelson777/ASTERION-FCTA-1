@@ -1,0 +1,1 @@
+run_id,date,software_version,analysis_type,load_case,model_revision,node_count,element_count,max_element_size_mm,min_element_size_mm,result_metric,result_value,result_unit,equilibrium_error_percent,notes
