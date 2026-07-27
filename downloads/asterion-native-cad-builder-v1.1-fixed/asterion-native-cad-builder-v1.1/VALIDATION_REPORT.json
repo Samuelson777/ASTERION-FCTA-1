@@ -1,0 +1,9 @@
+{
+  "package_version": "1.1",
+  "python_syntax": "PASS",
+  "outside_nx_error_handling": "PASS",
+  "one_click_batch_launcher": "PASS",
+  "powershell_nx_discovery_launcher": "PASS",
+  "source_stl_count": 16,
+  "notes": "Native NX execution must be tested on the user Siemens NX installation."
+}
