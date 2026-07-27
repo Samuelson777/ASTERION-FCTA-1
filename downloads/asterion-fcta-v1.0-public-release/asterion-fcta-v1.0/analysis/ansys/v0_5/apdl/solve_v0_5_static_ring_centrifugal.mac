@@ -1,0 +1,17 @@
+! ASTERION FCTA-1 V0.5 APDL template
+! Units: mm, N, s, tonne, MPa
+! Run in a folder containing the V0.3 line-model include.
+! Apply radial loads through Mechanical named selections for best control.
+/CLEAR
+/FILNAME,ast_v05_ring_centrifugal
+/INPUT,../../v0_3/apdl/asterion_line_model,inc
+/SOLU
+ANTYPE,STATIC
+NSEL,S,LOC,X,-21000
+D,ALL,ALL,0
+ALLSEL,ALL
+! Ring 1 and Ring 2 outer nodes are node IDs 169,171,173,174,176,178,179,181,183,184,186,188 and 189,191,193,194,196,198,199,201,203,204,206,208.
+! Use a Mechanical cylindrical coordinate load or generate FY/FZ components from the CSV model.
+OUTRES,ALL,ALL
+! SOLVE only after confirming the radial force vector sum and torque.
+FINISH

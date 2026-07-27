@@ -1,0 +1,18 @@
+! ASTERION FCTA-1 V0.5 APDL template
+! Units: mm, N, s, tonne, MPa
+! Run in a folder containing the V0.3 line-model include.
+/CLEAR
+/FILNAME,ast_v05_modal_freefree
+/INPUT,../../v0_3/apdl/asterion_line_model,inc
+! Add reviewed remote masses and inertias before solving.
+/SOLU
+ANTYPE,MODAL
+MODOPT,LANB,20
+MXPAND,20,,,YES
+OUTRES,ALL,ALL
+SOLVE
+FINISH
+/POST1
+SET,LIST
+! Confirm six near-zero rigid-body modes before interpreting flexible modes.
+FINISH
