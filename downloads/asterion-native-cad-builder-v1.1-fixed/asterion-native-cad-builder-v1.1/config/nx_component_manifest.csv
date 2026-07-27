@@ -1,0 +1,17 @@
+id,source_stl,nx_part_name,component_name,include_in_top_assembly,make_drawing,drawing_scale_denominator,description
+AST-0100,source_stl/AST-0100-MASTER-ENVELOPE.stl,AST-0100-MASTER-ENVELOPE.prt,MASTER_ENVELOPE,0,1,100,Master packaging and clearance envelope
+AST-1100,source_stl/AST-1100-OPTIMIZED-STRUCTURE.stl,AST-1100-OPTIMIZED-STRUCTURE.prt,OPTIMIZED_STRUCTURE,1,1,100,Version 0.8 optimized primary structure
+AST-2000,source_stl/AST-2000-HABITAT.stl,AST-2000-HABITAT.prt,HABITAT,1,0,50,Twin rotating habitation-ring sectors
+AST-3000,source_stl/AST-3000-MODULES.stl,AST-3000-MODULES.prt,MODULES,1,0,50,Command service logistics and refuge modules
+AST-4000,source_stl/AST-4000-TANKS.stl,AST-4000-TANKS.prt,TANKS,1,0,50,Propellant tank subsystem
+AST-5000,source_stl/AST-5000-PROPULSION.stl,AST-5000-PROPULSION.prt,PROPULSION,1,0,50,Electric propulsion and RCS subsystem
+AST-6000,source_stl/AST-6000-SOLAR.stl,AST-6000-SOLAR.prt,SOLAR_ARRAYS,1,0,100,Four deployed power wings
+AST-7000,source_stl/AST-7000-RADIATORS.stl,AST-7000-RADIATORS.prt,RADIATORS,1,0,50,Thermal rejection subsystem
+AST-8000,source_stl/AST-8000-DOCKING.stl,AST-8000-DOCKING.prt,DOCKING,1,0,20,Forward docking subsystem
+AST-9000,source_stl/AST-9000-ROBOTICS.stl,AST-9000-ROBOTICS.prt,ROBOTICS,1,0,20,Robotic servicing system
+AST-9100,source_stl/AST-9100-AVIONICS.stl,AST-9100-AVIONICS.prt,AVIONICS,1,0,20,Avionics equipment bay
+AST-9200,source_stl/AST-9200-SKIMMER.stl,AST-9200-SKIMMER.prt,SKIMMER,1,1,20,Lifting-body aeroshuttle
+AST-TP-2101,source_stl/AST-TP-2101-THRUSTER-GIMBAL-BRACKET.stl,AST-TP-2101-THRUSTER-GIMBAL-BRACKET.prt,THRUSTER_GIMBAL_BRACKET,0,1,1,NX CAM bracket demonstrator
+AST-RG-3201,source_stl/AST-RG-3201-RING-BEARING-HOUSING.stl,AST-RG-3201-RING-BEARING-HOUSING.prt,RING_BEARING_HOUSING,0,1,1,NX CAM turned and milled housing demonstrator
+AST-SK-4301,source_stl/AST-SK-4301-SKIMMER-WING-RIB.stl,AST-SK-4301-SKIMMER-WING-RIB.prt,SKIMMER_WING_RIB,0,1,2,NX CAM thin-wall rib demonstrator
+AST-ST-1401,source_stl/AST-ST-1401-LIGHTWEIGHT-BULKHEAD.stl,AST-ST-1401-LIGHTWEIGHT-BULKHEAD.prt,LIGHTWEIGHT_BULKHEAD,0,1,2,NX CAM lightweight bulkhead demonstrator
