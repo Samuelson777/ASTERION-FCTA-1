@@ -1,0 +1,14 @@
+! ASTERION v0.3 free-free modal demonstrator
+/CLEAR
+/FILNAME,asterion_modal_freefree
+/INPUT,asterion_line_model,inc
+/SOLU
+ANTYPE,MODAL
+MODOPT,LANB,16
+MXPAND,16,,,YES
+OUTRES,ALL,ALL
+SOLVE
+FINISH
+/POST1
+SET,LIST
+FINISH

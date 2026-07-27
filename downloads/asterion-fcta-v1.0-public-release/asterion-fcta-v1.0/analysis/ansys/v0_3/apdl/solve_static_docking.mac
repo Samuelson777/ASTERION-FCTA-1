@@ -1,0 +1,24 @@
+! ASTERION v0.3 static docking demonstrator
+/CLEAR
+/FILNAME,asterion_static_docking
+/INPUT,asterion_line_model,inc
+/SOLU
+ANTYPE,STATIC
+! Constrain aft end
+NSEL,S,LOC,X,-21000.0
+D,ALL,ALL,0
+! Apply total 25 kN compression at forward docking frame
+ALLSEL,ALL
+NSEL,S,LOC,X,21400.0
+*GET,NCOUNT,NODE,0,COUNT
+F,ALL,FX,-25000/NCOUNT
+ALLSEL,ALL
+OUTRES,ALL,ALL
+SOLVE
+FINISH
+/POST1
+SET,LAST
+PLDISP,2
+PLNSOL,U,SUM
+PLNSOL,S,EQV
+FINISH
