@@ -1,0 +1,21 @@
+name: Engineering change proposal
+description: Propose a design, analysis, CAM or documentation change
+title: "[change]: "
+labels: ["engineering-change"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Engineering rationale and evidence
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification method

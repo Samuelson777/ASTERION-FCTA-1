@@ -1,0 +1,21 @@
+name: Reproducibility problem
+description: Report a broken file, script, model link or documented workflow
+title: "[reproducibility]: "
+labels: ["reproducibility"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What failed?
+      description: Include the path, command and observed behaviour.
+    validations:
+      required: true
+  - type: input
+    id: software
+    attributes:
+      label: Software and version
+      placeholder: "Example: Python 3.13, NX 2023, ANSYS Student 2026 R1"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Error output or screenshots
