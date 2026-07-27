@@ -1,0 +1,32 @@
+{
+  "release": "1.1.0",
+  "status": "PASS",
+  "tests": {
+    "static_validator": {
+      "status": "PASS",
+      "files": 59,
+      "glb_assets": 9,
+      "download_archives": 3
+    },
+    "http_smoke_test": {
+      "status": "PASS",
+      "references_checked": 39
+    },
+    "browser_contract_test": {
+      "status": "PASS",
+      "checks": 15,
+      "real_app_code": true,
+      "threejs_test_double": true
+    },
+    "mobile_overflow": {
+      "status": "PASS",
+      "viewport_width_px": 390
+    },
+    "webgl_failure_recovery": {
+      "status": "PASS"
+    }
+  },
+  "limitations": [
+    "The container cannot run a normal public-CDN GPU/WebGL session; final visual rendering should be confirmed on the deployment computer."
+  ]
+}

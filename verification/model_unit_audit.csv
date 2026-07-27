@@ -1,0 +1,10 @@
+file,raw_x,raw_y,raw_z,viewer_scale,viewer_unit_mode,geometry_objects
+asterion-v0.2-master-envelope.glb,50055.0,58000.0,58000.0,0.001,millimetres → metres,111
+asterion-v0.3-primary-structure.glb,42520.105469,24186.603516,24186.603516,0.001,millimetres → metres,4
+asterion-v0.4-full-assembly.glb,51725.0,57800.0,57800.0,0.001,millimetres → metres,147
+asterion-v0.6-analysis-models.glb,25000.0,6000.0,3000.0,0.001,millimetres → metres,4
+asterion-v0.8-optimised-structure.glb,42.525045,24.186602,24.186602,1.0,metres,648
+lightweight-bulkhead.glb,260.0,224.0,18.0,component-normalised,normalised portfolio layout,1
+ring-bearing-housing.glb,75.0,202.0,208.0,component-normalised,normalised portfolio layout,1
+skimmer-wing-rib.glb,220.0,8.0,39.203021,component-normalised,normalised portfolio layout,1
+thruster-gimbal-bracket.glb,160.0,120.0,119.0,component-normalised,normalised portfolio layout,1
