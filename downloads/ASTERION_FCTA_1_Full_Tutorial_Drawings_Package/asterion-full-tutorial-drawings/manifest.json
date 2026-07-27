@@ -1,0 +1,90 @@
+[
+  {
+    "path": "ASTERION_FCTA_1_Full_Tutorial_Drawings.pdf",
+    "bytes": 1235139
+  },
+  {
+    "path": "ASTERION_Master_Dimension_Schedule.csv",
+    "bytes": 1104
+  },
+  {
+    "path": "README.md",
+    "bytes": 757
+  },
+  {
+    "path": "assets/AST-RG-3201_ring_bearing_housing.png",
+    "bytes": 145383
+  },
+  {
+    "path": "assets/AST-SK-4301_skimmer_wing_rib.png",
+    "bytes": 90040
+  },
+  {
+    "path": "assets/AST-ST-1401_lightweight_bulkhead.png",
+    "bytes": 145456
+  },
+  {
+    "path": "assets/AST-TP-2101_thruster_gimbal_bracket.png",
+    "bytes": 91921
+  },
+  {
+    "path": "assets/v0_3_primary_structure_front.png",
+    "bytes": 126383
+  },
+  {
+    "path": "assets/v0_3_primary_structure_plan.png",
+    "bytes": 146865
+  },
+  {
+    "path": "assets/v0_4_full_assembly_front.png",
+    "bytes": 119693
+  },
+  {
+    "path": "assets/v0_4_full_assembly_isometric.png",
+    "bytes": 616215
+  },
+  {
+    "path": "assets/v0_4_full_assembly_plan.png",
+    "bytes": 60716
+  },
+  {
+    "path": "assets/v0_8_optimized_structure_front.png",
+    "bytes": 249369
+  },
+  {
+    "path": "assets/v0_8_optimized_structure_plan.png",
+    "bytes": 190237
+  },
+  {
+    "path": "source_drawings/AST-RG-3201_ring_bearing_housing.dxf",
+    "bytes": 464
+  },
+  {
+    "path": "source_drawings/AST-RG-3201_ring_bearing_housing.svg",
+    "bytes": 1352
+  },
+  {
+    "path": "source_drawings/AST-SK-4301_skimmer_wing_rib.dxf",
+    "bytes": 8631
+  },
+  {
+    "path": "source_drawings/AST-SK-4301_skimmer_wing_rib.svg",
+    "bytes": 2649
+  },
+  {
+    "path": "source_drawings/AST-ST-1401_lightweight_bulkhead.dxf",
+    "bytes": 503
+  },
+  {
+    "path": "source_drawings/AST-ST-1401_lightweight_bulkhead.svg",
+    "bytes": 1402
+  },
+  {
+    "path": "source_drawings/AST-TP-2101_thruster_gimbal_bracket.dxf",
+    "bytes": 531
+  },
+  {
+    "path": "source_drawings/AST-TP-2101_thruster_gimbal_bracket.svg",
+    "bytes": 1479
+  }
+]

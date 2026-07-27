@@ -1,0 +1,27 @@
+parameter,value,unit,description
+vehicle_length,42000,mm,Core primary structure
+full_docked_length,~50000,mm,With Skimmer attached
+solar_deployed_span,58000,mm,Four-wing envelope
+ring_outer_diameter,26000,mm,Twin habitation rings
+ring_occupied_radius,12000,mm,Artificial-gravity reference
+ring_width,3200,mm,Axial sector width
+ring_depth,2800,mm,Section envelope
+ring_sector_count,12,count,Per ring
+ring_spacing,5000,mm,Centre-plane spacing
+ring_rotation_speed,4.3,rpm,Screening speed
+spine_radius_v08,1800,mm,Optimised truss radius
+longeron,160 x 6,mm,OD x wall
+frame,130 x 5,mm,OD x wall
+diagonal,100 x 4,mm,OD x wall
+ring_torque_brace,90 x 4,mm,OD x wall
+propulsion_strut,120 x 5,mm,OD x wall
+solar_wing_length,20500,mm,Each wing
+solar_wing_width,4200,mm,Each wing
+radiator_length,9000,mm,Each panel
+radiator_width,2800,mm,Each panel
+propulsion_pods,6,count,Two thrusters per pod
+skimmer_length,8000,mm,Aeroshuttle
+skimmer_width,5500,mm,Maximum
+skimmer_height,2100,mm,Maximum
+primary_docking_diameter,1600,mm,Forward interface
+service_tunnel_diameter,1200,mm,Central tunnel
