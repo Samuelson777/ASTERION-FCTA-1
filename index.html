@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="ASTERION FCTA-1 live 3D digital engineering portfolio from version 0.1 to 1.0.">
+  <meta name="theme-color" content="#07101c">
+  <meta name="color-scheme" content="dark light">
+  <title>ASTERION FCTA-1 — Live 3D Digital Engineering Lab</title>
+  <link rel="icon" href="assets/asterion-mark.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.185.1/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to app</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ASTERION home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>ASTERION <b>FCTA-1</b></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#lab">3D Lab</a><a href="#timeline">Timeline</a><a href="#results">Results</a><a href="#resources">Resources</a>
+    </nav>
+    <button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle colour theme" title="Toggle colour theme">◐</button>
+  </header>
+
+  <main id="app">
+    <section id="top" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Siemens NX · ANSYS · NX CAM · Python · Three.js</p>
+        <h1>A live 3D record of the ASTERION design evolution.</h1>
+        <p class="lede">Explore versions 0.1 through 1.0, inspect spacecraft subsystems, compare engineering results, view manufacturing demonstrators and download the complete portfolio evidence.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#lab">Launch 3D lab</a>
+          <a class="button" href="downloads/asterion-fcta-v1.0-public-release.zip">Download v1.0 release</a>
+        </div>
+        <div class="hero-badges"><span>10 versions</span><span>9 GLB assets</span><span>Static GitHub Pages</span><span>MIT</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Stylised ASTERION spacecraft diagram">
+        <div class="hero-spine"></div><div class="hero-ring one"></div><div class="hero-ring two"></div>
+        <div class="hero-panel p1"></div><div class="hero-panel p2"></div><div class="hero-panel p3"></div><div class="hero-panel p4"></div>
+      </div>
+    </section>
+
+    <section class="headline-metrics" aria-label="Project highlights">
+      <article><strong>53.2 t</strong><span>optimised dry docked mass</span></article>
+      <article><strong>57.8 m</strong><span>deployed solar span</span></article>
+      <article><strong>0.196 Hz</strong><span>supported screening mode</span></article>
+      <article><strong>4</strong><span>NX CAM demonstrators</span></article>
+    </section>
+
+    <section id="lab" class="lab-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">Interactive digital twin</p><h2>Version-controlled 3D engineering lab</h2></div>
+        <p>Select a release, inspect the model, isolate systems and compare the evidence created at that stage.</p>
+      </div>
+
+      <div class="lab-layout">
+        <aside id="timeline" class="version-panel" aria-label="Project version timeline">
+          <div class="panel-title"><h3>Evolution</h3><span id="version-count">10 releases</span></div>
+          <div id="version-list" class="version-list"></div>
+        </aside>
+
+        <div class="viewer-column">
+          <div class="viewer-toolbar" aria-label="3D display controls">
+            <div class="tool-group">
+              <button id="reset-view" type="button" title="Reset camera">Reset</button>
+              <button id="fit-view" type="button" title="Fit model">Fit</button>
+              <button id="auto-rotate" type="button" class="active" aria-pressed="true">Auto rotate</button>
+              <button id="wireframe" type="button" aria-pressed="false">Wireframe</button>
+              <button id="xray" type="button" aria-pressed="false">X-ray</button>
+              <button id="capture" type="button">Snapshot</button>
+            </div>
+            <label class="range-control" for="explode">Explode <input id="explode" type="range" min="0" max="1" value="0" step="0.01"></label>
+            <label class="range-control" for="clip">Section <input id="clip" type="range" min="-1" max="1" value="1" step="0.01"></label>
+          </div>
+
+          <div class="viewer-shell">
+            <div id="viewer" role="img" aria-label="Interactive 3D ASTERION model">
+              <div class="viewer-fallback"><strong>Preparing 3D viewer…</strong><span>WebGL and JavaScript are required.</span></div>
+            </div>
+            <div class="viewer-hud">
+              <div><span>MODEL</span><strong id="hud-model">—</strong></div>
+              <div><span>EXTENTS</span><strong id="hud-size">—</strong></div>
+              <div><span>OBJECTS</span><strong id="hud-objects">—</strong></div>
+              <div><span>FPS</span><strong id="hud-fps">—</strong></div>
+            </div>
+            <div id="load-status" class="load-status" aria-live="polite"><span></span><b>Ready</b></div>
+          </div>
+          <p class="viewer-help">Drag to orbit, right-drag to pan, scroll to zoom. Keys: <kbd>R</kbd> reset, <kbd>W</kbd> wireframe, <kbd>A</kbd> auto-rotate.</p>
+
+          <div class="subsystem-row" aria-label="Subsystem filters">
+            <button class="subsystem active" data-subsystem="all">All</button>
+            <button class="subsystem" data-subsystem="structure">Structure</button>
+            <button class="subsystem" data-subsystem="habitat">Habitat</button>
+            <button class="subsystem" data-subsystem="propulsion">Propulsion</button>
+            <button class="subsystem" data-subsystem="power">Power</button>
+            <button class="subsystem" data-subsystem="thermal">Thermal</button>
+            <button class="subsystem" data-subsystem="skimmer">Skimmer</button>
+            <button class="subsystem" data-subsystem="docking">Docking</button>
+            <button class="subsystem" data-subsystem="robotics">Robotics</button>
+          </div>
+        </div>
+
+        <aside class="detail-panel">
+          <div class="version-kicker"><span id="detail-version">v1.0</span><b id="detail-phase">Publication</b></div>
+          <h3 id="detail-title">Public Open-Source Release</h3>
+          <p id="detail-summary"></p>
+          <div id="detail-status" class="status-pill"></div>
+          <div id="skills" class="skill-list"></div>
+          <div id="version-metrics" class="version-metrics"></div>
+          <div class="detail-actions">
+            <button id="previous-version" type="button">← Previous</button>
+            <button id="next-version" type="button">Next →</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="results" class="results-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">Evidence dashboard</p><h2 id="results-title">Version 1.0 evidence</h2></div>
+        <p id="results-intro"></p>
+      </div>
+      <div class="results-grid">
+        <article class="progress-card">
+          <h3>Discipline maturity</h3>
+          <div id="discipline-progress"></div>
+        </article>
+        <article class="progress-card">
+          <h3>Stage results</h3>
+          <div id="stage-results"></div>
+        </article>
+        <article class="notes-card">
+          <h3>Engineering decisions</h3>
+          <ul id="engineering-notes"></ul>
+        </article>
+      </div>
+      <div id="gallery" class="gallery" aria-label="Version evidence gallery"></div>
+    </section>
+
+    <section class="architecture-section">
+      <div class="section-heading"><div><p class="eyebrow">System architecture</p><h2>Designed as visible engineering, not hidden magic.</h2></div></div>
+      <div class="architecture-grid">
+        <article><span>01</span><h3>Orbit assembly</h3><p>Launch modules separately and assemble the complete vehicle in orbit.</p></article>
+        <article><span>02</span><h3>Counter-rotating rings</h3><p>Twin habitats target partial artificial gravity while reducing net angular momentum.</p></article>
+        <article><span>03</span><h3>Electric propulsion</h3><p>Replaceable high-efficiency pods support gradual in-space acceleration.</p></article>
+        <article><span>04</span><h3>Heat rejection</h3><p>Large radiator surfaces remain central because waste heat cannot be ignored.</p></article>
+        <article><span>05</span><h3>Aeronautics module</h3><p>A detachable lifting-body Skimmer carries the atmospheric design workflow.</p></article>
+        <article><span>06</span><h3>Open evidence</h3><p>Neutral geometry, calculations, scripts and limitations are released transparently.</p></article>
+      </div>
+    </section>
+
+    <section id="resources" class="resources-section">
+      <div class="section-heading"><div><p class="eyebrow">Downloads and documentation</p><h2>Use the complete portfolio package.</h2></div></div>
+      <div class="resource-grid">
+        <a href="assets/docs/ASTERION_FCTA_1_Full_Tutorial_Drawings.pdf"><b>28-sheet tutorial drawings</b><span>Printable A3 PDF booklet</span></a>
+        <a href="assets/docs/ASTERION_FCTA_1_Final_Engineering_Report_v1_0.md"><b>Final engineering report</b><span>Design basis, results and limitations</span></a>
+        <a href="assets/docs/ASTERION_FCTA_1_v0_9_Design_Review.pptx"><b>Design-review presentation</b><span>Portfolio-ready PowerPoint deck</span></a>
+        <a href="downloads/asterion-native-cad-builder-v1.1-fixed.zip"><b>NX native CAD builder</b><span>NXOpen journal and Windows launcher</span></a>
+        <a href="downloads/asterion-fcta-v1.0-public-release.zip"><b>Public repository v1.0</b><span>Complete engineering baseline</span></a>
+        <a href="downloads/ASTERION_FCTA_1_Full_Tutorial_Drawings_Package.zip"><b>Drawing source package</b><span>PDF, SVG, DXF and schedules</span></a>
+      </div>
+      <div id="version-deliverables" class="version-downloads"></div>
+    </section>
+
+    <section class="boundary-section">
+      <p class="eyebrow">Claim boundary</p>
+      <h2>Concept spacecraft. Real engineering workflow.</h2>
+      <p>ASTERION is not a certified spacecraft, a reactionless propulsion claim or a production-ready aircraft. Numerical values shown here are reduced-order engineering screening unless supported by owner-generated native Siemens NX and solved ANSYS evidence.</p>
+    </section>
+  </main>
+
+  <footer><span>ASTERION FCTA-1 · Samuelson G · Live 3D app v1.1</span><span>Static HTML, CSS, JavaScript and Python validation tools</span></footer>
+  <noscript><div class="noscript">Enable JavaScript to use the interactive 3D lab. The downloadable documents remain available.</div></noscript>
+  <script defer src="js/bootstrap.js"></script>
+</body>
+</html>

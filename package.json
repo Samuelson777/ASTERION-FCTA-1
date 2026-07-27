@@ -1,0 +1,13 @@
+{
+  "name": "asterion-live-3d-app",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Static GitHub Pages 3D engineering portfolio",
+  "scripts": {
+    "serve": "python tools/serve.py",
+    "validate": "python tools/validate_site.py",
+    "test:http": "python tools/http_smoke_test.py",
+    "test:browser": "python tools/browser_contract_test.py",
+    "test": "python tools/validate_site.py && python tools/http_smoke_test.py && python tools/browser_contract_test.py"
+  }
+}

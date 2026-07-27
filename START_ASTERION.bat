@@ -1,0 +1,16 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+where py >nul 2>nul
+if %errorlevel%==0 (
+  py -3 tools\serve.py
+  exit /b %errorlevel%
+)
+where python >nul 2>nul
+if %errorlevel%==0 (
+  python tools\serve.py
+  exit /b %errorlevel%
+)
+echo Python 3 was not found. Install Python, then run: python tools\serve.py
+pause
+exit /b 1
