@@ -1,0 +1,7 @@
+mesh_id,model,element_type,sizing_rule,target_nodes,target_elements,purpose
+MESH-B1,Global beam coarse,BEAM188,One element per existing member,222,580,Baseline topology check
+MESH-B2,Global beam refined,BEAM188,Split all members longer than 1.25 m,approximately 500,"approximately 1,100",Primary static/modal comparison
+MESH-B3,Global beam fine,BEAM188,Maximum member element length 0.625 m,"approximately 1,000","approximately 2,200",Final beam convergence point
+MESH-S1,Ring/hub shell local,SHELL181,40–60 mm nominal near hub; 100 mm remote,TBD,TBD,Recover plate and local joint stress
+MESH-S2,Docking shell local,SHELL181,25–50 mm with bolt-ring refinement,TBD,TBD,Misalignment and local load spread
+MESH-L1,Solid joint submodel,SOLID187,3–8 mm local tetrahedral size,"<120,000 Student nodes","<128,000 Student elements",Remain within educational solver limit

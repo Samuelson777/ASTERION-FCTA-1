@@ -1,0 +1,13 @@
+criterion_id,metric,applicable_case,evaluation,target,note
+AC-STR-01,Equivalent stress,All nominal static cases,Maximum stress below yield/1.5,FoS ≥ 1.5,Preliminary portfolio criterion; local joint models may govern
+AC-STR-02,Member Euler screening,All compressive beam members,Pcr/|P|,≥ 2.0,Not a substitute for eigenvalue/nonlinear buckling
+AC-STR-03,Docking axial displacement,LC-STR-01,Maximum forward-interface axial displacement,≤ 5 mm,Supports alignment and capture-system assumptions
+AC-STR-04,Propulsion-mount displacement,LC-STR-02,Maximum propulsion-mount translation,≤ 15 mm,Preliminary gimbal and plume alignment limit
+AC-STR-05,Ring radial displacement,LC-STR-03,Maximum radial ring displacement,≤ 10 mm,Preliminary gap and bearing-clearance criterion
+AC-STR-06,Emergency braking displacement,LC-STR-05,Maximum tangential ring displacement,≤ 25 mm,Current screening result flags likely stiffness redesign
+AC-STR-07,Misaligned docking displacement,LC-STR-07,Maximum forward-interface lateral/total displacement,≤ 25 mm,Current screening result flags likely stiffness redesign
+AC-MOD-01,Rigid-body modes,LC-MOD-01,First six frequencies,< 0.001 Hz,Check mass and constraint integrity
+AC-MOD-02,First supported flexible mode,LC-MOD-02,First non-zero mode,> 0.10 Hz,Provisional; controls and mechanism spectra must later define separation
+AC-BUC-01,Eigenvalue buckling factor,LC-BUC-01,First physical eigenvalue multiplier,≥ 2.0,Then perform imperfection-sensitive nonlinear check
+AC-CONV-01,Static mesh convergence,Critical static cases,Change in displacement and stress between final meshes,Displacement < 2%; stress < 5%,Exclude singular peak stresses from convergence claim
+AC-CONV-02,Modal convergence,First ten flexible modes,Frequency change between final meshes,< 2%,Compare MAC values and mode order

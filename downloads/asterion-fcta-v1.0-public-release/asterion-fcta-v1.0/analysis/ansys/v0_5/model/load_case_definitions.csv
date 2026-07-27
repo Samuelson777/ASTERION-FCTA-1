@@ -1,0 +1,14 @@
+load_case_id,title,analysis_system,load_definition,boundary_condition,primary_outputs,category
+LC-STR-01,Docking compression,Static Structural,25 kN total -X at forward docking ring,Aft-end octagonal frame fixed for ground-test correlation,Global axial load path; dock-frame stress,Nominal
+LC-STR-02,Electric-propulsion thrust,Static Structural,12 kN total +X distributed over six propulsion mounts,Aft-end frame fixed for screening; flight inertia relief required later,Propulsion booms and aft spine,Nominal
+LC-STR-03,Twin-ring centrifugal,Static Structural,"2,433.19 N radial at each of 24 ring outer nodes",Aft-end fixed screening; repeat with minimum stabilisation/inertia relief,"Ring beams, spokes and hubs",Nominal
+LC-STR-04,Single-sector imbalance,Static Structural,500 kg equivalent imbalance at one Ring 1 outer node,Aft-end fixed screening,Ring distortion and bearing reaction,Off-nominal
+LC-STR-05,Emergency ring braking,Static Structural,6.484 kN·m braking torque applied tangentially to each ring,Aft-end fixed screening,Tangential ring stiffness and hub torque path,Emergency
+LC-STR-06,Powered rotating operation,Static Structural,LC-STR-02 plus LC-STR-03,Aft-end fixed screening,Combined propulsion and artificial-gravity operation,Combined
+LC-STR-07,Misaligned docking,Static Structural,25 kN axial plus 2.5 kN lateral docking load,Aft-end fixed screening,"Forward bending, dock alignment and truss stiffness",Off-nominal
+LC-MOD-01,Free-free flight modes,Modal,No external loads,No supports; six rigid-body modes expected,Flexible modes for control interaction,Flight
+LC-MOD-02,Supported ground-test modes,Modal,No external loads,Aft-end octagonal frame fixed,Test correlation and mode-shape review,Ground test
+LC-BUC-01,Docking eigenvalue buckling,Eigenvalue Buckling,Pre-stress from LC-STR-01,Same as LC-STR-01,Global and member buckling modes,Screening
+LC-SEN-01,Joint-stiffness sensitivity,Static + Modal,"Repeat critical cases with 0.25×, 0.5×, 1× and rigid joint stiffness",Per parent case,Dependence on idealised rigid joints,Sensitivity
+LC-SEN-02,Mass-location sensitivity,Modal,Shift major remote masses ±0.5 m along X,Aft-end fixed and free-free,Frequency and mode-shape robustness,Sensitivity
+LC-SEN-03,Imperfection sensitivity,Nonlinear Static,"Apply first buckling mode as 0.1%, 0.5% and 1% member-length imperfection",Same as buckling parent case,Post-buckling reserve,Future V0.8

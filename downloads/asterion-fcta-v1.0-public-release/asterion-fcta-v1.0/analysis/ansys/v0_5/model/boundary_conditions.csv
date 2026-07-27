@@ -1,0 +1,7 @@
+bc_id,name,scope,definition,note
+BC-01,Aft fixed test support,"Nodes at X=-21,000 mm","UX, UY, UZ, ROTX, ROTY, ROTZ = 0",Ground-test and screening only; not a flight boundary condition
+BC-02,Minimum stabilisation,Three non-collinear aft-frame nodes,3-2-1 constraint arrangement,Use only to remove rigid-body motion in static flight screening
+BC-03,Free-free,Whole model,No displacement constraints,Modal: verify six near-zero rigid-body modes
+BC-04,Inertia relief,Whole model,ANSYS inertia relief with applied thrust/inertial loads,Preferred later flight static representation where supported
+BC-05,Remote mass coupling,Subsystem CG remote points to reviewed attachment nodes,Deformable or distributed coupling,Do not leave MASS21 points uncoupled
+BC-06,Ring bearing sensitivity,Ring inner nodes to spine interface,"Rigid, 0.5× and 0.25× rotational stiffness cases",Required because bearing and drive stiffness is not yet designed
