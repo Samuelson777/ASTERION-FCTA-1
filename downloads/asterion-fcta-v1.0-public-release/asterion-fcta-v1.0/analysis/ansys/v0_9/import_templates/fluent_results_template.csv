@@ -1,0 +1,1 @@
+run_id,date,solver,model_version,case,mesh_cells,mach,angle_of_attack_deg,residual_level,cl,cd,ld_ratio,mass_balance_error_percent,criterion_status,notes

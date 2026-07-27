@@ -1,0 +1,1 @@
+run_id,date,solver,model_version,load_case,mesh_level,nodes,elements,max_translation_mm,max_von_mises_mpa,min_fos_yield,max_reaction_n,converged,analytical_delta_percent,notes

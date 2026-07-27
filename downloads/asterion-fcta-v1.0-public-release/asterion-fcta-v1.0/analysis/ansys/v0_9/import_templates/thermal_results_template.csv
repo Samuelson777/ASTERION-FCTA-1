@@ -1,0 +1,1 @@
+run_id,date,solver,model_version,study,mesh_level,heat_load_w,max_temp_k,min_temp_k,heat_balance_error_percent,thermal_stress_mpa,criterion_status,notes
