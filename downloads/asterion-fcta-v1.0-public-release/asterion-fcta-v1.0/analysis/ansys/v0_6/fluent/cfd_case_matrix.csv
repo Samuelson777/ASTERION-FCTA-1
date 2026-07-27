@@ -1,0 +1,7 @@
+case_id,domain,solver,physics,condition,target_cells
+CFD-CAB-01,45 m3 cabin sector,Pressure-based steady,energy + species transport + rotating frame,240 m3/h nominal flow,300k-600k
+CFD-CAB-02,45 m3 cabin sector,Pressure-based steady,energy + species transport + rotating frame,80 m3/h degraded flow,300k-600k
+CFD-CAB-03,45 m3 cabin sector,Pressure-based transient,energy + species transport,fan-loss CO2 transient,300k-600k
+CFD-SK-01,Skimmer half-model far field,Density-based or coupled pressure-based,"compressible air, energy, SST k-omega","M0.3 at 10 km, alpha sweep",450k-750k
+CFD-SK-02,Skimmer half-model far field,Density-based implicit,"compressible air, energy, SST k-omega","M0.8 at 15 km, alpha sweep",650k-950k
+CFD-SK-03,Skimmer half-model far field,Density-based implicit,"compressible air, energy, SST k-omega","M2.0 at 25 km, alpha sweep",600k-900k

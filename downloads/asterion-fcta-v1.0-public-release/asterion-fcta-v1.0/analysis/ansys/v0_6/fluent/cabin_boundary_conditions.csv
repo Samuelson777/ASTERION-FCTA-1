@@ -1,0 +1,7 @@
+named_selection,type,value,temperature,CO2
+SUPPLY_1,velocity inlet,0.03333 m3/s split by inlet area,291 K,420 ppm
+SUPPLY_2,velocity inlet,0.03333 m3/s split by inlet area,291 K,420 ppm
+RETURN,pressure outlet,0 Pa gauge,backflow 295 K,backflow 800 ppm
+CREW_1_CREW_2,wall + species source,100 W each; total CO2 40 L/h,heat flux,distributed source
+EQUIPMENT,wall heat source,600 W,heat flux,none
+CABIN_WALLS,wall,no-slip,295 K,zero flux

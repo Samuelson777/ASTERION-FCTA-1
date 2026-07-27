@@ -1,0 +1,5 @@
+model,coarse_cells,medium_cells,fine_cells,controls,metric,acceptance
+Cabin sector,250k,450k,700k,"8-12 prism layers, vents and wake refinement","CO2 max, occupied-zone velocity, temperature",<3% medium-to-fine
+Skimmer M0.3,350k,600k,850k,"half symmetry, 12-18 prism layers, wake refinement",CL and CD,"CL <2%, CD <5%"
+Skimmer M0.8,500k,750k,950k,"leading edge, shock and wake refinement","CL, CD, shock position","forces <5%, shock stable"
+Skimmer M2.0,450k,700k,900k,bow shock and leading-edge refinement,"CL, CD, surface pressure",forces <5%

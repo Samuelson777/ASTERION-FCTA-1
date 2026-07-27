@@ -1,0 +1,4 @@
+case_id,mach,altitude_km,farfield_static_T_K,farfield_static_p_Pa,velocity_m_s,reference_area_m2,reference_length_m,turbulence_model,wall,alpha_sweep_deg
+CFD-SK-01,0.3,10.0,223.15,26436.243,89.8389,24.0,8.0,SST k-omega,no-slip adiabatic initial,"-5,0,5,10,15"
+CFD-SK-02,0.8,15.0,216.65,12044.563,236.0556,24.0,8.0,SST k-omega,no-slip adiabatic initial,"-5,0,5,10,15"
+CFD-SK-03,2.0,25.0,221.65,2511.022,596.91,24.0,8.0,SST k-omega,no-slip adiabatic initial,"-5,0,5,10,15"
