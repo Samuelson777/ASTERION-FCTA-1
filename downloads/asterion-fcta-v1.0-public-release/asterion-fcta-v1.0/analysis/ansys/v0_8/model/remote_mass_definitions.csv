@@ -1,0 +1,59 @@
+mass_id,name,mass_kg,x_mm,y_mm,z_mm,suggested_scope,note
+AST-MASS-120,Ring 1 pressure and protection sector 1,300.0,-2500.0,12000.0,0.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-121,Ring 1 pressure and protection sector 2,300.0,-2500.0,10392.305,6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-122,Ring 1 pressure and protection sector 3,300.0,-2500.0,6000.0,10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-123,Ring 1 pressure and protection sector 4,300.0,-2500.0,0.0,12000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-124,Ring 1 pressure and protection sector 5,300.0,-2500.0,-6000.0,10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-125,Ring 1 pressure and protection sector 6,300.0,-2500.0,-10392.305,6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-126,Ring 1 pressure and protection sector 7,300.0,-2500.0,-12000.0,0.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-127,Ring 1 pressure and protection sector 8,300.0,-2500.0,-10392.305,-6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-128,Ring 1 pressure and protection sector 9,300.0,-2500.0,-6000.0,-10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-129,Ring 1 pressure and protection sector 10,300.0,-2500.0,-0.0,-12000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-130,Ring 1 pressure and protection sector 11,300.0,-2500.0,6000.0,-10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-131,Ring 1 pressure and protection sector 12,300.0,-2500.0,10392.305,-6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-151,"Ring 1 bearing, drive and rotary interfaces",1800.0,-2500.0,0.0,0.0,Ring mechanism,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-140,Ring 2 pressure and protection sector 1,300.0,2500.0,12000.0,0.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-141,Ring 2 pressure and protection sector 2,300.0,2500.0,10392.305,6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-142,Ring 2 pressure and protection sector 3,300.0,2500.0,6000.0,10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-143,Ring 2 pressure and protection sector 4,300.0,2500.0,0.0,12000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-144,Ring 2 pressure and protection sector 5,300.0,2500.0,-6000.0,10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-145,Ring 2 pressure and protection sector 6,300.0,2500.0,-10392.305,6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-146,Ring 2 pressure and protection sector 7,300.0,2500.0,-12000.0,0.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-147,Ring 2 pressure and protection sector 8,300.0,2500.0,-10392.305,-6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-148,Ring 2 pressure and protection sector 9,300.0,2500.0,-6000.0,-10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-149,Ring 2 pressure and protection sector 10,300.0,2500.0,-0.0,-12000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-150,Ring 2 pressure and protection sector 11,300.0,2500.0,6000.0,-10392.305,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-151,Ring 2 pressure and protection sector 12,300.0,2500.0,10392.305,-6000.0,Habitation,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-152,"Ring 2 bearing, drive and rotary interfaces",1800.0,2500.0,0.0,0.0,Ring mechanism,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-200,Command and navigation module,2400.0,12000.0,0.0,0.0,Command,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-201,Service and environmental-control module,3000.0,-10000.0,0.0,0.0,Service,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-202,Water-shielded storm refuge,2200.0,7000.0,0.0,0.0,Radiation refuge,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-203,Logistics and spares module,1800.0,16000.0,0.0,0.0,Logistics,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-204,Forward docking assembly,750.0,21400.0,0.0,0.0,Docking,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-221,Deployable solar wing 1,900.0,3000.0,15100.0,0.0,Power,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-222,Deployable solar wing 2,900.0,3000.0,-15100.0,0.0,Power,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-223,Deployable solar wing 3,900.0,3000.0,0.0,15100.0,Power,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-224,Deployable solar wing 4,900.0,3000.0,0.0,-15100.0,Power,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-230,Deployable radiator panel 1,300.0,-3000.0,6928.203,4000.0,Thermal,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-231,Deployable radiator panel 2,300.0,-3000.0,0.0,8000.0,Thermal,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-232,Deployable radiator panel 3,300.0,-3000.0,-6928.203,4000.0,Thermal,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-233,Deployable radiator panel 4,300.0,-3000.0,-6928.203,-4000.0,Thermal,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-234,Deployable radiator panel 5,300.0,-3000.0,-0.0,-8000.0,Thermal,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-235,Deployable radiator panel 6,300.0,-3000.0,6928.203,-4000.0,Thermal,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-240,Electric propulsion pod 1,1000.0,-16000.0,4800.0,0.0,Propulsion,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-241,Electric propulsion pod 2,1000.0,-16000.0,2400.0,4156.922,Propulsion,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-242,Electric propulsion pod 3,1000.0,-16000.0,-2400.0,4156.922,Propulsion,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-243,Electric propulsion pod 4,1000.0,-16000.0,-4800.0,0.0,Propulsion,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-244,Electric propulsion pod 5,1000.0,-16000.0,-2400.0,-4156.922,Propulsion,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-245,Electric propulsion pod 6,1000.0,-16000.0,2400.0,-4156.922,Propulsion,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-250,Propellant tank 1 dry hardware,650.0,-9000.0,1202.082,1202.082,Propellant storage,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-251,Propellant tank 2 dry hardware,650.0,-9000.0,-1202.082,1202.082,Propellant storage,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-252,Propellant tank 3 dry hardware,650.0,-9000.0,-1202.082,-1202.082,Propellant storage,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-253,Propellant tank 4 dry hardware,650.0,-9000.0,1202.082,-1202.082,Propellant storage,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-260,Reaction-control pod 1,175.0,8000.0,2200.0,0.0,RCS,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-261,Reaction-control pod 2,175.0,8000.0,0.0,2200.0,RCS,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-262,Reaction-control pod 3,175.0,8000.0,-2200.0,0.0,RCS,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-263,Reaction-control pod 4,175.0,8000.0,-0.0,-2200.0,RCS,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-270,Robotic servicing arm,450.0,18000.0,2500.0,1500.0,Robotics,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-271,Docked Skimmer aeroshuttle,5500.0,25500.0,0.0,0.0,Aeroshuttle,Use as distributed/remote mass only for V0.5 global model
+AST-MASS-272,"Distributed avionics, harness and data equipment",1200.0,5000.0,-940.0,-560.0,Avionics,Use as distributed/remote mass only for V0.5 global model

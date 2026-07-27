@@ -1,0 +1,7 @@
+criterion_id,case_id,metric,limit,screening_result,status
+ACC-01,LC-STR-02,Maximum translation,<= 5 mm,0.2148503461176776,PASS
+ACC-02,LC-STR-07,Maximum translation,<= 25 mm,22.8695049967966,PASS
+ACC-03,LC-STR-08,Maximum translation,<= 10 mm,1.8464527340647812,PASS
+ACC-04,LC-STR-09,Maximum translation,<= 15 mm,3.486900488908973,PASS
+ACC-05,LC-MOD-02,First supported mode,>= 0.15 Hz,0.1964088051840446,PASS
+ACC-06,MASS,Structural mass,"<= 10,500 kg",10423.430670108912,PASS

@@ -1,0 +1,10 @@
+case_id,description,analysis_type,load_definition,change_from_v0_5
+LC-STR-01,Docking compression,Static Structural,25 kN axial compression,Same as V0.5
+LC-STR-02,Electric-propulsion thrust,Static Structural,12 kN total axial thrust,Same as V0.5
+LC-STR-03,Ring centrifugal loading,Static Structural,2.43319 kN radial per sector node,Same as V0.5
+LC-STR-04,Single-sector imbalance,Static Structural,500 kg at 0.248 g,Same as V0.5
+LC-STR-06,Powered rotating operation,Static Structural,Thrust plus centrifugal loads,Same as V0.5
+LC-STR-07,Misaligned docking,Static Structural,25 kN axial plus 2.5 kN lateral,Same as V0.5
+LC-STR-08,Balanced dual-ring emergency braking,Static Structural,"Opposite 6.484 kN·m torques, 120 s stop",Corrected for counter-rotation
+LC-STR-09,Single-ring brake fault,Static Structural,"4.323 kN·m on Ring 1, 180 s stop",New fault case
+LC-MOD-02,Aft-supported modal,Modal,Dry docked optimised structure,Same support model

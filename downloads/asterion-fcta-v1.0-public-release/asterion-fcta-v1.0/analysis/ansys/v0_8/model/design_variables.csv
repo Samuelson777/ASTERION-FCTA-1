@@ -1,0 +1,7 @@
+variable_id,name,baseline,selected,status,purpose
+DV-01,spine_radius_mm,1200,1800,Selected,Global bending stiffness
+DV-02,frame_OD_mm,120,130,Selected,Frame stiffness
+DV-03,diagonal_OD_mm,90,100,Selected,Shear stiffness
+DV-04,ring_torque_braces_per_outer_node,0,2,Selected,Ring torque path
+DV-05,dock_load_spreaders,0,8,Selected,Docking moment distribution
+DV-06,propulsion_longitudinal_struts,0,12,Selected,Axial thrust path

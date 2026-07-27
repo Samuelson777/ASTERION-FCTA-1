@@ -1,0 +1,2 @@
+material_id,designation,elastic_modulus_MPa,poisson_ratio,density_kg_m3,yield_strength_MPa,status
+1,Aluminium 7075-T6 conceptual baseline,71700.0,0.33,2810.0,503.0,Preliminary; verify against selected supplier and temperature
