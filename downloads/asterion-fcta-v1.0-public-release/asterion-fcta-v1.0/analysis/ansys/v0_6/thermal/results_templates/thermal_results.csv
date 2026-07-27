@@ -1,0 +1,2 @@
+run_id,case_id,mesh_elements,min_temperature_K,max_temperature_K,total_input_heat_W,total_rejected_heat_W,heat_balance_error_pct,status,reviewer_notes
+,,,,,,,,,
