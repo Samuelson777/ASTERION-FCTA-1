@@ -1,0 +1,1 @@
+run_id,load_case_id,mesh_id,total_mass_kg,max_deformation_mm,max_deformation_location,max_equivalent_stress_MPa,critical_component,minimum_yield_factor,reaction_force_error_percent,status
