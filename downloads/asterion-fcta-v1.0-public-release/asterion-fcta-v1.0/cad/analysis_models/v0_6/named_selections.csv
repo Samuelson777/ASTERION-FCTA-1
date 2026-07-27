@@ -1,0 +1,8 @@
+model,name,purpose
+Radiator,RADIATING_FACES,Radiation boundary
+Radiator,COOLANT_MANIFOLD,Internal heat input
+Cold plate,ELECTRONICS_INTERFACE,Equipment heat source
+Cold plate,COOLANT_CHANNEL_WALLS,Convection boundary
+Cabin,"SUPPLY_1, SUPPLY_2, RETURN",Ventilation boundaries
+Cabin,"CREW_1_CREW_2, EQUIPMENT",Heat/species sources
+Skimmer,"SKIMMER_WALL, SYMMETRY, FARFIELD",External-flow boundaries
