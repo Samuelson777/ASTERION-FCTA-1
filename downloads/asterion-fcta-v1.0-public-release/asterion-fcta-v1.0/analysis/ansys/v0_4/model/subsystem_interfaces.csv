@@ -1,0 +1,11 @@
+interface_id,parent,child,location,mechanical_definition,loads,analysis_idealisation
+IF-001,Primary spine,Aft service module,X=-12.8 m frame,8-bolt equivalent ring,"Axial, shear, torque",NX WAVE + ANSYS bonded/remote
+IF-002,Primary spine,Forward command module,X=+9.5 m frame,8-bolt equivalent ring,"Axial, shear, torque",NX WAVE + ANSYS bonded/remote
+IF-003,Ring support 1,Habitation ring 1,X=-2.5 m; R=12 m,12-sector bearing path,"Radial, tangential braking, axial",Joint stiffness TBD
+IF-004,Ring support 2,Habitation ring 2,X=+2.5 m; R=12 m,12-sector bearing path,"Radial, tangential braking, axial",Joint stiffness TBD
+IF-005,Propulsion frame,Propulsion pods 1-6,X=-16 m; R=4.8 m,6 replaceable pod mounts,"Axial thrust, gimbal torque",Remote points at pod CGs
+IF-006,Power mast roots,Solar wings 1-4,X=+3.5 m,4 deployable hinge lines,"Deployment, thermal distortion",Beam/shell local model
+IF-007,Thermal boom roots,Radiators 1-6,X=-3.5 m; R=1.5 m,6 deployable booms,"Thermal, deployment, inertia",Beam + shell local model
+IF-008,Forward dock,Skimmer,X=+21.4 m,800 mm class capture ring,"Docking impact, separation",Transient local model
+IF-009,Service module,Propellant tanks 1-4,X=-9 m,Four saddle pairs,"Pressure, inertia, thermal",Remote mass + local saddles
+IF-010,Logistics module,Robotic arm,X=+15.8 m,Rotary base flange,"Manipulator torque, launch restraint",Multibody/local FEA
