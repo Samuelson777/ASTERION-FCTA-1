@@ -1,0 +1,8 @@
+selection_name,entity_type,selection_rule,purpose
+NS_AFT_END,nodes,x = -21000 mm,ground-test/fixed support
+NS_FORWARD_DOCK,nodes,group = DOCK_FRAME,docking load
+NS_PROP_MOUNTS,nodes,group = PROP_MOUNT,propulsion/manoeuvre load
+NS_RING_1_OUTER,nodes,group = RING1_OUTER,centrifugal load
+NS_RING_2_OUTER,nodes,group = RING2_OUTER,centrifugal load
+NS_SPINE_LONGERONS,elements,group = SPINE_LONGERON,stress and buckling review
+NS_RING_SPOKES,elements,group contains _SPOKE,ring support review

@@ -1,0 +1,9 @@
+load_case_id,title,load_definition,boundary_condition,analysis_system
+LC-STR-01,Docking compression,"25,000 N total -X at forward docking frame",Aft frame constrained,Static Structural
+LC-STR-02,Emergency axial manoeuvre,"12,000 N total +X at propulsion mounts",Forward docking frame constrained,Static Structural
+LC-STR-03,Twin-ring centrifugal,2433.19 N radial per outer node per ring,Spine free except stabilising constraints,Static Structural
+LC-STR-04,Single-sector imbalance,500 kg equivalent mass at one outer node,Spine stabilised,Static Structural
+LC-STR-05,Ring emergency braking,6484.25 N m total torque per ring,Spine stabilised,Static Structural
+LC-MOD-01,Free-free modal,No applied force,No supports; expect six rigid-body modes,Modal
+LC-MOD-02,Ground-test modal,No applied force,Aft frame constrained,Modal
+LC-BUC-01,Docking compression buckling,"25,000 N total -X",Aft frame constrained,Eigenvalue Buckling
