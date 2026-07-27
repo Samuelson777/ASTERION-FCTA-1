@@ -1,0 +1,30 @@
+# Native/proprietary working files are intentionally excluded from the public baseline
+*.prt
+*.sim
+*.fem
+*.afm
+*.wbpj
+*.wbpz
+*.mechdb
+*.cas
+*.cas.h5
+*.dat.h5
+*.res
+*.rst
+*.rth
+*.out
+*.log
+
+# Local caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Temporary exports
+*.tmp
+*.bak
+*.autosave

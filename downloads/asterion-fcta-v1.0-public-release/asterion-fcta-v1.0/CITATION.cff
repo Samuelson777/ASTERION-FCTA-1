@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: ASTERION FCTA-1
+type: software
+authors:
+  - family-names: G
+    given-names: Samuelson
+version: 1.0.0
+date-released: 2026-07-27
+message: "Please cite this project if you use its original models, scripts, calculations or documentation."
+license: MIT
+repository-code: "https://github.com/USERNAME/asterion-fcta-nx-ansys"
+keywords:
+  - aerospace-engineering
+  - spacecraft-design
+  - siemens-nx
+  - ansys
+  - nx-cam
+  - cad
+  - cae
+  - cam
+  - finite-element-analysis
+  - computational-fluid-dynamics
