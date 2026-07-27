@@ -1,0 +1,27 @@
+# ASTERION FCTA-1 V0.4 NX expressions — millimetres/degrees
+vehicle_core_length = 42000
+ring_radius = 12000
+ring_axial_width = 3200
+ring_sector_count = 12
+ring_sector_tangent = 5100
+ring_module_depth = 2100
+solar_root_x = 3500
+solar_segment_count = 4
+solar_segment_length = 6800
+solar_panel_chord = 11800
+solar_deployed_radius = 28900
+radiator_count = 6
+radiator_length = 6200
+radiator_width = 3600
+propulsion_pod_count = 6
+propulsion_pod_radius = 4800
+propulsion_pod_length = 5600
+propellant_tank_count = 4
+propellant_tank_diameter = 1640
+skimmer_length = 7800
+skimmer_max_width = 5700
+command_module_x = 12000
+service_module_x = -10000
+refuge_module_x = 7000
+logistics_module_x = 17000
+forward_dock_x = 21400

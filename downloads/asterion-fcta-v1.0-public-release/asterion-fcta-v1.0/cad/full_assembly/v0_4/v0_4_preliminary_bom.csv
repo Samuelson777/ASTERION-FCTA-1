@@ -1,0 +1,17 @@
+part_number,subsystem,description,quantity,material_or_type,make_buy,status
+AST-STRUCTURE-ASSY,structure,Structure subsystem assembly,13,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-HABITAT-ASSY,habitat,Habitat subsystem assembly,48,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-MODULES-ASSY,modules,Modules subsystem assembly,10,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-SOLAR-ASSY,solar,Solar subsystem assembly,16,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-RADIATOR-ASSY,radiator,Radiator subsystem assembly,6,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-PROPULSION-ASSY,propulsion,Propulsion subsystem assembly,28,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-TANKS-ASSY,tanks,Tanks subsystem assembly,12,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-DOCK-ASSY,dock,Dock subsystem assembly,1,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-ROBOTIC-ASSY,robotic,Robotic subsystem assembly,7,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-SKIMMER-ASSY,skimmer,Skimmer subsystem assembly,5,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-AVIONICS-ASSY,avionics,Avionics subsystem assembly,1,Reference geometry,MAKE/INTEGRATE,V0.4
+AST-2200-XX,habitat,Habitation pressure sector family,24,Al-Li shell + composite interior,MAKE,Parametric family
+AST-5100-XX,propulsion,Electric propulsion pod family,6,Mixed equipment,BUY/INTEGRATE,Conceptual
+AST-6100-XX,solar,Solar-array wing family,4,Composite mast + photovoltaic panels,BUY/INTEGRATE,Conceptual
+AST-7100-XX,radiator,Radiator-panel family,6,Aluminium panel + heat pipes,MAKE/BUY,Conceptual
+AST-9000,skimmer,Skimmer lifting-body aeroshuttle,1,High-temperature composite structure,MAKE/INTEGRATE,Conceptual

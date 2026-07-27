@@ -1,0 +1,6 @@
+arrangement_id,name,state,purpose
+ARR-01,Cruise deployed,Solar and radiators deployed; Skimmer docked; rings rotating,Primary portfolio configuration
+ARR-02,Docking safe,Solar wings feathered; radiators partially stowed; rings despun,Docking and servicing
+ARR-03,Skimmer separated,Skimmer suppressed; forward dock visible,Atmospheric sortie configuration
+ARR-04,Maintenance,One propulsion pod and one ring sector suppressed,Serviceability demonstration
+ARR-05,Launch packages,Subsystems separated into orbital-assembly packages,Exploded logistics study
