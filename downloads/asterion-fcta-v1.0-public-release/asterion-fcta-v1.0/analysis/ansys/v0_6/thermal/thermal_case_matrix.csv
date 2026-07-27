@@ -1,0 +1,6 @@
+case_id,system,model,purpose,primary_outputs,home_pc_target
+TH-RAD-01,Steady-State Thermal,Six-panel radiator equivalent panel,Nominal 120 kW heat rejection,"temperature, radiated heat, heat balance",40k-120k elements
+TH-RAD-02,Transient Thermal,Single radiator panel,Deployment and heat-step response,"temperature versus time, thermal lag",50k-150k elements
+TH-CP-01,Steady-State Thermal,Electronics cold plate,1.8 kW component cooling,"hotspot temperature, coolant heat flux",80k-180k elements
+TH-WALL-01,Steady-State Thermal,Habitat wall coupon,Layered-wall heat leak,"heat flux, interface temperatures",30k-90k elements
+TH-BRK-01,Steady-State Thermal + Static Structural,Thruster gimbal bracket,Thermal-gradient stress,"temperature, deformation, von Mises stress",80k-200k elements

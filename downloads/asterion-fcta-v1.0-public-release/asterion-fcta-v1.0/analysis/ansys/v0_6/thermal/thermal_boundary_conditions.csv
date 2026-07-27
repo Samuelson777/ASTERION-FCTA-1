@@ -1,0 +1,10 @@
+case_id,named_selection,type,value,notes
+TH-RAD-01,RADIATING_FACES,Radiation,emissivity=0.88; space sink=3 K,Use surface-to-ambient radiation
+TH-RAD-01,COOLANT_MANIFOLD,Heat flow,120000 W distributed across six panels,Equivalent full system
+TH-RAD-01,SUNWARD_PLANFORM,Heat flux,35.450 W/m2,10 degree incidence and alpha=0.15
+TH-CP-01,ELECTRONICS_INTERFACE,Heat flow,1800 W,Uniform initial screening
+TH-CP-01,COOLANT_CHANNEL_WALLS,Convection,bulk=303 K; tune h to correlation,Record assumed h
+TH-WALL-01,CABIN_FACE,Temperature,295 K,Controlled cabin boundary
+TH-WALL-01,SPACE_FACE,Equivalent temperature/radiation,230 K effective,"Screening boundary, not deep-space sink directly"
+TH-BRK-01,THRUSTER_SIDE,Heat flow,180 W,Bracket-conducted heat estimate
+TH-BRK-01,FRAME_INTERFACE,Temperature,320 K,Conservative fixed sink

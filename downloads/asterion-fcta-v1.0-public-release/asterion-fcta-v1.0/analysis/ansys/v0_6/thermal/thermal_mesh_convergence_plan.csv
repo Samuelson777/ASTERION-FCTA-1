@@ -1,0 +1,5 @@
+model,coarse,medium,fine,local_control,convergence_metric,acceptance
+Radiator panel,80 mm,50 mm,30 mm,10-20 mm at manifold,peak T and heat balance,<2% medium-to-fine
+Cold plate,20 mm,12 mm,7 mm,3-5 mm at channels/contact,hotspot T and channel heat,<2% medium-to-fine
+Habitat wall coupon,40 mm in-plane,25 mm,15 mm,minimum 3 elements per solid layer,heat flux,<2% medium-to-fine
+Thruster bracket,15 mm,9 mm,5 mm,2-3 mm at fillets,peak averaged stress and T,<5% medium-to-fine

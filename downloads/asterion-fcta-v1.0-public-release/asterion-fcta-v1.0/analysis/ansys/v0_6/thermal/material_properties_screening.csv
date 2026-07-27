@@ -1,0 +1,5 @@
+material,density_kg_m3,thermal_conductivity_W_mK,specific_heat_J_kgK,emissivity,notes
+Aluminium 6061-T6 screening,2700,167,896,0.1,Replace with project-approved temperature-dependent data
+Aluminium radiator coating equivalent,2700,167,896,0.88,Effective radiating surface
+Polyethylene shielding,940,0.45,1900,0.9,Screening constant properties
+MLI equivalent continuum,50,0.001,1000,0.03,Equivalent property only; validate against layer model
