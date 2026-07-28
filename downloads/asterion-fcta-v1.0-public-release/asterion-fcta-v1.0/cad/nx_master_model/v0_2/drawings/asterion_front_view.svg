@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="-33000 -33000 66000 66000">
+<style>
+  .axis { stroke:#555; stroke-width:80; stroke-dasharray:400 250; fill:none; }
+  .structure { stroke:#111; stroke-width:120; fill:none; }
+  .envelope { stroke:#555; stroke-width:90; fill:none; }
+  .solar { stroke:#777; stroke-width:90; fill:#eee; }
+  .label { font: 900px sans-serif; fill:#111; }
+  .station { font: 650px sans-serif; fill:#333; }
+</style>
+<line class="axis" x1="-32000" y1="0" x2="32000" y2="0"/>
+<line class="axis" x1="0" y1="-32000" x2="0" y2="32000"/>
+<circle class="structure" cx="0" cy="0" r="13000"/>
+<circle class="structure" cx="0" cy="0" r="11000"/>
+<circle class="structure" cx="0" cy="0" r="900"/>
+<rect class="solar" x="1200" y="-2100" width="27800" height="4200"/>
+<rect class="solar" x="-29000" y="-2100" width="27800" height="4200"/>
+<rect class="solar" x="-2100" y="1200" width="4200" height="27800"/>
+<rect class="solar" x="-2100" y="-29000" width="4200" height="27800"/>
+<text class="label" x="-30000" y="-30000">ASTERION FCTA-1 — FRONT, V0.2</text>
+</svg>

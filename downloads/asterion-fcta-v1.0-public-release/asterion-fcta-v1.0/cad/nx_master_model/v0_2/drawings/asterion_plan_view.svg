@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="-33000 -33000 66000 66000">
+<style>
+  .axis { stroke:#555; stroke-width:80; stroke-dasharray:400 250; fill:none; }
+  .structure { stroke:#111; stroke-width:120; fill:none; }
+  .envelope { stroke:#555; stroke-width:90; fill:none; }
+  .solar { stroke:#777; stroke-width:90; fill:#eee; }
+  .label { font: 900px sans-serif; fill:#111; }
+  .station { font: 650px sans-serif; fill:#333; }
+</style>
+<line class="axis" x1="-32000" y1="0" x2="31000" y2="0"/>
+<rect class="structure" x="-21000" y="-900" width="42000" height="1800"/>
+<rect class="envelope" x="-4100" y="-13000" width="3200" height="26000"/>
+<rect class="envelope" x="900" y="-13000" width="3200" height="26000"/>
+<rect class="solar" x="6900" y="1200" width="4200" height="27800"/>
+<rect class="solar" x="6900" y="-29000" width="4200" height="27800"/>
+<polygon class="envelope" points="21000,0 22200,900 25200,2750 27500,2200 29000,900 29000,-900 27500,-2200 25200,-2750 22200,-900"/>
+<line class="axis" x1="-21000" y1="-1600" x2="-21000" y2="1600"/>
+<text class="station" x="-20750" y="-1700">STA_00</text>
+<line class="axis" x1="-16000" y1="-1600" x2="-16000" y2="1600"/>
+<text class="station" x="-15750" y="-1700">STA_10</text>
+<line class="axis" x1="-8000" y1="-1600" x2="-8000" y2="1600"/>
+<text class="station" x="-7750" y="-1700">STA_20</text>
+<line class="axis" x1="-2500" y1="-1600" x2="-2500" y2="1600"/>
+<text class="station" x="-2250" y="-1700">STA_30</text>
+<line class="axis" x1="2500" y1="-1600" x2="2500" y2="1600"/>
+<text class="station" x="2750" y="-1700">STA_40</text>
+<line class="axis" x1="9000" y1="-1600" x2="9000" y2="1600"/>
+<text class="station" x="9250" y="-1700">STA_50</text>
+<line class="axis" x1="15000" y1="-1600" x2="15000" y2="1600"/>
+<text class="station" x="15250" y="-1700">STA_60</text>
+<line class="axis" x1="21000" y1="-1600" x2="21000" y2="1600"/>
+<text class="station" x="21250" y="-1700">STA_70</text>
+<text class="label" x="-30000" y="-30000">ASTERION FCTA-1 — PLAN, V0.2</text>
+</svg>
