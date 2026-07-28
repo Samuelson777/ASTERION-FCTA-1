@@ -1,0 +1,4 @@
+characteristic_id,feature,requirement,measured_value,unit,result,instrument_id,inspector,date
+C01,datum A flatness,0.10 mm,,mm unless noted,OPEN,,,
+C02,gimbal bore diameter,Ø18 H7,,mm unless noted,OPEN,,,
+C03,bore position,0.10 to A|B,,mm unless noted,OPEN,,,

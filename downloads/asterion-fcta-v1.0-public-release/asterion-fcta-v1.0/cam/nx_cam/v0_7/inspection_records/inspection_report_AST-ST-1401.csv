@@ -1,0 +1,3 @@
+characteristic_id,feature,requirement,measured_value,unit,result,instrument_id,inspector,date
+C07,final flatness,0.40 mm,,mm unless noted,OPEN,,,
+C08,minimum rib width,10.0 ±0.15 mm,,mm unless noted,OPEN,,,
