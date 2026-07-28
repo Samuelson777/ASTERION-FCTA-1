@@ -1,0 +1,9 @@
+{
+  "release": "0.7.0",
+  "models": [
+    "AST-RG-3201_ring_bearing_housing.glb",
+    "AST-SK-4301_skimmer_wing_rib.glb",
+    "AST-ST-1401_lightweight_bulkhead.glb",
+    "AST-TP-2101_thruster_gimbal_bracket.glb"
+  ]
+}
