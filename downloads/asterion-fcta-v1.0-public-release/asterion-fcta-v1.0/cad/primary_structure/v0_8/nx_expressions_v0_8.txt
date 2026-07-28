@@ -1,0 +1,19 @@
+# ASTERION FCTA-1 V0.8 NX expressions — units: mm unless stated
+spine_radius = 1800
+spine_diameter = 2 * spine_radius
+longeron_od = 160
+longeron_wall = 6
+frame_od = 130
+frame_wall = 5
+diagonal_od = 100
+diagonal_wall = 4
+ring_torque_brace_od = 90
+ring_torque_brace_wall = 4
+ring_torque_braces_per_outer_node = 2
+dock_spreader_od = 100
+dock_spreader_wall = 4
+dock_spreader_station_x = 14000
+prop_load_strut_od = 120
+prop_load_strut_wall = 5
+prop_load_strut_aft_station_x = -18500
+prop_load_strut_forward_station_x = -13500
