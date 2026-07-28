@@ -1,0 +1,2 @@
+ASTERION v0.9 package validation PASS
+Requirements closed: 22/22
