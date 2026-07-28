@@ -1,0 +1,7 @@
+material,tool_id,operation,surface_speed_m_min,rpm,feed_per_tooth_mm,feed_mm_min,axial_depth_mm,radial_engagement_pct
+Al 6061-T6,T01,facing,650,4000,0.12,2400,1.0,65
+Al 6061-T6,T02,adaptive roughing,450,11900,0.08,2850,12,18
+Al 6061-T6,T03,profile finish,350,18000,0.035,1890,6,5
+Al 7075-T6,T02,adaptive roughing,350,9300,0.07,1950,10,15
+Al 2024-T3,T03,rib profile,280,14800,0.035,1550,4,8
+PLA prototype,FDM,printing,n/a,n/a,n/a,60,0.2,n/a

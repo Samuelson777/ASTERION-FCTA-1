@@ -1,0 +1,9 @@
+characteristic_id,part_id,feature,requirement,method,sampling,record
+C01,AST-TP-2101,datum A flatness,0.10 mm,surface plate + dial indicator,100% demonstrator,inspection_report_AST-TP-2101.csv
+C02,AST-TP-2101,gimbal bore diameter,Ø18 H7,three-point bore gauge / plug gauge,100%,inspection_report_AST-TP-2101.csv
+C03,AST-TP-2101,bore position,0.10 to A|B,CMM or height gauge setup,100%,inspection_report_AST-TP-2101.csv
+C04,AST-RG-3201,bearing seat,Ø95 H7,bore gauge,100%,inspection_report_AST-RG-3201.csv
+C05,AST-RG-3201,seat concentricity,0.04 mm,CMM or mandrel/runout,100%,inspection_report_AST-RG-3201.csv
+C06,AST-SK-4301,rib profile,0.25 mm profile,template + CMM/scan,100%,inspection_report_AST-SK-4301.csv
+C07,AST-ST-1401,final flatness,0.40 mm,surface plate + indicator,100%,inspection_report_AST-ST-1401.csv
+C08,AST-ST-1401,minimum rib width,10.0 ±0.15 mm,digital calliper/CMM,all ribs,inspection_report_AST-ST-1401.csv

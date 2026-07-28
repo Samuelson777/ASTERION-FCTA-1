@@ -1,0 +1,11 @@
+tool_id,type,diameter_mm,flutes,holder,material,use,max_rpm
+T01,face mill,50,5,HSK63A-FM50,carbide inserts,facing 6061,12000
+T02,flat end mill,12,3,ER32-12,carbide,adaptive roughing 6061/7075,18000
+T03,flat end mill,6,3,ER25-6,carbide,rest milling and profiles,20000
+T04,ball end mill,6,2,ER25-6,carbide,surface finishing,18000
+T05,spot drill,6,2,ER20-6,carbide,spot drilling,12000
+T06,twist drill,8.5,2,ER20-9,carbide,mounting holes,10000
+T07,reamer,18,6,floating reamer,HSS-E,gimbal bores H7,2000
+T08,chamfer mill,12,3,ER25-12,carbide,edge break,14000
+T09,turning insert,n/a,n/a,SCLCR-2020K09,CCGT aluminium grade,housing OD/ID turning,4000
+T10,grooving insert,3,n/a,MGEHR-2020-3,carbide,bearing shoulder groove,3000

@@ -1,0 +1,5 @@
+fixture_id,part_id,principle,primary_restraints,secondary_restraints,tertiary_restraint,clamps,risk,control
+AST-FX-7101,AST-TP-2101,3-2-1 location,3 hardened rest buttons on datum A,2 side locators on datum B,1 end stop on datum C,4 low-profile swing clamps,ear distortion,clamp over solid base regions only
+AST-FX-7201,AST-RG-3201,machinable soft jaws,axial jaw face,turned pilot diameter,clocking pin for lug milling,3-jaw chuck / mill fixture,ring ovalisation,low jaw force and verify roundness
+AST-FX-7301,AST-SK-4301,vacuum fixture with sacrificial tabs,vacuum bed,2 dowel pins,end stop,vacuum plus edge tabs,thin rib chatter,leave onion skin and finish last
+AST-FX-7401,AST-ST-1401,modular grid plate,6 rest pads,2 edge locators,1 end stop,distributed toe clamps,post-release warp,balanced bay sequence and intermediate stress-relief check

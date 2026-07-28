@@ -1,0 +1,6 @@
+risk_id,process,hazard,severity,likelihood,risk_score,mitigation
+MFG-01,all machining,unverified postprocessor or work offset,5,3,15,"machine simulation, single-block dry run, prove-out above stock"
+MFG-02,thin-wall milling,part distortion/chatter,3,4,12,"balanced sequence, sharp tools, light finish passes, inspection after unclamping"
+MFG-03,bearing housing,jaw-force ovalisation,4,3,12,"soft jaws, low clamping force, roundness inspection"
+MFG-04,drilling/reaming,bore position or size out of tolerance,4,2,8,"spot drill, pilot, controlled reaming, in-process gauge"
+MFG-05,3D printing,warping or weak layer orientation,2,3,6,"orient loads in-plane, add brim, dimensional coupon"

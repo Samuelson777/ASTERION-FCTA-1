@@ -1,0 +1,13 @@
+part_id,setup,operation_no,operation,tool_id,workholding,datum,estimated_min,verification
+AST-TP-2101,S1,10,Face stock,T01,AST-FX-7101,A,3.5,stock allowance +0.5 mm
+AST-TP-2101,S1,20,Adaptive rough bracket envelope,T02,AST-FX-7101,A-B-C,18.0,holder collision check
+AST-TP-2101,S1,30,Rest mill ears and bridge,T03,AST-FX-7101,A-B-C,11.0,0.3 mm finish stock
+AST-TP-2101,S2,40,Drill and ream gimbal bores,T05/T07,AST-FX-7101,A-B,8.0,Ø18 H7 plug gauge
+AST-TP-2101,S2,50,Chamfer and deburr,T08,AST-FX-7101,A,4.0,0.5 max edge break
+AST-RG-3201,LATHE-1,10,"Face, rough OD and bore",T09,AST-FX-7201,A,22.0,leave 0.4 mm finish stock
+AST-RG-3201,LATHE-2,20,Finish bearing seat and shoulders,T09/T10,AST-FX-7201,A,17.0,Ø95 H7 and Ra 1.6
+AST-RG-3201,MILL-1,30,Mill lugs and drill bolt circle,T02/T06,angle fixture,A-B,24.0,PCD position 0.15
+AST-SK-4301,S1,10,Face plate and profile rough,T01/T02,vacuum + tabs,A,12.0,minimum tab thickness 2 mm
+AST-SK-4301,S1,20,Finish aerodynamic profile,T03,vacuum + tabs,A-B,9.0,profile 0.25
+AST-ST-1401,S1,10,Face and adaptive clear bays,T01/T02,modular grid plate,A-B-C,38.0,thin-wall sequence alternating bays
+AST-ST-1401,S1,20,Finish ribs and central bore,T03,modular grid plate,A-B-C,20.0,flatness inspection after release
