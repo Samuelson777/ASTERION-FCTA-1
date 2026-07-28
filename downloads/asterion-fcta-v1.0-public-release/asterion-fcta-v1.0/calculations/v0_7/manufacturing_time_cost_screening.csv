@@ -1,0 +1,5 @@
+part_id,material,stock,stock_mass_kg,material_cost_gbp,estimated_machine_time_min,screening_machine_cost_gbp,screening_tooling_cost_gbp,screening_inspection_cost_gbp,screening_total_gbp,disclaimer
+AST-TP-2101,Al 6061-T6,180x140x125 mm billet,8.51,68.0,44.5,31.15,5.61,7.79,112.54,portfolio estimate only; not a quotation
+AST-RG-3201,Al 7075-T6,Ø190x85 mm round,6.47,112.0,63.0,44.1,7.94,11.03,175.06,portfolio estimate only; not a quotation
+AST-SK-4301,Al 2024-T3,240x70x10 mm plate,0.47,18.0,21.0,14.7,2.65,3.67,39.02,portfolio estimate only; not a quotation
+AST-ST-1401,Al 6061-T6,280x230x15 mm plate,2.61,35.0,58.0,40.6,7.31,10.15,93.06,portfolio estimate only; not a quotation
