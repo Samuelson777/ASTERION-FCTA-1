@@ -1,0 +1,12 @@
+{
+  "version": "0.5.0",
+  "required_files": 19,
+  "nodes": 222,
+  "elements": 580,
+  "remote_mass_kg": 42800.0,
+  "static_cases": 7,
+  "first_supported_screening_frequency_Hz": 0.130787401424204,
+  "governing_displacement_case": "LC-STR-05",
+  "governing_displacement_mm": 105.14727698319136,
+  "status": "PASS"
+}

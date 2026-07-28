@@ -1,0 +1,15 @@
+{
+  "project": "ASTERION FCTA-1",
+  "version": "0.5.0",
+  "file_count": 197,
+  "screening_source": "Independent Python Euler-Bernoulli frame; not ANSYS",
+  "native_ansys_results_included": false,
+  "native_nx_files_included": false,
+  "key_outputs": [
+    "calculations/v0_5/V0_5_structural_screening_report.md",
+    "analysis/ansys/v0_5/workbench/ANSYS_Workbench_V0_5_Guide.md",
+    "analysis/ansys/v0_5/model/load_case_definitions.csv",
+    "calculations/v0_5/python_screening/static_screening_summary.csv",
+    "calculations/v0_5/python_screening/supported_modal_screening.csv"
+  ]
+}
