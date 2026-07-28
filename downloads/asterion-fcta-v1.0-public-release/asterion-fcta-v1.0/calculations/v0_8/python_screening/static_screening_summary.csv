@@ -1,0 +1,9 @@
+load_case_id,support_model,result_source,max_translation_mm,critical_node_id,max_screening_von_mises_MPa,critical_element_id,minimum_yield_factor,minimum_member_euler_factor
+LC-STR-01,aft_fixed,Independent Python Euler-Bernoulli frame screening,0.6965874615230333,219,2.6707727047580945,569,188.33500848046117,8.101620246518904
+LC-STR-02,aft_fixed,Independent Python Euler-Bernoulli frame screening,0.2148503461176776,176,1.073615687592714,75,468.5102926614627,184.48557719983637
+LC-STR-03,aft_fixed,Independent Python Euler-Bernoulli frame screening,0.14604598362720486,174,2.7361626727971067,505,183.83409912020926,11.815516372270194
+LC-STR-04,aft_fixed,Independent Python Euler-Bernoulli frame screening,2.795165605791783,219,1.2835969915645227,9,391.86754355579654,24.801469415115825
+LC-STR-06,aft_fixed,Independent Python Euler-Bernoulli frame screening,0.30315213353710463,199,2.73810288048097,529,183.70383508440122,11.641855199973389
+LC-STR-07,aft_fixed,Independent Python Euler-Bernoulli frame screening,22.8695049967966,222,7.530079304234314,9,66.79876528221331,7.9002920285570815
+LC-STR-08,aft_fixed,Independent Python Euler-Bernoulli frame screening,1.8464527340647814,208,0.8750870212595403,240,574.7999773508425,13.919623471075411
+LC-STR-09,aft_fixed,Independent Python Euler-Bernoulli frame screening,3.486900488908973,181,0.6129629680606593,22,820.6042227827093,20.873684415750933
