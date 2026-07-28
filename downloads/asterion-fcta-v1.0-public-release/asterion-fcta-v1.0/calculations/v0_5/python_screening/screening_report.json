@@ -1,0 +1,109 @@
+{
+  "status": "screening_only",
+  "solver": "custom linear 3-D Euler-Bernoulli frame",
+  "nodes": 222,
+  "elements": 580,
+  "structural_tube_mass_kg": 7742.282,
+  "approximate_total_lumped_mass_kg": 50542.28253244922,
+  "static_cases": [
+    {
+      "load_case_id": "LC-STR-01",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 0.8095171570870019,
+      "critical_node_id": 179,
+      "max_screening_von_mises_MPa": 3.9530093569420948,
+      "critical_element_id": 570,
+      "minimum_yield_factor": 127.24482908613771,
+      "minimum_member_euler_factor": 328.61679514151746
+    },
+    {
+      "load_case_id": "LC-STR-02",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 13.787658028944621,
+      "critical_node_id": 214,
+      "max_screening_von_mises_MPa": 43.134828549406755,
+      "critical_element_id": 563,
+      "minimum_yield_factor": 11.661110451009732,
+      "minimum_member_euler_factor": 195.04313402086396
+    },
+    {
+      "load_case_id": "LC-STR-03",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 0.17640517527317418,
+      "critical_node_id": 176,
+      "max_screening_von_mises_MPa": 4.428268725973788,
+      "critical_element_id": 537,
+      "minimum_yield_factor": 113.5884091788917,
+      "minimum_member_euler_factor": 18.025775221861355
+    },
+    {
+      "load_case_id": "LC-STR-04",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 6.609803314527801,
+      "critical_node_id": 219,
+      "max_screening_von_mises_MPa": 2.9767766242263374,
+      "critical_element_id": 200,
+      "minimum_yield_factor": 168.97472114849378,
+      "minimum_member_euler_factor": 15.530208906833764
+    },
+    {
+      "load_case_id": "LC-STR-05",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 105.14727698319135,
+      "critical_node_id": 189,
+      "max_screening_von_mises_MPa": 9.941003805706382,
+      "critical_element_id": 489,
+      "minimum_yield_factor": 50.59851196428127,
+      "minimum_member_euler_factor": 27.31120121979528
+    },
+    {
+      "load_case_id": "LC-STR-06",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 13.787671493973484,
+      "critical_node_id": 214,
+      "max_screening_von_mises_MPa": 43.13481408491083,
+      "critical_element_id": 557,
+      "minimum_yield_factor": 11.661114361356585,
+      "minimum_member_euler_factor": 18.0257225356448
+    },
+    {
+      "load_case_id": "LC-STR-07",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 52.8225877180624,
+      "critical_node_id": 219,
+      "max_screening_von_mises_MPa": 11.151134876479341,
+      "critical_element_id": 9,
+      "minimum_yield_factor": 45.1075164610338,
+      "minimum_member_euler_factor": 42.28927138294497
+    }
+  ],
+  "supported_modal_frequencies_Hz": [
+    0.13078740142420406,
+    0.15659762020582738,
+    0.15659904416592052,
+    0.16996982102983432,
+    0.17749884705362573,
+    0.17750294027565675,
+    0.19598863500694386,
+    0.2219275924973127,
+    0.2870794700934411,
+    0.29745535594973954,
+    0.29850043589492964,
+    0.3830616852908203
+  ],
+  "limitations": [
+    "Ideal rigid beam joints",
+    "No shear deformation or warping",
+    "Simplified nearest-node placement for subsystem mass",
+    "Approximate positive rotary lumped mass",
+    "No contact, geometric nonlinearity, joint flexibility or imperfections",
+    "ANSYS Mechanical results are required for final portfolio claims"
+  ]
+}
