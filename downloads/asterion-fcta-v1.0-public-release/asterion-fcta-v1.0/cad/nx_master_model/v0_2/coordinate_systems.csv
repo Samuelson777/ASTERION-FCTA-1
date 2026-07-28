@@ -1,0 +1,6 @@
+csys_id,x_mm,y_mm,z_mm,x_axis,y_axis,z_axis,purpose
+CSYS_VEHICLE,0,0,0,+X forward,+Y starboard,+Z up,Global design coordinate system
+CSYS_RING_A,-2500,0,0,+X,+Y,+Z,Ring A centre and rotation axis
+CSYS_RING_B,2500,0,0,+X,+Y,+Z,Ring B centre and rotation axis
+CSYS_SOLAR,9000,0,0,+X,+Y,+Z,Solar wing hinge reference
+CSYS_SKIMMER_DOCK,21000,0,0,+X,+Y,+Z,Skimmer docking interface

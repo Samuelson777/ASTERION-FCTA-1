@@ -1,0 +1,11 @@
+interface_id,x_mm,y_mm,z_mm,normal,interface_type,nominal_diameter_mm
+IF_POD_01,-16000,3000.0,0.0,+X,propulsion pod gimbal,1240
+IF_POD_02,-16000,1500.0,2598.076,+X,propulsion pod gimbal,1240
+IF_POD_03,-16000,-1500.0,2598.076,+X,propulsion pod gimbal,1240
+IF_POD_04,-16000,-3000.0,0.0,+X,propulsion pod gimbal,1240
+IF_POD_05,-16000,-1500.0,-2598.076,+X,propulsion pod gimbal,1240
+IF_POD_06,-16000,1500.0,-2598.076,+X,propulsion pod gimbal,1240
+IF_RING_A_BEARING,-2500,0,0,+X,rotating ring bearing,2400
+IF_RING_B_BEARING,2500,0,0,+X,rotating ring bearing,2400
+IF_SKIMMER_DOCK,21000,0,0,+X,docking interface,1600
+IF_AFT_DOCK,-8000,0,0,-X,logistics docking interface,1600

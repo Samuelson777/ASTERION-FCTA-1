@@ -1,0 +1,6 @@
+zone_id,shape,origin_x_mm,origin_y_mm,origin_z_mm,dim_1_mm,dim_2_mm,description
+KO_RING_A_ROTATION,cylinder,-2500,0,0,14000,3600,Ring A rotating envelope plus preliminary clearance
+KO_RING_B_ROTATION,cylinder,2500,0,0,14000,3600,Ring B rotating envelope plus preliminary clearance
+KO_SKIMMER,box,25000,0,0,9000,6500,Skimmer docking and separation envelope; height 3.0 m
+KO_SOLAR_SPAN,box,9000,0,0,5000,60000,Solar array deployment envelope; symmetric in Y and Z
+KO_THRUSTER_PLUMES,cone_set,-21000,0,0,12000,15,Six conceptual plume cones; dim_2 is half-angle in degrees

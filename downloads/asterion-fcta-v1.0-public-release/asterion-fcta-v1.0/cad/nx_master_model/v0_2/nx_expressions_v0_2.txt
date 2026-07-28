@@ -1,0 +1,68 @@
+# ASTERION NX MASTER SKELETON EXPRESSIONS — VERSION 0.2
+# Units: millimetres, degrees, revolutions per minute unless noted.
+# Create these as named NX expressions. Derived values should remain formula-driven.
+
+project_version = 0.2
+vehicle_length = 42000 mm
+vehicle_half_length = vehicle_length / 2
+spine_outer_radius = 900 mm
+spine_truss_radius = 1200 mm
+service_tunnel_diameter = 1200 mm
+primary_docking_diameter = 1600 mm
+
+ring_outer_diameter = 26000 mm
+ring_outer_radius = ring_outer_diameter / 2
+ring_minor_radius = 1000 mm
+ring_major_radius = ring_outer_radius - ring_minor_radius
+ring_occupied_radius = 12000 mm
+ring_axial_width = 3200 mm
+ring_sector_count = 12
+ring_sector_angle = 360 deg / ring_sector_count
+ring_a_station = -2500 mm
+ring_b_station = 2500 mm
+ring_spacing = ring_b_station - ring_a_station
+ring_rotation_speed = 4.3 rpm
+ring_target_gravity_g = 0.25
+
+solar_wing_count = 4
+solar_active_panel_length = 20500 mm
+solar_deployed_span = 58000 mm
+solar_radial_reach = solar_deployed_span / 2 - spine_truss_radius
+solar_boom_length = solar_radial_reach - solar_active_panel_length
+solar_wing_width_x = 4200 mm
+solar_hinge_station = 9000 mm
+solar_panel_thickness = 90 mm
+
+radiator_count = 6
+radiator_length_x = 9000 mm
+radiator_width = 2800 mm
+radiator_thickness = 90 mm
+radiator_radial_offset = 5200 mm
+radiator_deploy_angle = 70 deg
+
+propulsion_pod_count = 6
+thrusters_per_pod = 2
+propulsion_pod_radius = 480 mm
+propulsion_pod_length = 5200 mm
+propulsion_pod_radial_offset = 3000 mm
+propulsion_frame_station = -16000 mm
+thruster_cant_angle = 3 deg
+plume_half_angle = 15 deg
+plume_keepout_length = 12000 mm
+
+skimmer_length = 8000 mm
+skimmer_width = 5500 mm
+skimmer_height = 2100 mm
+skimmer_dock_station = 21000 mm
+
+module_pitch = 2500 mm
+
+# Stable vehicle stations along +X
+sta_00 = -21000 mm
+sta_10 = -16000 mm
+sta_20 = -8000 mm
+sta_30 = -2500 mm
+sta_40 = 2500 mm
+sta_50 = 9000 mm
+sta_60 = 15000 mm
+sta_70 = 21000 mm

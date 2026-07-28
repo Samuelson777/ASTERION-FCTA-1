@@ -1,0 +1,9 @@
+station_id,x_mm,purpose,nx_datum_name
+STA_00,-21000,Aft structural limit / thruster exit reference,DP_STA_00
+STA_10,-16000,Propulsion pod frame,DP_STA_10
+STA_20,-8000,Aft service and logistics module,DP_STA_20
+STA_30,-2500,Habitation ring A centre plane,DP_STA_30
+STA_40,2500,Habitation ring B centre plane,DP_STA_40
+STA_50,9000,Power and radiator service plane,DP_STA_50
+STA_60,15000,Forward command and docking module,DP_STA_60
+STA_70,21000,Skimmer docking plane / forward structural limit,DP_STA_70

@@ -1,0 +1,9 @@
+publication_id,source_object,target_subsystems,link_type,update_authority
+PUB-001,vehicle centreline,all,associative curve,master skeleton
+PUB-002,station datum planes,all modules,associative datum,master skeleton
+PUB-003,ring A/B envelopes and axes,"habitation rings, bearings, drives",associative curves/datums,master skeleton
+PUB-004,solar hinge axes and swept envelopes,"solar wings, mast, harness",associative curves,master skeleton
+PUB-005,radiator hinge axes and panel envelopes,thermal-control system,associative curves,master skeleton
+PUB-006,pod coordinate systems and interface circles,propulsion pods and aft frame,associative datum/curve,master skeleton
+PUB-007,Skimmer dock plane and envelope,Skimmer and docking adapter,associative datum/body,master skeleton
+PUB-008,maintenance and plume keep-outs,assembly clearance studies,non-geometric requirement objects,master skeleton

@@ -1,0 +1,28 @@
+# NX Assembly Tree — Version 0.2
+
+```text
+AST-0000-VEHICLE-ASSY
+├── AST-0001-MASTER-SKELETON
+├── AST-1000-PRIMARY-STRUCTURE-ASSY
+│   ├── AST-1100-SPINE-ASSY
+│   ├── AST-1200-RING-A-SUPPORT-ASSY
+│   └── AST-1300-RING-B-SUPPORT-ASSY
+├── AST-2000-HABITATION-ASSY
+│   ├── AST-2100-RING-A-ASSY
+│   └── AST-2200-RING-B-ASSY
+├── AST-3000-POWER-THERMAL-ASSY
+│   ├── AST-3100-SOLAR-WING-PY
+│   ├── AST-3200-SOLAR-WING-NY
+│   ├── AST-3300-SOLAR-WING-PZ
+│   ├── AST-3400-SOLAR-WING-NZ
+│   └── AST-3500-RADIATOR-ASSY
+├── AST-4000-PROPULSION-ASSY
+│   └── AST-4101..4106-PROPULSION-PODS
+├── AST-5000-COMMAND-SERVICE-ASSY
+├── AST-6000-DOCKING-ASSY
+└── AST-7000-SKIMMER-ASSY
+```
+
+## Loading rule
+
+Use lightweight or partial loading for detail-heavy subassemblies. Keep the master skeleton and the active work package fully loaded.
