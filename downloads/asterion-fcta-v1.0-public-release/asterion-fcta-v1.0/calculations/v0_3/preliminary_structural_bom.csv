@@ -1,0 +1,8 @@
+section_id,family,outer_diameter_mm,wall_mm,total_length_m,idealised_mass_kg,material,status
+1,LONGERON,160.0,6.0,336.0,2740.737,Aluminium 7075-T6 conceptual,Beam idealisation only
+2,FRAME,120.0,5.0,154.298,783.221,Aluminium 7075-T6 conceptual,Beam idealisation only
+3,DIAGONAL,90.0,4.0,369.395,1121.776,Aluminium 7075-T6 conceptual,Beam idealisation only
+4,RING_BEAM,200.0,6.0,149.08,1531.891,Aluminium 7075-T6 conceptual,Beam idealisation only
+5,RING_SPOKE,120.0,5.0,259.2,1315.707,Aluminium 7075-T6 conceptual,Beam idealisation only
+6,INTERFACE_BOOM,140.0,5.0,32.355,192.795,Aluminium 7075-T6 conceptual,Beam idealisation only
+7,DOCK_FRAME,140.0,5.0,9.424,56.155,Aluminium 7075-T6 conceptual,Beam idealisation only

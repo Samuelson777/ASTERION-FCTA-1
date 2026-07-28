@@ -1,0 +1,9 @@
+PASS
+{
+  "nodes": 222,
+  "elements": 580,
+  "sections": 7,
+  "glb_geometries": 4,
+  "glb_faces": 18560
+}
+No validation errors.

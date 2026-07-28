@@ -1,0 +1,8 @@
+{
+  "nodes": 222,
+  "elements": 580,
+  "estimated_primary_mass_kg": 7742.28,
+  "ring_acceleration_g": 0.2481,
+  "mesh_faces": 18560,
+  "mesh_vertices": 10440
+}

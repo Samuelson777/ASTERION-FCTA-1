@@ -1,0 +1,210 @@
+{
+  "version": "0.3.0",
+  "passed": true,
+  "checks": [
+    {
+      "check": "required:README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:VERSION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:PROJECT_STATUS.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:CHANGELOG.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:cad/primary_structure/v0_3/neutral/asterion_v0_3_primary_structure.glb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:cad/primary_structure/v0_3/neutral/asterion_v0_3_primary_structure.stl",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:cad/primary_structure/v0_3/neutral/asterion_v0_3_primary_structure.obj",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:cad/primary_structure/v0_3/nx_primary_structure_tutorial.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:cad/primary_structure/v0_3/nx_expressions_v0_3.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/model/beam_nodes.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/model/beam_elements.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/model/beam_sections.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/model/load_cases.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/apdl/asterion_line_model.inc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/apdl/solve_static_docking.mac",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/apdl/solve_modal_free_free.mac",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:analysis/ansys/v0_3/apdl/solve_buckling_docking.mac",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:calculations/v0_3/preliminary_structural_sizing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:calculations/v0_3/v0_3_structural_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:media/renders/v0_3_primary_structure_plan.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:media/renders/v0_3_primary_structure_front.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required:web-viewer/models/asterion_v0_3_primary_structure.glb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "version",
+      "passed": true,
+      "detail": "0.3.0"
+    },
+    {
+      "check": "node_count",
+      "passed": true,
+      "detail": "csv=222 report=222"
+    },
+    {
+      "check": "element_count",
+      "passed": true,
+      "detail": "csv=580 report=580"
+    },
+    {
+      "check": "unique_node_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "element_node_references",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "section_references",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "zero_length_elements",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "element_length_table",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "ring_outer_node_counts",
+      "passed": true,
+      "detail": "12,12"
+    },
+    {
+      "check": "interface_node_counts",
+      "passed": true,
+      "detail": "prop=6, dock=8"
+    },
+    {
+      "check": "geometry_x_extent",
+      "passed": true,
+      "detail": "-21000.0..21400.0"
+    },
+    {
+      "check": "geometry_ring_extent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "glb_geometry",
+      "passed": true,
+      "detail": "geometries=4, faces=18560"
+    },
+    {
+      "check": "apdl_node_count",
+      "passed": true,
+      "detail": "222"
+    },
+    {
+      "check": "apdl_element_count",
+      "passed": true,
+      "detail": "580"
+    },
+    {
+      "check": "apdl_sections",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "python_syntax",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "summary": {
+    "nodes": 222,
+    "elements": 580,
+    "sections": 7,
+    "glb_geometries": 4,
+    "glb_faces": 18560
+  }
+}
