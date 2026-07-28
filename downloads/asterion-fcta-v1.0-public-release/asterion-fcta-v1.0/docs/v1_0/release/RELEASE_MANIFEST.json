@@ -1,0 +1,2244 @@
+{
+  "project": "ASTERION FCTA-1",
+  "version": "1.0.0",
+  "release_date": "2026-07-27",
+  "file_count_excluding_manifest_and_checksum": 447,
+  "total_bytes_excluding_manifest_and_checksum": 36863343,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 125,
+      "sha256": "cae94b3e5ef19aac3c8bfa554ceace86e60207b4bdcf10f94401ee3c0374953e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "bytes": 604,
+      "sha256": "f6a7eb7f29031846a223a7497d1fd1c0801aa0caa54fb39538a0ad75d964bc6f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/engineering_change.yml",
+      "bytes": 507,
+      "sha256": "7c059cb51592d06c84f8b3a12d2aa56369018ce2bebad960148eb3f0bf9936bf"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 409,
+      "sha256": "abe415981f20436b33d487b288be1e966ccfca534c8bbbca2520a85f71fb47d7"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 624,
+      "sha256": "046b284365c021809f62ac6dfcc81c7421835d83e7f804c072397e26d7156b9e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 326,
+      "sha256": "623960155f1e377ad0934839a3f422f3abf6e9150b43ba71c2ecb703a5ab792f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1044,
+      "sha256": "6a77b15c255729b0f036b6b54c16de675d3dfbd80591b2736e67f0cd834c909e"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 524,
+      "sha256": "25d1d1fa6f873ba001d6a5bc0deafc4e359343c19375ecd6b4474eff2b0105b0"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 202,
+      "sha256": "3a770368d24b7ebc4ea89319ff3e102b5e5d4346595c9f1e65f05c2e9164cfb0"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 512,
+      "sha256": "fa64c71b860c1a45a579f628cb1fdf9313868da92950fcc4f9219524f7aba81a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "5a6434b454d564f348e3850e3b50c15e26f00c7d80acb72f57ab0053c8efe8a6"
+    },
+    {
+      "path": "LICENSES/THIRD_PARTY_NOTICES.md",
+      "bytes": 805,
+      "sha256": "824f5fd1a59dca5179505e01792517a95a1680fe78720a8666b1a0ad77f6f98e"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 1522,
+      "sha256": "b9869832169752077a39ded999d670fb74a09a6c9f27e6d45e7cf169c0ed5383"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4115,
+      "sha256": "f237854ee590f829f45aa007ca5401cc99f21681d8d02a6b905789b29bfad8b6"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1440,
+      "sha256": "c8598f1b7a596d211a965308f390f9e784a8f21bbe6b969bff814420808e5c50"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 479,
+      "sha256": "5a255bef2f418bfac9974a11f5a10f485a7bdb0a05940455e30d62c1e8374ceb"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 345,
+      "sha256": "9725ec4f47b3bb2952d6d462154e9422783e238ac24f05b076fd30c80bc27513"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "analysis/ansys/analysis_matrix.md",
+      "bytes": 1696,
+      "sha256": "6119809db52652b5ba3ea686f97236fb7ab7e0d424f12c82f60204a43b04a915"
+    },
+    {
+      "path": "analysis/ansys/mesh_strategy.md",
+      "bytes": 896,
+      "sha256": "7358dc0bf255e932fcc1b717533c5793b90aee7d8de5ab8496db564243854192"
+    },
+    {
+      "path": "analysis/ansys/v0_3/ansys_workbench_guide.md",
+      "bytes": 1714,
+      "sha256": "edfc5ba1ab8ea33eb35071127468d96ee39b2cb1f2fb377511adb3f2cce891b2"
+    },
+    {
+      "path": "analysis/ansys/v0_3/apdl/asterion_line_model.inc",
+      "bytes": 20165,
+      "sha256": "32f840d625537ee57060fd172eeb6c795ffaadefe0127700817efdbe43123118"
+    },
+    {
+      "path": "analysis/ansys/v0_3/apdl/solve_buckling_docking.mac",
+      "bytes": 370,
+      "sha256": "424b117682b0c92ed711e5be452e393ee63f14be308d1c1652ae10fa48df7deb"
+    },
+    {
+      "path": "analysis/ansys/v0_3/apdl/solve_modal_free_free.mac",
+      "bytes": 217,
+      "sha256": "99088aaee0630d4fb823bac492748aa5e1bf1d6dadda9c3c2fd701827cbb9507"
+    },
+    {
+      "path": "analysis/ansys/v0_3/apdl/solve_static_docking.mac",
+      "bytes": 423,
+      "sha256": "648b04fef43fcc73504d465e9b0fdc51cfa9568472b6e49244439f158a4743a9"
+    },
+    {
+      "path": "analysis/ansys/v0_3/model/beam_elements.csv",
+      "bytes": 21141,
+      "sha256": "e666239c50864eb99836f18864db37ab6cce039ec63ac79cec7997687e81ec17"
+    },
+    {
+      "path": "analysis/ansys/v0_3/model/beam_nodes.csv",
+      "bytes": 8607,
+      "sha256": "3af4a41c6b96b3ed1c8e88b96019bd013386c419fb84904e38c36b96250e0ad1"
+    },
+    {
+      "path": "analysis/ansys/v0_3/model/beam_sections.csv",
+      "bytes": 767,
+      "sha256": "0239701dacf7684f936bc22b1d5bd0cd8f1c628617cb32eea7d73bdbe799cb2b"
+    },
+    {
+      "path": "analysis/ansys/v0_3/model/load_cases.csv",
+      "bytes": 932,
+      "sha256": "41a03b0965fc5482b56d13e81112fcccdfdabd7aa96e978eddaa34d32958e8c5"
+    },
+    {
+      "path": "analysis/ansys/v0_3/model/material_properties.csv",
+      "bytes": 228,
+      "sha256": "8a8ca8426bfa5fbf20b71b5d71f4dbdf8cc1af771f704fc476f0b0cbc23636af"
+    },
+    {
+      "path": "analysis/ansys/v0_3/model/named_selections.csv",
+      "bytes": 497,
+      "sha256": "feb7bfc5f6a77c0e9224f604e7d8e9986d815b376e94c54e1a84127b2909fb38"
+    },
+    {
+      "path": "analysis/ansys/v0_3/results_templates/buckling_results.csv",
+      "bytes": 85,
+      "sha256": "90b98760031768238b66484ec4157a0678ed01d31350e49166c80b9db7658c79"
+    },
+    {
+      "path": "analysis/ansys/v0_3/results_templates/modal_results.csv",
+      "bytes": 127,
+      "sha256": "4165373601362f44f41461cf547fb11c15db7c01fbda62fb806e5acdbbb4c9ca"
+    },
+    {
+      "path": "analysis/ansys/v0_3/results_templates/solver_run_record.csv",
+      "bytes": 204,
+      "sha256": "938c8b23a1a7e5ad6b612b0c309443bf4a085fa7aa10e0c6fd6a5db381bcbddd"
+    },
+    {
+      "path": "analysis/ansys/v0_3/results_templates/static_results.csv",
+      "bytes": 151,
+      "sha256": "73dc6082c07d4fafe78f0fc7881a6b2a7a3ff1fca789a3cce84c4e9d1f55df2b"
+    },
+    {
+      "path": "analysis/ansys/v0_4/apdl/asterion_v0_4_remote_masses.mac",
+      "bytes": 7629,
+      "sha256": "8074edabf79a02a15347f6466006761cdd1fca197c4642cb2e4f5b14ec535378"
+    },
+    {
+      "path": "analysis/ansys/v0_4/model/remote_mass_definitions.csv",
+      "bytes": 8833,
+      "sha256": "188f37d3bad7bcc45665a36827174b037b7aea206b6fc582f3201708ec6c74ec"
+    },
+    {
+      "path": "analysis/ansys/v0_4/model/subsystem_interfaces.csv",
+      "bytes": 1403,
+      "sha256": "4e3b8d31e6efeccedbf112f2a4cc6547887a4f18d6826439b168597a589dc6a8"
+    },
+    {
+      "path": "analysis/ansys/v0_4/v0_4_global_model_update.md",
+      "bytes": 1349,
+      "sha256": "700a3c25aa7e8b5c0a210cfee051c5f0f6ed9dc91e1c4c23e36cd5ebc89da038"
+    },
+    {
+      "path": "analysis/ansys/v0_5/README.md",
+      "bytes": 539,
+      "sha256": "c3d29fc4ef514110ea84bf460699c1ab9c99182d77c8952dab2967c3cfb1f0da"
+    },
+    {
+      "path": "analysis/ansys/v0_5/apdl/README.md",
+      "bytes": 298,
+      "sha256": "d20da667b7f98f0ed5a203924eafcd14b85969928e7f69d6582c082d7b911075"
+    },
+    {
+      "path": "analysis/ansys/v0_5/apdl/solve_v0_5_buckling_docking.mac",
+      "bytes": 448,
+      "sha256": "dfff804a9d857c64b9dd42a569c6d42b51d8f36628bed2ae2f863a7c79a28c4a"
+    },
+    {
+      "path": "analysis/ansys/v0_5/apdl/solve_v0_5_modal_free_free.mac",
+      "bytes": 447,
+      "sha256": "cd3e0910452c8ed5f8356220eba3bf6669821836aa652119798a0aa84084c3d7"
+    },
+    {
+      "path": "analysis/ansys/v0_5/apdl/solve_v0_5_modal_supported.mac",
+      "bytes": 401,
+      "sha256": "494abd94059144576fd2e064cdc6bc45e58378a98e15862f0bee89e503726f05"
+    },
+    {
+      "path": "analysis/ansys/v0_5/apdl/solve_v0_5_static_docking.mac",
+      "bytes": 428,
+      "sha256": "73711ac0e65e20e10ca465951aa9576f40e7eebab543ce88c328fa259c2081b4"
+    },
+    {
+      "path": "analysis/ansys/v0_5/apdl/solve_v0_5_static_propulsion.mac",
+      "bytes": 437,
+      "sha256": "39681eb11941f61d6666632915f46374b0950f6891e7c79a20acdc96d0f3a824"
+    },
+    {
+      "path": "analysis/ansys/v0_5/apdl/solve_v0_5_static_ring_centrifugal.mac",
+      "bytes": 685,
+      "sha256": "01a851888891878e2cfde78fc1e603d5766f5b59b76b3706b6dc870ea8c98a64"
+    },
+    {
+      "path": "analysis/ansys/v0_5/model/acceptance_criteria.csv",
+      "bytes": 1834,
+      "sha256": "56e730efc3560be39dfc0e92bdfff6481a475f06a82ce00a41aac6a505b1e5e1"
+    },
+    {
+      "path": "analysis/ansys/v0_5/model/boundary_conditions.csv",
+      "bytes": 933,
+      "sha256": "e7843baf40fe70b1644c96ecdeb32acae06746587d5b89dfae158470c7227976"
+    },
+    {
+      "path": "analysis/ansys/v0_5/model/load_case_definitions.csv",
+      "bytes": 2418,
+      "sha256": "27d7ca679cc7a66dcce4e8f3fe38d5104aa4e9b1c59b77b71678bbedcb241c78"
+    },
+    {
+      "path": "analysis/ansys/v0_5/model/mesh_convergence_plan.csv",
+      "bytes": 869,
+      "sha256": "a3d74f85753869159dff00b48e6cf9f8f62e2c10813f67fc96777cbc07c1ac79"
+    },
+    {
+      "path": "analysis/ansys/v0_5/results_templates/buckling_results.csv",
+      "bytes": 87,
+      "sha256": "7c86e3b722009b219bc56babd94e8b55d11f366df49f21c66123ab5bc7b18dca"
+    },
+    {
+      "path": "analysis/ansys/v0_5/results_templates/convergence_results.csv",
+      "bytes": 114,
+      "sha256": "de03a8fbc904034cedeef98000ae0b59b9579987f3ad92e06dda3b95e6eace9b"
+    },
+    {
+      "path": "analysis/ansys/v0_5/results_templates/interface_loads.csv",
+      "bytes": 73,
+      "sha256": "00309dad5d8ecf95a5444c49f4c242aa80c85f710d63d24b5e589f9c463131b5"
+    },
+    {
+      "path": "analysis/ansys/v0_5/results_templates/modal_results.csv",
+      "bytes": 159,
+      "sha256": "de7035af4e318f8bed6af0339ca0e17484673e45d70b41c96d251adf84e8e1cb"
+    },
+    {
+      "path": "analysis/ansys/v0_5/results_templates/solver_run_record.csv",
+      "bytes": 99,
+      "sha256": "7dd8ccdf39f9a05c0397c931862e43d57d063321f2e36439308df23f5cb12bb2"
+    },
+    {
+      "path": "analysis/ansys/v0_5/results_templates/static_results.csv",
+      "bytes": 188,
+      "sha256": "493d292f3648e79066faae18e21fa73c2e474d719f5bf28824a74aeafed38b4f"
+    },
+    {
+      "path": "analysis/ansys/v0_5/workbench/ANSYS_Workbench_V0_5_Guide.md",
+      "bytes": 3782,
+      "sha256": "a4faa9034b3938fd6b50dcff6af92c917c043a3373ee4df795dd3e09f81c4f44"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/cabin_boundary_conditions.csv",
+      "bytes": 441,
+      "sha256": "3e1363233c60b79401222a83443bed6b76b9eb191e0eaf4900be8c02fb485532"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/cfd_case_matrix.csv",
+      "bytes": 871,
+      "sha256": "16bd65c112893dfcca1bf4d4fa9025db0bdc5fda8431102416ba5279be468e2f"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/cfd_mesh_convergence_plan.csv",
+      "bytes": 550,
+      "sha256": "ba6f40d022e8014a738474b1492fe70a2825a138b24bcd5f046ae97ebc0ca51c"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/journals/README.md",
+      "bytes": 443,
+      "sha256": "7eb50051424cddcdf6cfaf5e7c0014ebef3d966a08c613d23efd6c345293b22d"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/results_templates/cabin_results.csv",
+      "bytes": 163,
+      "sha256": "e96a0fa6da92173d6ab570a7df8a22885099cf60fb556f7b6cd404c46912fb32"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/results_templates/convergence_results.csv",
+      "bytes": 112,
+      "sha256": "8e8625b15e9bd97b5bad08089497278b091d16b6080135fa11e2c705d81deeb6"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/results_templates/skimmer_results.csv",
+      "bytes": 118,
+      "sha256": "5a6a5b7d6ce4a0c3b7ab8d6dbe23cfb3a605fab9b49227e1b33dea0f3e2a2b61"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/skimmer_boundary_conditions.csv",
+      "bytes": 475,
+      "sha256": "5a9ba0b2123499a8b7caab636a90be97ef1e2028da30614bbfa0f0a4fef379b8"
+    },
+    {
+      "path": "analysis/ansys/v0_6/fluent/workbench/ANSYS_Fluent_V0_6_Guide.md",
+      "bytes": 1891,
+      "sha256": "11c9691352ee3ed4f285e2eabfc018f9db5f31547f41273ad68a4d6ab6cfe1d7"
+    },
+    {
+      "path": "analysis/ansys/v0_6/thermal/material_properties_screening.csv",
+      "bytes": 447,
+      "sha256": "300b780902adb7e24e723f565d2e5058a55da2d7fa062294511925c998f3e0bd"
+    },
+    {
+      "path": "analysis/ansys/v0_6/thermal/results_templates/thermal_results.csv",
+      "bytes": 163,
+      "sha256": "a480e0f98ece74a783fe545531c8e6668c6a55b660ca619439a02a353a2ab7b3"
+    },
+    {
+      "path": "analysis/ansys/v0_6/thermal/thermal_boundary_conditions.csv",
+      "bytes": 830,
+      "sha256": "506c0f28f8f3f01026adfe1116e559c8e841f4693a7c4dee1cab1c6d87062501"
+    },
+    {
+      "path": "analysis/ansys/v0_6/thermal/thermal_case_matrix.csv",
+      "bytes": 792,
+      "sha256": "e63b62c4c24438e047597f0e99ab11bb1649d6d4fd406d61bffff8e47793645a"
+    },
+    {
+      "path": "analysis/ansys/v0_6/thermal/thermal_mesh_convergence_plan.csv",
+      "bytes": 480,
+      "sha256": "65bfead546630d3b7bf63c74ce16e9c06873de199a7649e3ca6735e6cee08534"
+    },
+    {
+      "path": "analysis/ansys/v0_6/thermal/workbench/ANSYS_Thermal_V0_6_Guide.md",
+      "bytes": 1769,
+      "sha256": "deb9819cab5eb1a20f1b6334cdeb927bc8b1df130f0014661e754cd40bad92fd"
+    },
+    {
+      "path": "analysis/ansys/v0_8/apdl/asterion_v0_8_optimized_line_model.inc",
+      "bytes": 25212,
+      "sha256": "3fc3f92db3dfeda2ed5b415e4f2d982467a3da9c601066e3e79841c2fba28886"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/acceptance_criteria.csv",
+      "bytes": 474,
+      "sha256": "22cf233a29bcc4dc57c9c637871009b25d84aac79eab128e520b2ec437a200e0"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/design_variables.csv",
+      "bytes": 426,
+      "sha256": "8b33f76bcdacfcb9a38149e6e4986c44eedddd191790d306bd7a031027753435"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/load_case_definitions.csv",
+      "bytes": 946,
+      "sha256": "b1d0db7feb5923bdf409403a2afc8d621fb44976253f395681d7aac961397136"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/material_properties.csv",
+      "bytes": 226,
+      "sha256": "a2f22a70ca65afe322c394f1dece6c5044afc2e789294835863f9af805b89f90"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/optimized_beam_elements.csv",
+      "bytes": 27879,
+      "sha256": "48f344da64ed4b7bf6682f7e28d629e17cdfe6ea2b6f8cba97510c5f4beee31e"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/optimized_beam_nodes.csv",
+      "bytes": 9308,
+      "sha256": "ce11ce2e4e920af6109e81d53d74c3d83803190bb00e387b9b66c749093692b2"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/optimized_beam_sections.csv",
+      "bytes": 1453,
+      "sha256": "30fe931f8545deb9054cf7e9bfda74423fb3f63422551c6c3d7a4b5e7d575354"
+    },
+    {
+      "path": "analysis/ansys/v0_8/model/remote_mass_definitions.csv",
+      "bytes": 8374,
+      "sha256": "613805b794f416c21c2ca4adef6f5572c006706843df882e9f15f9ec22bee2eb"
+    },
+    {
+      "path": "analysis/ansys/v0_8/results_templates/joint_sensitivity_record.csv",
+      "bytes": 78,
+      "sha256": "871a8bc71d0b719433905643afc43be7b2951e5411c86007be27f8d0f0532b61"
+    },
+    {
+      "path": "analysis/ansys/v0_8/results_templates/mesh_convergence_record.csv",
+      "bytes": 115,
+      "sha256": "8029854d084cf9577ee05ad6ee9ddeef687c0f9314ed6e0ec50971182ce85abe"
+    },
+    {
+      "path": "analysis/ansys/v0_8/results_templates/modal_results_record.csv",
+      "bytes": 114,
+      "sha256": "c2bb5b788e5ce77f8cf5ef66f3d69e39b83c428d9e22f6fe3ad9ee6485ba7b28"
+    },
+    {
+      "path": "analysis/ansys/v0_8/results_templates/static_results_record.csv",
+      "bytes": 111,
+      "sha256": "e4a14158259cc5c396dce088223f705373eaa786d53acb288a1ae8e0ec7f08d0"
+    },
+    {
+      "path": "analysis/ansys/v0_9/import_templates/README.md",
+      "bytes": 754,
+      "sha256": "c859fd1c3f11e93f2a4f7f342e3dc8e8d39ee4cc243acba5d9e0262d4d22eece"
+    },
+    {
+      "path": "analysis/ansys/v0_9/import_templates/buckling_results_template.csv",
+      "bytes": 138,
+      "sha256": "cf9f9d2fabec8ee7db24a491ebedefbd7decd8925a7dc34cb7a79490d058a94c"
+    },
+    {
+      "path": "analysis/ansys/v0_9/import_templates/cam_verification_template.csv",
+      "bytes": 156,
+      "sha256": "aa65087fcd0930c36524ea2fa518555ef48d679c81639b08811140cd7ae6e57d"
+    },
+    {
+      "path": "analysis/ansys/v0_9/import_templates/fluent_results_template.csv",
+      "bytes": 155,
+      "sha256": "0528c080d50a926d2f225f0a28e9fa69f7dcf5ed430ebcce960b34c53714504e"
+    },
+    {
+      "path": "analysis/ansys/v0_9/import_templates/modal_results_template.csv",
+      "bytes": 159,
+      "sha256": "06bf855d21ea5fe600070eb42416f5dbedbc04bcd31bf2bcab533d785c5dbd84"
+    },
+    {
+      "path": "analysis/ansys/v0_9/import_templates/static_results_template.csv",
+      "bytes": 177,
+      "sha256": "a67d4e382911f035f3a4b4f00a20ce87cae2e1ef473936478dc741a2acf55b69"
+    },
+    {
+      "path": "analysis/ansys/v0_9/import_templates/thermal_results_template.csv",
+      "bytes": 154,
+      "sha256": "e063fc8048eb0cfadb525143a813eef1c39d2c0958c4f747bbc43fbfdef57a17"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/geometry_definition.md",
+      "bytes": 843,
+      "sha256": "308f53becc6f7c536b58f02a7489b51e0f111a2162f57555bc4b53528e821374"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/geometry_report.json",
+      "bytes": 377,
+      "sha256": "fbc7cb51b2230924d8973ca3dbb390ac55cc279b589b6e63eccb5e550a2ba867"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/named_selections.csv",
+      "bytes": 405,
+      "sha256": "fb0b6808b0e24f8147592060ecef684a1449791978930f53205b181deb83bb34"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/asterion_v0_6_analysis_models.glb",
+      "bytes": 26608,
+      "sha256": "910fc3dc16425fb01bc54b7a19f7d8ec3989c92c99a13cf2ad7599a2a53e2426"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/cabin_crew_obstructions.stl",
+      "bytes": 12884,
+      "sha256": "819ea47af349e94ec67665874f768ecbd390ef91055c41ad56211c64b17e03e0"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/cabin_equipment_obstruction.stl",
+      "bytes": 684,
+      "sha256": "963b61c0d78d8d4deb81d453172678fe825a0cb1e06d5dc5b37520d28589d1f0"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/cabin_sector_enclosure.stl",
+      "bytes": 684,
+      "sha256": "df73c2c52cc4fb95e73bb1c05d68945750c030c6c7d456df54404b431915a16d"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/electronics_cold_plate.stl",
+      "bytes": 684,
+      "sha256": "cb81848f6d6b8d642e3d395cc115832a87f98d3b9284e81be9540bf0df8203c1"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/habitat_wall_coupon.glb",
+      "bytes": 1936,
+      "sha256": "542381d17a3db773c7a48e498c0715d0d2772e12ff05d597e7c2954488d8faa2"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/habitat_wall_coupon.stl",
+      "bytes": 1884,
+      "sha256": "cdad211f5a4cdf24b0d638f5306624b068b4d1bf975997deff0201723e735918"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/radiator_panel_6m_x_2m.stl",
+      "bytes": 684,
+      "sha256": "6d220b0eec77ad938c2a1fc9f6699667f98a72c4a7464788a572143f53d5c461"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/skimmer_lifting_body_cfd_surface.obj",
+      "bytes": 46614,
+      "sha256": "6a85229ecff058cf6d6881f03f4003fb1a9bbe1277f2fb9d1d9da8ceff2f0f44"
+    },
+    {
+      "path": "cad/analysis_models/v0_6/neutral/skimmer_lifting_body_cfd_surface.stl",
+      "bytes": 67284,
+      "sha256": "dded63f69677b0f8d13198b3377278b05914faf9e89c413d24d1891ad9afb738"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/assembly_tree_v0_4.md",
+      "bytes": 1102,
+      "sha256": "8a865e0c46a0ee942d42e9ca944d52c23e798f4d475ac888e72a0ea6729fe959"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/drawings/asterion_v0_4_front.svg",
+      "bytes": 36164,
+      "sha256": "62f875ddb515b39f6a6178840086f9edefdc203505f41e7b8c070cd852f311df"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/drawings/asterion_v0_4_plan.svg",
+      "bytes": 34448,
+      "sha256": "1c3b579a6f9a4db2eb073b2a4511147d8b90735da92bf4f09030fc464333f283"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/asterion_v0_4_full_assembly.glb",
+      "bytes": 1326164,
+      "sha256": "46092eb40bb900e75907c3e6cebee7f6cec33ed722102887d92306b2314b47fa"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/asterion_v0_4_full_assembly.obj",
+      "bytes": 5614167,
+      "sha256": "d6ac2a2af505d0e1a1b4ebee9020dc02af28754de1fdc8a2a1c848eff1e92a16"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/asterion_v0_4_full_assembly.stl",
+      "bytes": 1729584,
+      "sha256": "05a4c01c321a87608653350f186ff3d2a9f288a6758890dd7b01ce2f4b8bb4a3"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_avionics.stl",
+      "bytes": 684,
+      "sha256": "4d37c8ddc524259e8266e53dba989f4f6c812bfee7e4515fcdf9186984f6aaea"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_dock.stl",
+      "bytes": 6484,
+      "sha256": "7e1a8ea9eac9ec879a7ead79f5251f5752665ae79df1dedae80549c8b5b4d844"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_habitat.stl",
+      "bytes": 28884,
+      "sha256": "8604d1a43898a8c023fd7253bda0620babb574b8eae0ebbc9a6cb14f548cc4ba"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_modules.stl",
+      "bytes": 121684,
+      "sha256": "76dedcf850837f7210ca1f8bd15b643efee4c6719ad66921bf3eed4215a47ddc"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_propulsion.stl",
+      "bytes": 127284,
+      "sha256": "9772dff09f3b0c45430105a0e06ddc8975d6fbe5b38c925a59e839d0c58f3975"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_radiator.stl",
+      "bytes": 3684,
+      "sha256": "8703718f2d2c83dcd078b4c2598759be70b87c17c0886dad8dff2c3e3cda1dd0"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_robotic.stl",
+      "bytes": 76084,
+      "sha256": "4ef31b6d548d928c7968d9aa5ca326eaad8a408eab08964b754b1d3601a707e4"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_skimmer.stl",
+      "bytes": 3784,
+      "sha256": "084065919e6178423c2d6fae32f2d8343a63b5401b48b859561e2651d84f90c9"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_solar.stl",
+      "bytes": 9684,
+      "sha256": "75b09e18f94ae8089344a49ae2608563754a834fb38e66cbadab42c7902f2019"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_structure.stl",
+      "bytes": 1198484,
+      "sha256": "6ff5ab31d46acc13fba94f4de3842142d23a35e17005dfcd0628f36bf2eb89bf"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/neutral/subsystems/asterion_v0_4_tanks.stl",
+      "bytes": 153684,
+      "sha256": "fad3ab395cb6239370411e55394fc1306fd3e7c9888a90fe61bd663c0be9e4d8"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/nx_arrangements.csv",
+      "bytes": 559,
+      "sha256": "0286ca60b6ea150314a0d277790a50e084244d5098736e3ee05a3451555fa2fb"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/nx_expressions_v0_4.txt",
+      "bytes": 713,
+      "sha256": "2a3071492f55b9de7b34ea98ebccbf295908a5cca26afc0100abd0c395002dd7"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/nxopen/asterion_v0_4_component_placement_journal.py",
+      "bytes": 901,
+      "sha256": "0b9a2b1d3098587a33a01e81978c4b9b714aff85b6eb2a70e9a30d4a4a133c71"
+    },
+    {
+      "path": "cad/full_assembly/v0_4/v0_4_preliminary_bom.csv",
+      "bytes": 1647,
+      "sha256": "119bf56c6ca6ac2690207345bee0f11928e8c70ad328898f0e945aac625f8e6d"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-RG-3201_ring_bearing_housing.dxf",
+      "bytes": 464,
+      "sha256": "c401a0bf86f158550e9b524ca8d8a5a53c948610c8af1c3371cd4ca87600966e"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-RG-3201_ring_bearing_housing.svg",
+      "bytes": 1352,
+      "sha256": "7a6e4470d25215dc646d6b871b407843dfe8e39ec5eaebaeee4511e5d1b910ce"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-SK-4301_skimmer_wing_rib.dxf",
+      "bytes": 8631,
+      "sha256": "4afa6912458af4c74a372a298f1223b8987c7caaea64d45f16c3f2fcffa26aa8"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-SK-4301_skimmer_wing_rib.svg",
+      "bytes": 2649,
+      "sha256": "b476a2ae2632ef5d9a9d630dabfa231b4fb6be88a7e665a1c41389ea2f034768"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-ST-1401_lightweight_bulkhead.dxf",
+      "bytes": 503,
+      "sha256": "a608603a8f462faf24234b7233d0d92325ee435095b893bef388dc35c4383d96"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-ST-1401_lightweight_bulkhead.svg",
+      "bytes": 1402,
+      "sha256": "13eac7a85753e041a5cef15693a118e0a76f103c05db9094298c53183d267c81"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-TP-2101_thruster_gimbal_bracket.dxf",
+      "bytes": 531,
+      "sha256": "b0cb44394c3a972c114a1da4e48b71a679c02e2efc9c1ba7128fd63211775984"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/drawings/AST-TP-2101_thruster_gimbal_bracket.svg",
+      "bytes": 1479,
+      "sha256": "1a1b6fdfb9055f0cc3cfd4f910dede50c111c5c67e04c3341d09db131f72bda2"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-RG-3201_ring_bearing_housing.glb",
+      "bytes": 43184,
+      "sha256": "94815e1ad62d4297ff801e4a1da4840a27cd055ab3d2af492929b5c4e1bc491b"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-RG-3201_ring_bearing_housing.obj",
+      "bytes": 79895,
+      "sha256": "29fd97b5ac3bc623e8c0a3be7ba0abe7b6b47042b0ec636c5754f66e2dde91bb"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-RG-3201_ring_bearing_housing.stl",
+      "bytes": 117684,
+      "sha256": "ace44ba8898a966c5d37ae588c04bdf51572cd6d1fd6e2e8c968c9c922055ef8"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-SK-4301_skimmer_wing_rib.glb",
+      "bytes": 12388,
+      "sha256": "e398422df15020c669212942a85de01e2a8fd7f0ce59cccfaf6761ae1103c90f"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-SK-4301_skimmer_wing_rib.obj",
+      "bytes": 20902,
+      "sha256": "5a82ef581802aac318313f2aa5fbb4d9293d51082a8e0a4921678e709c18bab3"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-SK-4301_skimmer_wing_rib.stl",
+      "bytes": 32284,
+      "sha256": "7a0dc07bc6fe1fd7e8e1cbd793dbca23c3df60beb5eac34cf85bae73daedcc96"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-ST-1401_lightweight_bulkhead.glb",
+      "bytes": 13532,
+      "sha256": "bfe5816213c303cde84ae2567659dacb19a12c2055e77f5a5fd6b914049f8e37"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-ST-1401_lightweight_bulkhead.obj",
+      "bytes": 23359,
+      "sha256": "7c1f68425b1436bfc70fac27505dc27b88fad3087bcdb964bfa16188e3e76374"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-ST-1401_lightweight_bulkhead.stl",
+      "bytes": 34884,
+      "sha256": "2ecf57ef233eb1826704fbf4eb17fa73710d8e4de7ff0642c714b21ea7b0a520"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-TP-2101_thruster_gimbal_bracket.glb",
+      "bytes": 5228,
+      "sha256": "a7c513add6c01723d49ca3b2b6a7298e2d2444e1f2f109b1fbd706ea42e5d485"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-TP-2101_thruster_gimbal_bracket.obj",
+      "bytes": 8074,
+      "sha256": "5d4067dda81097c5c3200246767499622e768d19839f55970b4531d083856039"
+    },
+    {
+      "path": "cad/manufacturing_parts/v0_7/neutral/AST-TP-2101_thruster_gimbal_bracket.stl",
+      "bytes": 12084,
+      "sha256": "57267269eee7bfa63c41e669b40698132df2de0f740a3b49b0b57b4da44058b8"
+    },
+    {
+      "path": "cad/neutral-step/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cad/nx_master_model/model_tree_plan.md",
+      "bytes": 697,
+      "sha256": "4a998301caa1e8ca71410963fb8e33a3030be49a5306b6190306a46d917a8219"
+    },
+    {
+      "path": "cad/nx_master_model/nx_expressions.txt",
+      "bytes": 1238,
+      "sha256": "cf247fc1f0c9f3afb2ecdcda7f68a58934a1e131e81a98a73b317f16de82a07b"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/README.md",
+      "bytes": 1201,
+      "sha256": "b1a66bc3329ed6086680466159bfbfbe2773324f044a9a01c39f801cc1ca49fb"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/assembly_tree.md",
+      "bytes": 953,
+      "sha256": "07bbb2e314135087da45d58618e79a893b66fb03759ffa15a0d13319b9b25594"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/coordinate_systems.csv",
+      "bytes": 383,
+      "sha256": "d030e55c8bbd07957c682e32dd0b14b6c99d25c57794ae4a01bb685d833a2651"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/drawings/asterion_front_view.dxf",
+      "bytes": 1906,
+      "sha256": "e412f22a571c0ee5846d85d84e8e9563da10cff893f695308ab5354e62ea5617"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/drawings/asterion_front_view.svg",
+      "bytes": 1104,
+      "sha256": "97d7a5109228d8c565cd930e7a38bfe7cfa8ebd86579b9d1690db4d17a2a1ff4"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/drawings/asterion_plan_view.dxf",
+      "bytes": 2816,
+      "sha256": "cfbeb9937af1f5013826767430985c8951370cfd12a6c19a89088c649f16ceda"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/drawings/asterion_plan_view.svg",
+      "bytes": 2063,
+      "sha256": "a08fce5a77ae291d0bfe1a265cc67ddeec07c503cd82588a1192acf50a9f18f9"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/interface_points.csv",
+      "bytes": 679,
+      "sha256": "de13e9e46aa48cc196920549fccf32e2db8e03ec91053fa744fafc8dafafb592"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/keepout_envelopes.csv",
+      "bytes": 575,
+      "sha256": "ff9bedf321505f39d9280f4085769710aba77630167d781b718cccaa4ba9ffda"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/layers_reference_sets.md",
+      "bytes": 1082,
+      "sha256": "ebc604b3a9eb5cd2fcb4039c097cabbf417773cfa8021e10ff637e7ef12dcad9"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/asterion_master_envelope.glb",
+      "bytes": 223432,
+      "sha256": "4bd9fb2bac1a9e57897a39e1156573c9be9153b5c52a5e004978d5f99fcbb0f6"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/asterion_master_envelope.obj",
+      "bytes": 897075,
+      "sha256": "f187ea27a859d1b5bca8c43acb904f184e6c60be8a1f87c65b90ab478b2b44a4"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/asterion_master_envelope.stl",
+      "bytes": 788384,
+      "sha256": "1636b7ad1be8c5effc3dd595eb89f7efba8e277be8b9ebdc3d8618094b3fc662"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/subsystems/asterion_modules_envelope.stl",
+      "bytes": 28884,
+      "sha256": "9149fe931c224aee9bd1c75ff20aff2b14936385fd3cd99d01d7885800afbe2e"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/subsystems/asterion_propulsion_envelope.stl",
+      "bytes": 76884,
+      "sha256": "818585cec0263f45782ee51a71e4c2fcb5f8051756f985cac42a3ce7cf9da84c"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/subsystems/asterion_radiators_envelope.stl",
+      "bytes": 3684,
+      "sha256": "3bc118dabf92059e2ca4f1f22eadc7d188dd178e908cad74ed1761df9db4e410"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/subsystems/asterion_rings_envelope.stl",
+      "bytes": 528084,
+      "sha256": "9cae3c2be6ef38ecee7e92f2c936392c795b88973e899e155e5f7a9f6f80e1fb"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/subsystems/asterion_skimmer_envelope.stl",
+      "bytes": 2384,
+      "sha256": "9bd7c0252da8dcbbc792ff17be5c84eee10f52272755fcea6eb1bb5102675199"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/subsystems/asterion_solar_envelope.stl",
+      "bytes": 4884,
+      "sha256": "f4cfcfb6543acaab5c6eac3c31cdca54e7afb896e176e45399cb3ac12445fe89"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/neutral/subsystems/asterion_spine_envelope.stl",
+      "bytes": 144084,
+      "sha256": "a5625bded66cde0ae716008b07c0479fb180faffda2be2b4e17d4c46a32fb261"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/nx_build_tutorial.md",
+      "bytes": 3533,
+      "sha256": "83bce1e04620fd0c27d315ac00655cf9fe33687a4fafa46c14c9a00909294863"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/nx_expressions_v0_2.txt",
+      "bytes": 1936,
+      "sha256": "04049f79d9250894c8d44ac259ac76c57251e7d412e8559a42bb6b5c762303cd"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/nx_model_audit_checklist.md",
+      "bytes": 1366,
+      "sha256": "2157f34b351754b41d3d5a62a7a6c599590c2915ab1435939a12e65355a0e02b"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/nxopen/asterion_master_skeleton_journal.py",
+      "bytes": 3592,
+      "sha256": "002db0c8ec18a1aa10ed6a6460ac47ada916fa6db8b0012d6f1f683ca1cf70a8"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/station_table.csv",
+      "bytes": 511,
+      "sha256": "3ee3ce811e0fa44e1fead31758e8dcd2843165cb5ad40a134fec6d9a76ddc77b"
+    },
+    {
+      "path": "cad/nx_master_model/v0_2/wave_publication_map.csv",
+      "bytes": 900,
+      "sha256": "bb4bf188be87cee11875b2c1d557a1fcc89ab6b0a057bbccb9d07a5e89342509"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/assembly_tree_v0_3.md",
+      "bytes": 645,
+      "sha256": "6ea4a6509cb2089559dbae37577b661f968749dac3fba57dfaf8e0206a4a1a01"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/drawings/asterion_v0_3_structure_front.svg",
+      "bytes": 140108,
+      "sha256": "a51641c6f14f7bbd965354d934116793eee31a18b9b216699ffbd3cdf7e2a90c"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/drawings/asterion_v0_3_structure_plan.svg",
+      "bytes": 142641,
+      "sha256": "d622e33975029f127c45c33df3a84d614c12ce10ca97f5b92897f27155be7d5b"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/neutral/asterion_v0_3_docking_frame.stl",
+      "bytes": 25684,
+      "sha256": "17da3ff1e1061088fedad86e3fdd5afeb0995944821ef31b4aecd5b5827fa5d6"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/neutral/asterion_v0_3_primary_structure.glb",
+      "bytes": 350296,
+      "sha256": "902d4d6f5055ef1d2a1f74bc587e198383d542502b224c3d937ffd4cace71a4c"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/neutral/asterion_v0_3_primary_structure.obj",
+      "bytes": 770393,
+      "sha256": "d57374c13a316407d39428782639f829fd8d9e897b412650130718e5d3759c8e"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/neutral/asterion_v0_3_primary_structure.stl",
+      "bytes": 928084,
+      "sha256": "3651680fa4d6e173992fd27647c8b882adfa27b36a8a1dcfc239f67d57b4ce9a"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/neutral/asterion_v0_3_propulsion_frame.stl",
+      "bytes": 19284,
+      "sha256": "9a3e0046ba86cab76a22cbaae7e44d4f2fc43911924fb64a3d22d1b6016bc602"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/neutral/asterion_v0_3_ring_supports.stl",
+      "bytes": 102484,
+      "sha256": "012fa013f23107cfe5b9dddd1e63026bd4920eca8c3eb1ba1b6d824378eaea57"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/neutral/asterion_v0_3_spine.stl",
+      "bytes": 780884,
+      "sha256": "f097dd22ce20145bed9138f91ccb87e62559d9c957042e7c5ff22644e35edee5"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/nx_expressions_v0_3.txt",
+      "bytes": 934,
+      "sha256": "d265179471de67dcb237935ce588c457b24d6e1e328517f22df71e4f76ddbca6"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/nx_primary_structure_tutorial.md",
+      "bytes": 2404,
+      "sha256": "7609d1b70507fbb8fd24e926651ad2755d1d435979d4e05b93439d094e9a7e24"
+    },
+    {
+      "path": "cad/primary_structure/v0_3/nxopen/asterion_v0_3_reference_curves.py",
+      "bytes": 1440,
+      "sha256": "99f38d70d88b43fb1bb0825af229c0f2a777d15fb559e1a494c37d192ff44137"
+    },
+    {
+      "path": "cad/primary_structure/v0_8/neutral/asterion_v0_8_optimized_structure.glb",
+      "bytes": 449400,
+      "sha256": "98c98cd5311537a2c49aef25828e2e8266cc07e3de1b07383fb4c1e02df9561c"
+    },
+    {
+      "path": "cad/primary_structure/v0_8/neutral/asterion_v0_8_optimized_structure.obj",
+      "bytes": 787129,
+      "sha256": "eeb9cb769be3ca9dee3e58565872e671e09f3eb9e7e8c34352c7730889cb6552"
+    },
+    {
+      "path": "cad/primary_structure/v0_8/neutral/asterion_v0_8_optimized_structure.stl",
+      "bytes": 1036884,
+      "sha256": "23445f30abc5b58a3d07ca4b6a32db680afc9ec1a3bac8615297f6240a049d47"
+    },
+    {
+      "path": "cad/primary_structure/v0_8/nx_expressions_v0_8.txt",
+      "bytes": 523,
+      "sha256": "059f0808494b7f58f11aed3a57f01c94a6a7a945ac85d953ffb63edcf1b09b7e"
+    },
+    {
+      "path": "cad/stl-printing/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "calculations/hand_calculations.md",
+      "bytes": 995,
+      "sha256": "0dc38987059a23eb28059f4e012ee819dd85e2f275b430751e86f1ad4b21ef68"
+    },
+    {
+      "path": "calculations/preliminary_sizing_output.txt",
+      "bytes": 167,
+      "sha256": "7327e8f96dbba502701bac07ac3105cc1100a3d1281ba40f64f9e7b2434c295f"
+    },
+    {
+      "path": "calculations/v0_2_geometry_report.json",
+      "bytes": 2711,
+      "sha256": "653bf71579152c628d98a794616058b38a5ce47eb48fba3f106b2b3b01759e2a"
+    },
+    {
+      "path": "calculations/v0_2_geometry_report.md",
+      "bytes": 585,
+      "sha256": "34b014effabb0a78724dcd5d07f861dd5d6e677ebcc58cb2eff48d41647b48ff"
+    },
+    {
+      "path": "calculations/v0_2_validation_output.txt",
+      "bytes": 79,
+      "sha256": "eb6d38eb689cf4b4a08facef4fd398090138e6ac02279d2fa11756222408da62"
+    },
+    {
+      "path": "calculations/v0_3/generation_output.txt",
+      "bytes": 160,
+      "sha256": "0937e8d9a5158de3a8aca715de2b85c601bc086c2394df36ed34b734569156b9"
+    },
+    {
+      "path": "calculations/v0_3/preliminary_structural_bom.csv",
+      "bytes": 726,
+      "sha256": "1004399d992fe39245f5c531f397850cdb627bcd2d6c10b4d7e98f7488db1417"
+    },
+    {
+      "path": "calculations/v0_3/preliminary_structural_sizing.md",
+      "bytes": 2904,
+      "sha256": "7492559f21f1af73d3383792ad4b273031061499fa72e91f6ce503df965541cb"
+    },
+    {
+      "path": "calculations/v0_3/v0_3_structural_report.json",
+      "bytes": 3256,
+      "sha256": "28e1b08ae017b49dc911207aa61830a767d3dab38136a77f309435ba3abe5915"
+    },
+    {
+      "path": "calculations/v0_3/v0_3_validation_output.txt",
+      "bytes": 127,
+      "sha256": "1208b3b1d3d6b8d95d8ad311603ee1d41422cf9090fe44b5559493e896e279df"
+    },
+    {
+      "path": "calculations/v0_3/v0_3_validation_report.json",
+      "bytes": 4625,
+      "sha256": "a6c82d8508f73c7c726d26619a60a41a0a841babbc89a0b6036828689e127a4b"
+    },
+    {
+      "path": "calculations/v0_4/cg_loading_cases.csv",
+      "bytes": 510,
+      "sha256": "685cb8698e9b425c3db04a1a90d2f2b940c1dce4e5a86d71757d2b0da498863b"
+    },
+    {
+      "path": "calculations/v0_4/component_mass_properties.csv",
+      "bytes": 7113,
+      "sha256": "612a34c77f0dd4d92daaf2a6e5d93d456d7b80ed8657c8b31cfef567a4bdf3e9"
+    },
+    {
+      "path": "calculations/v0_4/mass_budget_by_subsystem.csv",
+      "bytes": 487,
+      "sha256": "0479c33d9b123d26d889563fe526a4ae488cf847f5d8b18c5557dec9da3272ce"
+    },
+    {
+      "path": "calculations/v0_4/mass_properties_report.md",
+      "bytes": 896,
+      "sha256": "e80a37b2a018f2a8b49265108fdea51a12972e586fcf1ccdae0f97a389662ba4"
+    },
+    {
+      "path": "calculations/v0_4/v0_4_configuration_report.json",
+      "bytes": 644,
+      "sha256": "dac8109c10e9349c856ed0ae9d1aa3cbe22f9d8caed30526d3678531fbb6742b"
+    },
+    {
+      "path": "calculations/v0_4/v0_4_validation_output.txt",
+      "bytes": 39,
+      "sha256": "b6ea3bda40f5075e0ba746878a397cc03ed84df2743a5c15f891a63f1c3cb0c8"
+    },
+    {
+      "path": "calculations/v0_5/V0_5_structural_screening_report.md",
+      "bytes": 3804,
+      "sha256": "a3a4b11ca1b367e44d8d435f27f5d379e0413ec301df73320818d5f5894641d8"
+    },
+    {
+      "path": "calculations/v0_5/analytical_correlation.md",
+      "bytes": 1489,
+      "sha256": "44c3f7275488e15ee9f74120b1904218ee0fec1c964d8a179b9b4f3899bbffb2"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/lc-str-01_element_screening.csv",
+      "bytes": 97000,
+      "sha256": "aab884fabc8df3c5daa8573a684d8c25a3ce112f22df90f996436c46fb235be9"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/lc-str-02_element_screening.csv",
+      "bytes": 101145,
+      "sha256": "088fd057db902694ca1f655701981c6611079c5d667e1ae1ba3ad5e6c48ce556"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/lc-str-03_element_screening.csv",
+      "bytes": 100306,
+      "sha256": "33c762dcaa664028ac5c9b5d09732f1560c44d6070883d9a636772b10d4a6701"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/lc-str-04_element_screening.csv",
+      "bytes": 98274,
+      "sha256": "c59f6db2d58b696828842a9825e9c01febb378f19e6f4faad2dc3762893b0d7e"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/lc-str-05_element_screening.csv",
+      "bytes": 98408,
+      "sha256": "45d88d5537121ca516ffdd7f1207825df84665f326a5b4583ff0129c0f3c8917"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/lc-str-06_element_screening.csv",
+      "bytes": 98494,
+      "sha256": "4ac2cb74149f487a770859cbbe374c28220f0a0d5e1bc958e3d1eefb951c3a98"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/lc-str-07_element_screening.csv",
+      "bytes": 95942,
+      "sha256": "63044ede4b123766383e8ba60abf33485e463ce11940b620db63313a1e2b81c4"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/nodal_displacements.csv",
+      "bytes": 151486,
+      "sha256": "06682d10ae8ed0930099353a22b737c788bf59edaf56f47d5e1de76e5e8984e5"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/screening_report.json",
+      "bytes": 3975,
+      "sha256": "186943f4f6c0e44662d9e31b08fb70c2470f125912dee381abd9fe2d6d102cf1"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/static_screening_summary.csv",
+      "bytes": 1244,
+      "sha256": "ab4ba7969b07542b94ae3cec321b876e0ed4f29af9c6e848a9b4564226ae6b43"
+    },
+    {
+      "path": "calculations/v0_5/python_screening/supported_modal_screening.csv",
+      "bytes": 1009,
+      "sha256": "a14e7a2bca14bd7d3420793ba759322b500ba3a14325f8d6edb967e0320cb926"
+    },
+    {
+      "path": "calculations/v0_5/python_screening_run.txt",
+      "bytes": 3976,
+      "sha256": "33d38f559352eb8704cb7bf08d4747069fe1420a82f95ceb35c0bb33ec1af264"
+    },
+    {
+      "path": "calculations/v0_5/release_manifest.json",
+      "bytes": 587,
+      "sha256": "0feb11f685df93ecc17e103248293ac2f31ece90ffb6030d3c23b652a5f9d1dd"
+    },
+    {
+      "path": "calculations/v0_5/v0_5_validation_report.json",
+      "bytes": 314,
+      "sha256": "2b3d4fc748427cadb242b417ec79c5f64bf6b3f2c95ba3bc8b2830695ebb91b4"
+    },
+    {
+      "path": "calculations/v0_5/validation_output.txt",
+      "bytes": 314,
+      "sha256": "2b3d4fc748427cadb242b417ec79c5f64bf6b3f2c95ba3bc8b2830695ebb91b4"
+    },
+    {
+      "path": "calculations/v0_6/V0_6_cfd_screening_report.md",
+      "bytes": 3655,
+      "sha256": "013a742d1fdbf2b5a58f5afa0539d5c57890a9ba11116a6914fa366ba73c7748"
+    },
+    {
+      "path": "calculations/v0_6/V0_6_thermal_screening_report.md",
+      "bytes": 2553,
+      "sha256": "0663cc6c2edc3641601053efed3c2e5f9a535faa139785e389775be22a9b232d"
+    },
+    {
+      "path": "calculations/v0_6/cabin_co2_transient.csv",
+      "bytes": 7198,
+      "sha256": "8c8c561cba4f0f49460603f642bf6faf8d5340349aa1135140bcb8fdd70dd277"
+    },
+    {
+      "path": "calculations/v0_6/cabin_zonal_summary.csv",
+      "bytes": 224,
+      "sha256": "abcb77ad80c791f873c2ad2decf32d4a7478628402c9b8dc98abba344bc92151"
+    },
+    {
+      "path": "calculations/v0_6/python_screening_run.txt",
+      "bytes": 183,
+      "sha256": "07d93272324bed5dd27e14f9eb8421f5a5845e5ea988658575a36530bdd3367c"
+    },
+    {
+      "path": "calculations/v0_6/radiator_temperature_sweep.csv",
+      "bytes": 1623,
+      "sha256": "5807d394da1678e05dd3f6ec0dc1df7fedc60c9fc5ff12f9372048b7fbfd77f5"
+    },
+    {
+      "path": "calculations/v0_6/release_manifest.json",
+      "bytes": 50406,
+      "sha256": "2296ff1ad1c104216494bbf9350cbe298fb7bd0b1500ee226e9fb9c55bc43aa7"
+    },
+    {
+      "path": "calculations/v0_6/screening_report.json",
+      "bytes": 2965,
+      "sha256": "c4139fefde5203f1029be2090ea48b1ebdaf3a6b70dc35b48c3969051a33dcc9"
+    },
+    {
+      "path": "calculations/v0_6/skimmer_aero_summary.csv",
+      "bytes": 932,
+      "sha256": "270f00791768327f7fd50e903edcaf55763f71a674fe54e00e3c9068f01d3945"
+    },
+    {
+      "path": "calculations/v0_6/skimmer_alpha_sweep.csv",
+      "bytes": 8927,
+      "sha256": "0d5b8c89c4769757bb288b97d93cf59ae91d95f310291f13a3b0a9fcc144c268"
+    },
+    {
+      "path": "calculations/v0_6/thermal_screening_summary.csv",
+      "bytes": 450,
+      "sha256": "99bc9999ecaf22a1534447a44463b1bdfbd597b94ccfbd070b057c5db8a6dca6"
+    },
+    {
+      "path": "calculations/v0_6/v0_6_validation_report.json",
+      "bytes": 152,
+      "sha256": "b7464193d674a735487d5bfbc98b083c7528716f86c2a0a080da527d8c34b8ce"
+    },
+    {
+      "path": "calculations/v0_6/validation_output.txt",
+      "bytes": 153,
+      "sha256": "ed141694a2a78e9297306b2827816b384c721af2b04cc1b6d4f988515498d4af"
+    },
+    {
+      "path": "calculations/v0_7/V0_7_manufacturing_screening_report.md",
+      "bytes": 1398,
+      "sha256": "577015d1b058266ed7d9bcb16bc2bb188d28b38527fdc9816cac87cbe18c945c"
+    },
+    {
+      "path": "calculations/v0_7/gcode_validation_output.json",
+      "bytes": 396,
+      "sha256": "2792c67f821542aaeceba43e7554f2019f7ec4c80563f702898ac5e251bbffe7"
+    },
+    {
+      "path": "calculations/v0_7/manufacturing_time_cost_screening.csv",
+      "bytes": 687,
+      "sha256": "d91584bae158633daba69f288124f8508c7b6b2a85e0d06f618cb8baa017958b"
+    },
+    {
+      "path": "calculations/v0_7/package_validation_output.txt",
+      "bytes": 87,
+      "sha256": "f40292e1f2b268ec7c61d1214f5d2967374a8bf2418b25a34dc41c073d1cc576"
+    },
+    {
+      "path": "calculations/v0_7/v0_7_validation_report.json",
+      "bytes": 86,
+      "sha256": "78051dd1f08d41d9de1c64d4ded37170f66c0ef107eb48fa5516e904d7a22337"
+    },
+    {
+      "path": "calculations/v0_8/V0_8_optimization_report.md",
+      "bytes": 1619,
+      "sha256": "c865b6f86212af4eaad5b31c80f70c66f113a9378a4d4258b546749127fb62a8"
+    },
+    {
+      "path": "calculations/v0_8/before_after_static_comparison.csv",
+      "bytes": 590,
+      "sha256": "a90c53ffdf4eed048eef6c59429eec4f99502ef0ecbd385772d7c46f50cd0dd1"
+    },
+    {
+      "path": "calculations/v0_8/build_summary.json",
+      "bytes": 466,
+      "sha256": "9fa21d310f886c9a914d9474ec298dbc9ddf4aac7e50aa9b0f14832c9f7b3a57"
+    },
+    {
+      "path": "calculations/v0_8/modal_comparison.csv",
+      "bytes": 125,
+      "sha256": "c7a7825227f7655af9d5ea558af57dbc5c36fd04dce9212da02ab5485c0f4b37"
+    },
+    {
+      "path": "calculations/v0_8/optimization_doe.csv",
+      "bytes": 987,
+      "sha256": "0b250f62a36261021426eff19ee3af86440859b76f8534787e700c0d12292910"
+    },
+    {
+      "path": "calculations/v0_8/package_validation_output.txt",
+      "bytes": 157,
+      "sha256": "755143d3c8e37eebdfbc18ae41afc06914f4f134d9184b965b42b98f7504aaa1"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-01_element_screening.csv",
+      "bytes": 109217,
+      "sha256": "408ccc77c97f8ccaf9aef6036545867079030912f0acbccdbb977f480e986bba"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-02_element_screening.csv",
+      "bytes": 112249,
+      "sha256": "e4595413023177f1a24befa494d225f41417893c25ca2badb8cad4af785b89b0"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-03_element_screening.csv",
+      "bytes": 112717,
+      "sha256": "edcdc55f4fa9296c76c7d8968c7752f57f0e855af80371397dfea5e4c731350a"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-04_element_screening.csv",
+      "bytes": 110714,
+      "sha256": "35ad8c0573a53c9e5b27ab1d915bbe08c40e2399a3d15f7a598a47b7ed90711d"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-06_element_screening.csv",
+      "bytes": 110532,
+      "sha256": "ca7af303462ddb445663eeee6d5f25474f926e34ab29fb83f902cb8c056bcd5f"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-07_element_screening.csv",
+      "bytes": 108370,
+      "sha256": "31e415b322e30243dbec14a8c64e495453dbd0842779305ea38d818501f79cab"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-08_element_screening.csv",
+      "bytes": 113948,
+      "sha256": "241a24fa4a62cb80e6991d439c48e3cd7128d5330c2b248c0bba1df1c228ce34"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/lc-str-09_element_screening.csv",
+      "bytes": 113521,
+      "sha256": "0d4f3feddafde43f934ece966a6e815ffd7c8054eff98e9271e78442a484cbee"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/nodal_displacements.csv",
+      "bytes": 175297,
+      "sha256": "f4953c43d013b75e4bcd62b0e5d474a80e7639008c75c2f030098adeb169fc6c"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/screening_report.json",
+      "bytes": 4418,
+      "sha256": "7a4238b78157125dd0ceaa768a1d034d92a1de9fbdcfe9f7789d9265d3c95a2f"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/static_screening_summary.csv",
+      "bytes": 1397,
+      "sha256": "d03316fdecd458185e465ad3c5cd29ffdb7f31abdc90a7438a8e633fe7970812"
+    },
+    {
+      "path": "calculations/v0_8/python_screening/supported_modal_screening.csv",
+      "bytes": 1007,
+      "sha256": "1e2a76c467df3ce6d626c4b31ddf4bdd5ef208806875b1e7fbd6319781f0bd85"
+    },
+    {
+      "path": "calculations/v0_8/screening_run.txt",
+      "bytes": 4419,
+      "sha256": "ae053f6a1a1663356b719413df927f5aa9c968a481ea5604adb279058bca2b13"
+    },
+    {
+      "path": "calculations/v0_8/updated_cg_loading_cases.csv",
+      "bytes": 575,
+      "sha256": "969e60665971aa9079acb65bfe86f082983a6f6b5645b8bdb78b80928bbf48a1"
+    },
+    {
+      "path": "calculations/v0_8/updated_component_mass_properties.csv",
+      "bytes": 6524,
+      "sha256": "ff12b9490a7cbe8d42d49efedd2cd9a5e68b9ffa708a82079cbd560fb1cd1d2f"
+    },
+    {
+      "path": "calculations/v0_8/updated_mass_budget_by_subsystem.csv",
+      "bytes": 470,
+      "sha256": "f04278a5362b70e64b18d7e8ba7799090715002ec8aac583538fb49f4f8dd2a4"
+    },
+    {
+      "path": "calculations/v0_8/v0_8_validation_report.json",
+      "bytes": 156,
+      "sha256": "708fbac5949c308c0abb958f9c48498669319269790973246e02b0f2028fd4a6"
+    },
+    {
+      "path": "calculations/v0_9/archive_hash.txt",
+      "bytes": 65,
+      "sha256": "bba3475f35cf14aba3c7f56e056b652ff247fb76f6c63a9e8d9fb7750067856d"
+    },
+    {
+      "path": "calculations/v0_9/v0_9_validation_output.txt",
+      "bytes": 65,
+      "sha256": "cd1237d1ce2173af4f22f211a443884fa1e8c21acbf87ff88dfdfb8e966ccbe1"
+    },
+    {
+      "path": "cam/nx_cam/manufacturing_plan.md",
+      "bytes": 1144,
+      "sha256": "4e1954b493211257f9013eebb0fac5668e8bff8d8c7b7c98388cba64ed8fa3ff"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/NX_CAM_V0_7_Workflow.md",
+      "bytes": 1459,
+      "sha256": "a3c9a34c607d261006a91c98d431c528cd49601308e6eddf82692842bf2582e4"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/cutting_parameters.csv",
+      "bytes": 447,
+      "sha256": "1f44636390ec7a582d91908671b1fea1efe976a8cd81861f7db953c97a0ba4b0"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/educational_gcode/AST-RG-3201_housing_simulation.nc",
+      "bytes": 352,
+      "sha256": "6a6476be2829e28e72ab0eedeb9f9bef5445a370f238fe7a2af2d8cfc762fbd7"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/educational_gcode/AST-SK-4301_rib_profile_simulation.nc",
+      "bytes": 895,
+      "sha256": "e6c44db3b3486463e850025d9541707d72bf1d422dd88be7799b957e724c321d"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/educational_gcode/AST-ST-1401_bulkhead_simulation.nc",
+      "bytes": 399,
+      "sha256": "f6760ac7446856a4bea977bb71d32493d5d869f3e9895643569d01bc6c09cc6f"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/educational_gcode/AST-TP-2101_bracket_simulation.nc",
+      "bytes": 384,
+      "sha256": "cbcf5b119711557edc457f9d610d438e99207850352bbbbea44050b459c89e6c"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/fixture_plan.csv",
+      "bytes": 851,
+      "sha256": "bda9fc16364f1e142dfd58a08b26c23b1beb4b1e1aeb9d135c9b771cdce41526"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/fixtures/neutral/AST-FX-7101_gimbal_bracket_fixture.glb",
+      "bytes": 1720,
+      "sha256": "f339af95f5157974b16c0dda648fc6c6d7283bf34116fa7f997d72c0def16eba"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/fixtures/neutral/AST-FX-7101_gimbal_bracket_fixture.obj",
+      "bytes": 1805,
+      "sha256": "c0ccf22265332f8cf36b1613e9b15d67e23fca772ce6414510fe6665fb29c5b8"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/fixtures/neutral/AST-FX-7101_gimbal_bracket_fixture.stl",
+      "bytes": 2484,
+      "sha256": "eef5bd9d9bfe757cae4a8618f85d29b357f843df9e7a24513f7046fa7b664801"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/fixtures/neutral/AST-FX-7201_bearing_soft_jaws.glb",
+      "bytes": 1224,
+      "sha256": "2171ab8fd70d368bc645b25ab35cf2ed91348775125f6d53f6ec1f61f5befcda"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/fixtures/neutral/AST-FX-7201_bearing_soft_jaws.obj",
+      "bytes": 877,
+      "sha256": "393cbee7bbecd32d8c70b8542bbdcefc0ab49a412df524ee15351c3cfd7e7aec"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/fixtures/neutral/AST-FX-7201_bearing_soft_jaws.stl",
+      "bytes": 1284,
+      "sha256": "249e289acab4186790edb5705ebc64784b734011dde0945ad67888784573ddff"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/inspection_plan.csv",
+      "bytes": 940,
+      "sha256": "74b1ac0e191b4a5bdd03b1737b9e34c5904d47cf92433f2e94bf77747725a3d1"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/inspection_records/inspection_report_AST-RG-3201.csv",
+      "bytes": 203,
+      "sha256": "2a6c9be573d0adec51f5149d93658f115e805d10e0f5b8ecf03e385dce6c2591"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/inspection_records/inspection_report_AST-SK-4301.csv",
+      "bytes": 153,
+      "sha256": "93c24a2cf9d519aaae145d28d3e968e8b945e2eda6add05ca8ddeb3e452e0fda"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/inspection_records/inspection_report_AST-ST-1401.csv",
+      "bytes": 211,
+      "sha256": "087e6d3f55aedf9417b5141922a4ff2d28b4709cc252770114f0a066fe16697a"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/inspection_records/inspection_report_AST-TP-2101.csv",
+      "bytes": 265,
+      "sha256": "6e8b402f2ebe722eb20b4be5e7e22622b0d3d33ec5062e972b48591b6f769869"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/manufacturing_risk_register.csv",
+      "bytes": 690,
+      "sha256": "fbdf2db9afe6051085a3dc004b635ea030727f2a47bfb64aed614dc810764ad3"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/operation_plan.csv",
+      "bytes": 1267,
+      "sha256": "66b8fb4094a9d4bdcc246eed7434fd950d4956dbad2c19d20d63fc928037e289"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/postprocessor_safety.md",
+      "bytes": 772,
+      "sha256": "5805dcd819e268f17326f3ee25addd877b1ce36407baba2db35893d7003d3d35"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/setup_sheets/AST-RG-3201_setup_sheet.md",
+      "bytes": 1154,
+      "sha256": "40daf5e19c78649f2a364202c4c9cc75c72a4179c7ccc9f2bbd60482253936c1"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/setup_sheets/AST-SK-4301_setup_sheet.md",
+      "bytes": 1073,
+      "sha256": "7faf410fd5ba212203386852287a2be180819a370d4ffad414d58b5b2fa5e4dd"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/setup_sheets/AST-ST-1401_setup_sheet.md",
+      "bytes": 1084,
+      "sha256": "79fbf6fb510eb3b223fc8585e29c384cb3a99d9d8ee213829cdbbda7d978eef0"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/setup_sheets/AST-TP-2101_setup_sheet.md",
+      "bytes": 1222,
+      "sha256": "a643e4aa80f4e70a39e0a0c3ec1368e3dedc306ae3b795f42d38a877c3577d71"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/tool_library.csv",
+      "bytes": 730,
+      "sha256": "c8a7e93463b8fa792633e0692f1555a0916ee476a8794fb80b4cf6029d7acef8"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/toolpaths/AST-RG-3201_toolpath.csv",
+      "bytes": 100,
+      "sha256": "26d019394c891653fb9149fdf04f7a223cb565582e14bc8edeaee665d49430c7"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/toolpaths/AST-SK-4301_toolpath.csv",
+      "bytes": 1100,
+      "sha256": "07ec3e21021cd1bcce016b5b0986cdbef8585289694fe5fa0664f4d567505e39"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/toolpaths/AST-ST-1401_toolpath.csv",
+      "bytes": 193,
+      "sha256": "cd394cec7bc83dbbd447a9ad833d8505ac09c01af362745e7f5b50304e481efe"
+    },
+    {
+      "path": "cam/nx_cam/v0_7/toolpaths/AST-TP-2101_toolpath.csv",
+      "bytes": 101,
+      "sha256": "7de58110b66b949dceb30df84e52a84088e7ae1419aa2870e181265b4ca6daaa"
+    },
+    {
+      "path": "docs/bom_template.md",
+      "bytes": 463,
+      "sha256": "3c909cbc384fa89bab9fbdc17f9bded9649770c40e2cee778b4eae622eb56f0f"
+    },
+    {
+      "path": "docs/naming_conventions.md",
+      "bytes": 880,
+      "sha256": "e55b13cf4df1839b7c2f4b6a07596fe8834a60da40626bc12a7255980d6667c1"
+    },
+    {
+      "path": "docs/project_charter.md",
+      "bytes": 2864,
+      "sha256": "8ca60640d2b7b842a58b2ff9b0a733596b2f8e60dc10053522fd1f0c273e96e7"
+    },
+    {
+      "path": "docs/risk_register.md",
+      "bytes": 2345,
+      "sha256": "a498a6cb747723d8a05427309d7e4e4a072cc9a1287aacc7dc72e4d44194e236"
+    },
+    {
+      "path": "docs/roadmap.md",
+      "bytes": 2165,
+      "sha256": "cc0f9c926c8ff43437ef4fa0370adaf919f1d577756aa2ea0fcad3d10cf96ba2"
+    },
+    {
+      "path": "docs/system_architecture.md",
+      "bytes": 2282,
+      "sha256": "596088b8b31979ad42b9de39e1d5773efb738950f3ec7bc625e649eb7153e0e7"
+    },
+    {
+      "path": "docs/system_requirements.md",
+      "bytes": 4953,
+      "sha256": "3fc26051cd55f6aed614632b96f82ec0c93787d3398ac13df0d767f27b71be72"
+    },
+    {
+      "path": "docs/v0_2_verification_record.md",
+      "bytes": 933,
+      "sha256": "be76bfb78d74bfc1eb641d790d6c2276e1428a4bbe635d39f1236c787fc4adb8"
+    },
+    {
+      "path": "docs/v0_3/design_basis.md",
+      "bytes": 1769,
+      "sha256": "29013e1d70fa1b3efb62b0db163b54154d9dbaa6ac523b9f85e2d37d2e7905da"
+    },
+    {
+      "path": "docs/v0_3/load_path_definition.md",
+      "bytes": 1519,
+      "sha256": "bf6bcb7951596866b96c3980e178f3e1990224ec596c12b1c627059ea2460d1f"
+    },
+    {
+      "path": "docs/v0_3/model_acceptance_criteria.md",
+      "bytes": 946,
+      "sha256": "a90156b43d641edf48a3ee1be71e1691f54d47c1dbe6321c862bbc47a052991f"
+    },
+    {
+      "path": "docs/v0_3/release_manifest.md",
+      "bytes": 1346,
+      "sha256": "d1068a43acb5a1881c2dac663b47fec1616c00b38fde20d6ba60137d1f33ead7"
+    },
+    {
+      "path": "docs/v0_3/version_0_3_release_notes.md",
+      "bytes": 737,
+      "sha256": "d14140565f4c048a2c657a28fb8accba339da62730b0b834ee649164dd1417c8"
+    },
+    {
+      "path": "docs/v0_4/assembly_verification_checklist.md",
+      "bytes": 916,
+      "sha256": "07ce5bc249de10d6a2eb4eaa0cd9f844dd6901385a913841317199146a725393"
+    },
+    {
+      "path": "docs/v0_4/design_configuration.md",
+      "bytes": 902,
+      "sha256": "d029d5974872aa6a41af77b2eabfafa00ed6881a7db8d2d00f15976f0f9df2c3"
+    },
+    {
+      "path": "docs/v0_4/interface_control_document.md",
+      "bytes": 950,
+      "sha256": "de3068b3be010f829d19fe18f9c5877e1729b34d372eb5a83801dc2410278458"
+    },
+    {
+      "path": "docs/v0_4/nx_full_assembly_tutorial.md",
+      "bytes": 1894,
+      "sha256": "38be22478d064f99b1c0bc54857ea766e2e28dbb854dec057f9c3eb90e135817"
+    },
+    {
+      "path": "docs/v0_4/release_manifest.md",
+      "bytes": 397,
+      "sha256": "80264a5d62e1c5ee9b08e68dc816319401d8d8df6b358047be8f43aab76418d5"
+    },
+    {
+      "path": "docs/v0_4/version_0_4_release_notes.md",
+      "bytes": 527,
+      "sha256": "311f73fe31ee0b96686ac419a6e96719a7c95b42b08e9da3427ef3a4f68a3079"
+    },
+    {
+      "path": "docs/v0_6/analysis_plan.md",
+      "bytes": 1313,
+      "sha256": "b265d1c0faca45981e40526f051fc72d05fb141ddd923420d6afa8a563a4248e"
+    },
+    {
+      "path": "docs/v0_6/model_assumptions.md",
+      "bytes": 1623,
+      "sha256": "0daf8d4f0b3510aee65ebc0b2822171be394576e2596d43bd464e650d105fe71"
+    },
+    {
+      "path": "docs/v0_6/release_manifest.md",
+      "bytes": 278,
+      "sha256": "7c2c502c6ffd069ac119e125bd34cd90368e4b78517855a7ec2f31d74ceb4bd3"
+    },
+    {
+      "path": "docs/v0_6/result_interpretation_guide.md",
+      "bytes": 1085,
+      "sha256": "af03d5f8111b058c683855febeed53576588d479f7513a6bd974091c21eaef4d"
+    },
+    {
+      "path": "docs/v0_6/version_0_6_release_notes.md",
+      "bytes": 1233,
+      "sha256": "cfc20f798d618b41b1cf4d9c703333b0fac75c9f9c99ef3d84582607f19b4036"
+    },
+    {
+      "path": "docs/v0_7/manufacturing_verification_checklist.md",
+      "bytes": 655,
+      "sha256": "b86bfdf89c09cfa84b19ccbd9705554f4ddc91dc5072b7041029a17c59a0038a"
+    },
+    {
+      "path": "docs/v0_7/release_manifest.json",
+      "bytes": 65754,
+      "sha256": "ed1592b2582f4ac406c4374fc1051636185d34708cdaf140084b4ceba91f791b"
+    },
+    {
+      "path": "docs/v0_7/version_0_7_release_notes.md",
+      "bytes": 531,
+      "sha256": "880e53a388d0485e754507913b9d3a898471eb0bf2850fcca2fa9f2b7e12833a"
+    },
+    {
+      "path": "docs/v0_8/ansys_execution_guide.md",
+      "bytes": 1566,
+      "sha256": "6b7fd48e3579cd9586ee3f328c98be531da61c173789810265b9a0013a884d58"
+    },
+    {
+      "path": "docs/v0_8/nx_redesign_tutorial.md",
+      "bytes": 2093,
+      "sha256": "8ef6dbf456c3d78e18e351c8f4a45e47220848a27f964141fb53d28e5de6de29"
+    },
+    {
+      "path": "docs/v0_8/optimization_design_basis.md",
+      "bytes": 1352,
+      "sha256": "b7944c3def0b42b1fbda1f03bd467c2aaaf92ba8590b8a75e08a79d45c91194d"
+    },
+    {
+      "path": "docs/v0_8/release_manifest.json",
+      "bytes": 491,
+      "sha256": "24b26c2930c40473099da8662a867c3331457e2d801877d7cacac68c0b1f7269"
+    },
+    {
+      "path": "docs/v0_8/requirements_risk_closure.md",
+      "bytes": 1227,
+      "sha256": "e9b7ecff5ff097e7cc7f60d0bd3494dc6e44c23f034c17bf4b28433ad80b1167"
+    },
+    {
+      "path": "docs/v0_8/version_0_8_release_notes.md",
+      "bytes": 1442,
+      "sha256": "e9a4d07ad629077de4d73e5b8b9779d82f926f920088d97e557b161fa728da0e"
+    },
+    {
+      "path": "docs/v0_9/final_report/ASTERION_FCTA_1_Final_Engineering_Report_v0_9.md",
+      "bytes": 3872,
+      "sha256": "1a69db37f9bb6860799aa7bf6aaaa110b823eae8804f841c872e4429c054c2ae"
+    },
+    {
+      "path": "docs/v0_9/release/public_release_checklist.md",
+      "bytes": 984,
+      "sha256": "3456075e32082ff16e376d5ca9f513a9b0ef67bda6a2f5bd7df0955ec1dde340"
+    },
+    {
+      "path": "docs/v0_9/release/v0_9_release_manifest.json",
+      "bytes": 716,
+      "sha256": "dbb2d3cd43dc72d6e34164a71508d2542ee56074150a85aee3adebebecb50baa"
+    },
+    {
+      "path": "docs/v1_0/ASTERION_FCTA_1_Final_Engineering_Report_v1_0.md",
+      "bytes": 4438,
+      "sha256": "d7de8fd6d3cddb717ea291929eab984c726c78811423436202b76d2950ec09da"
+    },
+    {
+      "path": "docs/v1_0/evidence/NATIVE_EXECUTION_EVIDENCE_CHECKLIST.md",
+      "bytes": 2037,
+      "sha256": "236b38e27845e279e4212108462ea5de6897b5c06b969b8e7874d8f918626f7d"
+    },
+    {
+      "path": "docs/v1_0/governance/CLAIMS_AND_LIMITATIONS.md",
+      "bytes": 1328,
+      "sha256": "7f3b4445472c6085ebe3d442fa1c2121eacbd46cd6f21b1da61d083f0667e2ca"
+    },
+    {
+      "path": "docs/v1_0/portfolio/PORTFOLIO_SUMMARY.md",
+      "bytes": 2314,
+      "sha256": "80c3e4bea38e8298044fae8c3cb6448148283b8dc2af83ac051e618922c24dc2"
+    },
+    {
+      "path": "docs/v1_0/release/GITHUB_PUBLICATION_GUIDE.md",
+      "bytes": 722,
+      "sha256": "a9fabde7f68bb3e385ecd18bb82301783577461989c2b39701eceadfa3a53f74"
+    },
+    {
+      "path": "docs/v1_0/repository/REPOSITORY_DESCRIPTION_AND_TOPICS.md",
+      "bytes": 808,
+      "sha256": "734225337d658ba2bf9ef997961ef887b1502cc1728c8bde67f2e83a8b4eab45"
+    },
+    {
+      "path": "docs/v1_0/reproducibility/REPRODUCIBILITY_GUIDE.md",
+      "bytes": 1083,
+      "sha256": "9bbbdde7305e9c370f169168e9eccde5ae638173faa8edea599654770df563cc"
+    },
+    {
+      "path": "docs/verification_matrix.md",
+      "bytes": 1545,
+      "sha256": "23fd41e8cc738d021926d550ee899bc16900c395c558036e0992ac931ba2bdcc"
+    },
+    {
+      "path": "docs/version_0_2_release_notes.md",
+      "bytes": 875,
+      "sha256": "9d67f9b4b9cd25e2f9a69aca90e12b2e56ba717e96d5f2a9aa93d35cd8b42231"
+    },
+    {
+      "path": "media/animations/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "media/plots/v0_5/v0_5_static_displacement_screening.png",
+      "bytes": 52722,
+      "sha256": "da0ef350136d9d010c409c98c8de17c1a7c666fc1d466aff559ef530434517e8"
+    },
+    {
+      "path": "media/plots/v0_5/v0_5_static_stress_screening.png",
+      "bytes": 55306,
+      "sha256": "4232a2a90b6e1b17bf2a423bac3fa5d7ceffb478722737b222409d1a9a175110"
+    },
+    {
+      "path": "media/plots/v0_5/v0_5_supported_modal_screening.png",
+      "bytes": 52250,
+      "sha256": "b0a0ab195faf4e84b29d42304f4af73774cf8c0aad370a76f99084bcd293e562"
+    },
+    {
+      "path": "media/plots/v0_6/v0_6_cabin_co2_transient.png",
+      "bytes": 118198,
+      "sha256": "aa9a4d63815c14d2877990c710f782399a6d9970b59df4a1526c190148557cf3"
+    },
+    {
+      "path": "media/plots/v0_6/v0_6_radiator_equilibrium_temperature.png",
+      "bytes": 86701,
+      "sha256": "9b809c8f39291bf6773bdaad4b584bf435e9c37bd3d03f7780cd58b5dc687d62"
+    },
+    {
+      "path": "media/plots/v0_6/v0_6_skimmer_lift_drag_coefficients.png",
+      "bytes": 137969,
+      "sha256": "b17133dc2f991fa84de6480a32faa0f31e0eae4d12357bdb03bb178a6fbe94c3"
+    },
+    {
+      "path": "media/plots/v0_6/v0_6_skimmer_lift_to_drag.png",
+      "bytes": 102644,
+      "sha256": "cc70270887cd99f178297b9631c4d4a615206e3af24d63b8442d2dcbdc3ef211"
+    },
+    {
+      "path": "media/plots/v0_7/AST-RG-3201_toolpath_preview.png",
+      "bytes": 39369,
+      "sha256": "85489fff7cdb08312f96bfc602b6a4beb171584caa7023a728f888ac003ab507"
+    },
+    {
+      "path": "media/plots/v0_7/AST-SK-4301_toolpath_preview.png",
+      "bytes": 53264,
+      "sha256": "b80e7d1d533ab200d647f2dbbf301ae8a3ff1c535221311e7a48c9c4bcc92fdb"
+    },
+    {
+      "path": "media/plots/v0_7/AST-ST-1401_toolpath_preview.png",
+      "bytes": 66171,
+      "sha256": "74908226b886cde34a69f061f4e5a03639bd7ca63d415d2f1e8cb4ff1a4a9833"
+    },
+    {
+      "path": "media/plots/v0_7/AST-TP-2101_toolpath_preview.png",
+      "bytes": 34321,
+      "sha256": "e66d9256eac12dd3ef8027d7b5b3c06e7c6aa4be6ae99cf992e636208e486e13"
+    },
+    {
+      "path": "media/plots/v0_8/v0_8_before_after_displacement.png",
+      "bytes": 100459,
+      "sha256": "fd4cce633cdb26d9a41abfbcd0fc6a172d2a417d4cf116c5e5e5df078d9b5077"
+    },
+    {
+      "path": "media/plots/v0_8/v0_8_mass_docking_trade.png",
+      "bytes": 61129,
+      "sha256": "2d430b470eb0894f05f2f6ad3b6f27794219e88e7f1c13b0a678b0ffe87b71d1"
+    },
+    {
+      "path": "media/plots/v0_8/v0_8_modal_comparison.png",
+      "bytes": 57649,
+      "sha256": "bc8ec5460a1c911d111e0ace0eeb4a3a61966b378e128a8292b7ea9a3891e6bb"
+    },
+    {
+      "path": "media/plots/v0_8/v0_8_ring_braking_comparison.png",
+      "bytes": 55029,
+      "sha256": "ca6a197199f1a236897601c49d45cd9e54c74cfc99fc52a79cb9eb5d67f90156"
+    },
+    {
+      "path": "media/portfolio/v0_9/AST-RG-3201_toolpath_preview.png",
+      "bytes": 39369,
+      "sha256": "85489fff7cdb08312f96bfc602b6a4beb171584caa7023a728f888ac003ab507"
+    },
+    {
+      "path": "media/portfolio/v0_9/AST-TP-2101_toolpath_preview.png",
+      "bytes": 34321,
+      "sha256": "e66d9256eac12dd3ef8027d7b5b3c06e7c6aa4be6ae99cf992e636208e486e13"
+    },
+    {
+      "path": "media/portfolio/v0_9/portfolio_image_index.csv",
+      "bytes": 1241,
+      "sha256": "20a85d9f373c2e0a8a50dd176988d730b47729f899b2130dc497fed145d47a15"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_4_full_assembly_isometric.png",
+      "bytes": 616215,
+      "sha256": "847a9a7e106644d6842e6af1852924373f928ff3abc8ae661cf789822f534e6d"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_4_full_assembly_plan.png",
+      "bytes": 60716,
+      "sha256": "a3526ff711613c7269123291c6b04ae854501624c38024bf10f96674dab8f444"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_6_cabin_co2_transient.png",
+      "bytes": 118198,
+      "sha256": "aa9a4d63815c14d2877990c710f782399a6d9970b59df4a1526c190148557cf3"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_6_radiator_equilibrium_temperature.png",
+      "bytes": 86701,
+      "sha256": "9b809c8f39291bf6773bdaad4b584bf435e9c37bd3d03f7780cd58b5dc687d62"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_6_skimmer_lift_drag_coefficients.png",
+      "bytes": 137969,
+      "sha256": "b17133dc2f991fa84de6480a32faa0f31e0eae4d12357bdb03bb178a6fbe94c3"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_8_before_after_displacement.png",
+      "bytes": 100459,
+      "sha256": "fd4cce633cdb26d9a41abfbcd0fc6a172d2a417d4cf116c5e5e5df078d9b5077"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_8_modal_comparison.png",
+      "bytes": 57649,
+      "sha256": "bc8ec5460a1c911d111e0ace0eeb4a3a61966b378e128a8292b7ea9a3891e6bb"
+    },
+    {
+      "path": "media/portfolio/v0_9/v0_8_optimized_structure_plan.png",
+      "bytes": 190237,
+      "sha256": "c116d6b11f37ccd6e504124f5e1c4a194c212e66847a9ec9dcd96768ace59531"
+    },
+    {
+      "path": "media/presentation/v0_9/ASTERION_FCTA_1_v0_9_Design_Review.pptx",
+      "bytes": 2822388,
+      "sha256": "177fc8b86eb4f8b1e2415ce0b77164517c66de7b5e7ceb1a8b2e89f9f253b7b7"
+    },
+    {
+      "path": "media/presentation/v0_9/demo_video_storyboard.md",
+      "bytes": 1366,
+      "sha256": "121ff33843a4dbd9eab5210062d6482ed8012ebc76023e8181814903ac454ef8"
+    },
+    {
+      "path": "media/renders/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "media/renders/v0_2_front_preview.png",
+      "bytes": 11243,
+      "sha256": "14b87d8d6f361533c5cb3119321bc6ed8319af3cf8a7c19c556e7027a6716feb"
+    },
+    {
+      "path": "media/renders/v0_2_plan_preview.png",
+      "bytes": 7679,
+      "sha256": "a0884d49123087f2df31af5eb064dbc2e39b3743174e37fec31d9b2f897c8139"
+    },
+    {
+      "path": "media/renders/v0_3_primary_structure_front.png",
+      "bytes": 126383,
+      "sha256": "a1f93b926982a03c9a42022c7631cea1c6a0886af8f3cc3e9a2fbb9b3eea0dc8"
+    },
+    {
+      "path": "media/renders/v0_3_primary_structure_plan.png",
+      "bytes": 146865,
+      "sha256": "f74d32e1eb1a07d7cb516d7c46af9c4a39ea264516cc7b6275ddce8419540ee8"
+    },
+    {
+      "path": "media/renders/v0_4_full_assembly_front.png",
+      "bytes": 119693,
+      "sha256": "8390b3f18131574bd199a9a790ffa50f6115b1245c583a2258c0b0d229a874f2"
+    },
+    {
+      "path": "media/renders/v0_4_full_assembly_isometric.png",
+      "bytes": 616215,
+      "sha256": "847a9a7e106644d6842e6af1852924373f928ff3abc8ae661cf789822f534e6d"
+    },
+    {
+      "path": "media/renders/v0_4_full_assembly_plan.png",
+      "bytes": 60716,
+      "sha256": "a3526ff711613c7269123291c6b04ae854501624c38024bf10f96674dab8f444"
+    },
+    {
+      "path": "media/renders/v0_8/v0_8_optimized_structure_front.png",
+      "bytes": 249369,
+      "sha256": "06924cab169719c406dbfa54e82eb268cc97782e6c7a9a6a29cd608b8b8f7c8a"
+    },
+    {
+      "path": "media/renders/v0_8/v0_8_optimized_structure_plan.png",
+      "bytes": 190237,
+      "sha256": "c116d6b11f37ccd6e504124f5e1c4a194c212e66847a9ec9dcd96768ace59531"
+    },
+    {
+      "path": "prototype/v0_7/printing_guide.md",
+      "bytes": 747,
+      "sha256": "51d92105029be407c42c88fa2bfa2373cef72b68e4e4fb94f71661aa490e1d5e"
+    },
+    {
+      "path": "prototype/v0_7/stl/asterion_full_vehicle_1_to_50.stl",
+      "bytes": 1729584,
+      "sha256": "63cda57abb9aebe8fd2bcebc72dad0029e67c9ea8b2c614fd70e0ef09726e91a"
+    },
+    {
+      "path": "prototype/v0_7/stl/docking_latch_demonstrator_1_to_5.stl",
+      "bytes": 6684,
+      "sha256": "abc7931632923484cf52eb5fcd7a36611a426f28e3f57beaa6612eb9b71e6011"
+    },
+    {
+      "path": "prototype/v0_7/stl/ring_drive_demonstrator_1_to_5.stl",
+      "bytes": 71284,
+      "sha256": "af592e2b052bf7470300847a9feccd11700b10ce739f2dae5e2f828049e2a85b"
+    },
+    {
+      "path": "prototype/v0_9/test_plan/physical_prototype_test_plan.md",
+      "bytes": 1524,
+      "sha256": "d5c1673c3fd599f45d3de9dfce659e7126ad71551fc4e1a3508009352c5aa611"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 41,
+      "sha256": "507b86518d5dfbcdd70d07e51bc26dc0bdef588b74cd694bb8b8b68e2793778f"
+    },
+    {
+      "path": "scripts/python/asterion_preliminary_sizing.py",
+      "bytes": 1776,
+      "sha256": "7e32fff0b15970799c9490c7bd36cc9855dcee1ef88fb5f8ebcc72fff8c895a3"
+    },
+    {
+      "path": "scripts/python/build_v0_3_docs.py",
+      "bytes": 19987,
+      "sha256": "5fc89e0c66a0f9d2161f4b7b67ce93528780c458b32812214c51caa065654f0a"
+    },
+    {
+      "path": "scripts/python/generate_v0_2_master_envelope.py",
+      "bytes": 1227,
+      "sha256": "d6688912bd9324ff6086ea2a1bf2f68481186135c1be6d8dfb765525687197e3"
+    },
+    {
+      "path": "scripts/python/generate_v0_3_structure.py",
+      "bytes": 22028,
+      "sha256": "fd4f427366a5c64c33f71f7d62e0df303951ae9f459a313826f17c835903fd98"
+    },
+    {
+      "path": "scripts/python/generate_v0_4_full_assembly.py",
+      "bytes": 10842,
+      "sha256": "4fcd273b792499cc92399a0e06e3c2d3e5a8b2b633f1084074581193d11f1bac"
+    },
+    {
+      "path": "scripts/python/recompute_v0_4_mass_properties.py",
+      "bytes": 586,
+      "sha256": "6ee8770155732886adc5fa08523c022513046a224ac0182c8f65e718f642f774"
+    },
+    {
+      "path": "scripts/python/v0_5/asterion_frame_screening.py",
+      "bytes": 15165,
+      "sha256": "36f2c4595a521cb35e7bc51a024d45d52ce0b2eacec436a941a050bd69f10c6e"
+    },
+    {
+      "path": "scripts/python/v0_6/asterion_thermal_cfd_screening.py",
+      "bytes": 895,
+      "sha256": "911433af926b2b71a6216324253dba85d1ef097ea7440645fb5f4b2468b5765a"
+    },
+    {
+      "path": "scripts/python/v0_6/generate_v0_6_analysis_geometry.py",
+      "bytes": 557,
+      "sha256": "edaade45d584e6b052b2564aa98749ce3d61988cfbb6c2f7a758873d6bd3277f"
+    },
+    {
+      "path": "scripts/python/v0_7/README.md",
+      "bytes": 340,
+      "sha256": "a5235f0c2d8fc2cff1d5ab832efb10747097f5925cd22a873033be042d23eddb"
+    },
+    {
+      "path": "scripts/python/v0_7/validate_educational_gcode.py",
+      "bytes": 1363,
+      "sha256": "223da4c04ae1defdc5730298b49b9b59f2a27d2c6493facdacea4ce8c5eab05d"
+    },
+    {
+      "path": "scripts/python/v0_7/validate_v0_7_package.py",
+      "bytes": 1472,
+      "sha256": "ac6e80fdd2ce5f8c9d7896819d25a0df24396d46eab5a51302da48d9903846e1"
+    },
+    {
+      "path": "scripts/python/v0_8/asterion_v0_8_screening.py",
+      "bytes": 16410,
+      "sha256": "13dae142fc5a4bdcb4dd17557f84d790e73b228cffd368105759fec139f39fcf"
+    },
+    {
+      "path": "scripts/python/v0_8/validate_v0_8_package.py",
+      "bytes": 2401,
+      "sha256": "fcb1c4767b6458c5bef955ccb3a5278b94c5c7479220018d36150f4489443af2"
+    },
+    {
+      "path": "scripts/python/v0_9/validate_v0_9_package.py",
+      "bytes": 868,
+      "sha256": "fc88fe5bef717247888e1fa9d16bb7e4fdc715f0b70239f623b7a89a0833a7cc"
+    },
+    {
+      "path": "scripts/python/validate_v0_2_package.py",
+      "bytes": 1177,
+      "sha256": "9ed0c2c824e6dc63e3b219b1025e245bc3f7b4b35bb2da1e0ff3539c4739361e"
+    },
+    {
+      "path": "scripts/python/validate_v0_3_package.py",
+      "bytes": 6094,
+      "sha256": "2eaf8cbc7cd77cb20086b50b499acbb77ecc8834330513dd8b43e13f96b3ac77"
+    },
+    {
+      "path": "scripts/python/validate_v0_4_package.py",
+      "bytes": 1788,
+      "sha256": "834abdd5a75328ec70913463325ce126e2388a1cea46aea7c1c4348c80c9ae04"
+    },
+    {
+      "path": "scripts/python/validate_v0_5_package.py",
+      "bytes": 4071,
+      "sha256": "90337a21e641ebf9e7f40405f7414f918be01a51c36e8fec9af24b0761febacf"
+    },
+    {
+      "path": "scripts/python/validate_v0_6_package.py",
+      "bytes": 1894,
+      "sha256": "30d118e7ff54631317764913dda90869a5eb7ebc4780cdb8ebccf52ed50ed68b"
+    },
+    {
+      "path": "scripts/release/legacy_build_asterion_v0_7.py",
+      "bytes": 45992,
+      "sha256": "d9a7794cc2db427ebc34b20332535526aec0ec4ff528cb1fed57a95eaad37868"
+    },
+    {
+      "path": "scripts/release/validate_release.py",
+      "bytes": 1845,
+      "sha256": "d245ecf3e745cc42575e3529e55f08ab964e59ea210e548a44bff4954a85835d"
+    },
+    {
+      "path": "verification/v0_9/requirements_verification_matrix.csv",
+      "bytes": 3471,
+      "sha256": "40cef2df3813316839ec03da77ab800ac14fb09c869bb92fecff8cb460371c74"
+    },
+    {
+      "path": "verification/v1_0/ARTIFACT_STATUS.csv",
+      "bytes": 1683,
+      "sha256": "c4199ba2af6702ab6bcd53913a5f84b735e84f446597770f7648c19fd78c2b05"
+    },
+    {
+      "path": "verification/v1_0/public_release_summary.json",
+      "bytes": 168,
+      "sha256": "bbc02dd286fb90383b296c5484b32b66460df26aca1e306f225f6bd10781f183"
+    },
+    {
+      "path": "verification/v1_0/release_validation_report.json",
+      "bytes": 119,
+      "sha256": "32d32d4f582effd259889535222864d971b012a8865304c3b5385c5d147840da"
+    },
+    {
+      "path": "web-viewer/app.js",
+      "bytes": 1763,
+      "sha256": "e54536ff71ed072fd8e6b22c1a8f97d82e7e8984dc42dd305e5f31983f74b610"
+    },
+    {
+      "path": "web-viewer/index.html",
+      "bytes": 1187,
+      "sha256": "e6022e13e0c78420bfaeceda9b3f28a3ab049df4441d6cd9fa2820cac4f581e9"
+    },
+    {
+      "path": "web-viewer/models/AST-RG-3201_ring_bearing_housing.glb",
+      "bytes": 43184,
+      "sha256": "94815e1ad62d4297ff801e4a1da4840a27cd055ab3d2af492929b5c4e1bc491b"
+    },
+    {
+      "path": "web-viewer/models/AST-SK-4301_skimmer_wing_rib.glb",
+      "bytes": 12388,
+      "sha256": "e398422df15020c669212942a85de01e2a8fd7f0ce59cccfaf6761ae1103c90f"
+    },
+    {
+      "path": "web-viewer/models/AST-ST-1401_lightweight_bulkhead.glb",
+      "bytes": 13532,
+      "sha256": "bfe5816213c303cde84ae2567659dacb19a12c2055e77f5a5fd6b914049f8e37"
+    },
+    {
+      "path": "web-viewer/models/AST-TP-2101_thruster_gimbal_bracket.glb",
+      "bytes": 5228,
+      "sha256": "a7c513add6c01723d49ca3b2b6a7298e2d2444e1f2f109b1fbd706ea42e5d485"
+    },
+    {
+      "path": "web-viewer/models/asterion_master_envelope.glb",
+      "bytes": 223432,
+      "sha256": "4bd9fb2bac1a9e57897a39e1156573c9be9153b5c52a5e004978d5f99fcbb0f6"
+    },
+    {
+      "path": "web-viewer/models/asterion_v0_3_primary_structure.glb",
+      "bytes": 350296,
+      "sha256": "902d4d6f5055ef1d2a1f74bc587e198383d542502b224c3d937ffd4cace71a4c"
+    },
+    {
+      "path": "web-viewer/models/asterion_v0_4_full_assembly.glb",
+      "bytes": 1326164,
+      "sha256": "46092eb40bb900e75907c3e6cebee7f6cec33ed722102887d92306b2314b47fa"
+    },
+    {
+      "path": "web-viewer/models/asterion_v0_8_optimized_structure.glb",
+      "bytes": 449400,
+      "sha256": "98c98cd5311537a2c49aef25828e2e8266cc07e3de1b07383fb4c1e02df9561c"
+    },
+    {
+      "path": "web-viewer/style.css",
+      "bytes": 1137,
+      "sha256": "d1e3526eace3b48e239c65c1467a3fb600ccabb17bd50b20e72899e613a6720d"
+    },
+    {
+      "path": "web-viewer/v0_7_manufacturing_models.json",
+      "bytes": 217,
+      "sha256": "0060cab896b0a9a80dba851c408a2767e85ec5b2d0460c96e42a6c6144c4f333"
+    },
+    {
+      "path": "web-viewer/v0_9/README.md",
+      "bytes": 471,
+      "sha256": "64b4ee4352f6b9063641c915eff17d386dab0de0a63da5b47643d819e3ae0dce"
+    },
+    {
+      "path": "web-viewer/v0_9/assets/asterion_full_assembly.glb",
+      "bytes": 1326164,
+      "sha256": "46092eb40bb900e75907c3e6cebee7f6cec33ed722102887d92306b2314b47fa"
+    },
+    {
+      "path": "web-viewer/v0_9/assets/asterion_optimized_structure.glb",
+      "bytes": 449400,
+      "sha256": "98c98cd5311537a2c49aef25828e2e8266cc07e3de1b07383fb4c1e02df9561c"
+    },
+    {
+      "path": "web-viewer/v0_9/css/style.css",
+      "bytes": 1461,
+      "sha256": "c82ddb34eed41857528cb8f203020720f70bc1baa87adbea286d6687f56c77b7"
+    },
+    {
+      "path": "web-viewer/v0_9/index.html",
+      "bytes": 1639,
+      "sha256": "0f249e2e7dd3a1eed39676ac2e358d3f94fee00435fd7000a48def0dc5432872"
+    },
+    {
+      "path": "web-viewer/v0_9/js/app.js",
+      "bytes": 2007,
+      "sha256": "10ac8e66eba6f68ed999fdef59359ef1eac53ae97ef94cce6d6c80c3f6b42af8"
+    },
+    {
+      "path": "web-viewer/v1_0/README.md",
+      "bytes": 314,
+      "sha256": "26b1db68be6f4d558bd744fd48ed096cbdb879934ed43178a0c6e473109c6faa"
+    },
+    {
+      "path": "web-viewer/v1_0/assets/asterion_full_assembly.glb",
+      "bytes": 1326164,
+      "sha256": "46092eb40bb900e75907c3e6cebee7f6cec33ed722102887d92306b2314b47fa"
+    },
+    {
+      "path": "web-viewer/v1_0/assets/asterion_master_envelope.glb",
+      "bytes": 223432,
+      "sha256": "4bd9fb2bac1a9e57897a39e1156573c9be9153b5c52a5e004978d5f99fcbb0f6"
+    },
+    {
+      "path": "web-viewer/v1_0/assets/asterion_optimized_structure.glb",
+      "bytes": 449400,
+      "sha256": "98c98cd5311537a2c49aef25828e2e8266cc07e3de1b07383fb4c1e02df9561c"
+    },
+    {
+      "path": "web-viewer/v1_0/assets/lightweight_bulkhead.glb",
+      "bytes": 13532,
+      "sha256": "bfe5816213c303cde84ae2567659dacb19a12c2055e77f5a5fd6b914049f8e37"
+    },
+    {
+      "path": "web-viewer/v1_0/assets/ring_bearing_housing.glb",
+      "bytes": 43184,
+      "sha256": "94815e1ad62d4297ff801e4a1da4840a27cd055ab3d2af492929b5c4e1bc491b"
+    },
+    {
+      "path": "web-viewer/v1_0/assets/skimmer_wing_rib.glb",
+      "bytes": 12388,
+      "sha256": "e398422df15020c669212942a85de01e2a8fd7f0ce59cccfaf6761ae1103c90f"
+    },
+    {
+      "path": "web-viewer/v1_0/assets/thruster_gimbal_bracket.glb",
+      "bytes": 5228,
+      "sha256": "a7c513add6c01723d49ca3b2b6a7298e2d2444e1f2f109b1fbd706ea42e5d485"
+    },
+    {
+      "path": "web-viewer/v1_0/css/style.css",
+      "bytes": 4253,
+      "sha256": "34afb2d469a2d816842f4fa43f1a947a201ea8a861c2dc2d529dc8562601cc39"
+    },
+    {
+      "path": "web-viewer/v1_0/index.html",
+      "bytes": 4884,
+      "sha256": "9b30ed81d27d5267e95f94c1be5bec95410e5bd7bef3f812950947bf3a76e913"
+    },
+    {
+      "path": "web-viewer/v1_0/js/app.js",
+      "bytes": 3026,
+      "sha256": "00e8a54a685baaffc168cfc659f4c8c64278ca951d649421ee609e88046ba2ec"
+    }
+  ]
+}
