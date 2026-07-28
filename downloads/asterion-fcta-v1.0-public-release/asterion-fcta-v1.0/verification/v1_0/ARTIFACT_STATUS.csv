@@ -1,0 +1,13 @@
+artifact_id,category,path,status,claim_boundary
+CAD-001,Generated neutral geometry,cad/nx_master_model/v0_2/neutral/asterion_master_envelope.glb,Generated and validated,Browser-viewable master envelope; not native NX
+CAD-002,Generated neutral geometry,cad/full_assembly/v0_4/neutral/asterion_v0_4_full_assembly.glb,Generated and validated,Concept full assembly
+CAD-003,Generated neutral geometry,cad/primary_structure/v0_8/neutral/asterion_v0_8_optimized_structure.glb,Generated and validated,Selected H3 optimised structure
+CAE-001,Screening calculation,calculations/v0_8/V0_8_optimization_report.md,Independent screening,Not solved ANSYS output
+CAE-002,ANSYS execution input,analysis/ansys/v0_8/apdl/asterion_v0_8_optimized_line_model.inc,Prepared input,Requires owner execution and review
+CFD-001,CFD preparation geometry,cad/analysis_models/v0_6/neutral/skimmer_lifting_body_cfd_surface.stl,Generated and validated,Requires Fluent meshing and solve
+CAM-001,CAM planning data,cam/nx_cam/v0_7/operation_plan.csv,Generated planning record,Not native NX CAM setup
+CAM-002,Educational toolpath examples,cam/nx_cam/v0_7,Simulation only,Not machine-ready production code
+DOC-001,Engineering report,docs/v0_9/final_report/ASTERION_FCTA_1_Final_Engineering_Report_v0_9.md,Generated documentation,Version 0.9 technical baseline retained
+PRES-001,Design-review presentation,media/presentation/v0_9/ASTERION_FCTA_1_v0_9_Design_Review.pptx,Generated presentation,Review before public delivery
+NATIVE-001,Siemens NX native files,native-evidence/nx,Owner execution required,Not included
+NATIVE-002,ANSYS solved databases,native-evidence/ansys,Owner execution required,Not included
