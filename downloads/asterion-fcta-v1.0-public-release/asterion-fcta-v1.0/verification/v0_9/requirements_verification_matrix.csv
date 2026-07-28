@@ -1,0 +1,23 @@
+requirement_id,category,verification_statement,status,evidence,closure_note
+REQ-001,Vehicle architecture,"Orbit-assembled, non-landing main spacecraft architecture defined",Closed,"README v0.4, GLB assembly, NX tutorial",No claim of launch-from-Earth complete vehicle
+REQ-002,Vehicle envelope,Deployed span near 58 m and ring diameter 26 m controlled,Closed,v0.4 geometry report and render references,"Solar span recorded as 57.8 m, accepted within envelope tolerance"
+REQ-003,Habitation rings,Two counter-rotating habitation rings modelled,Closed,"v0.4 assembly, v0.8 optimized structure","Rotation physics screened, not human medically validated"
+REQ-004,Artificial gravity target,Ring target near 0.25 g calculated,Closed,v0.1 sizing script; v0.3 structural notes,Requires human-factors review
+REQ-005,Primary structure,Octagonal truss and ring supports structurally idealised,Closed,v0.3 beam model; v0.8 optimization,Joints require local solid/shell analysis
+REQ-006,Subsystem integration,"Power, propulsion, radiators, modules, skimmer included in assembly",Closed,v0.4 full assembly,Mass estimates preliminary
+REQ-007,Propulsion concept,Modular electric propulsion pods included,Closed,v0.4 assembly; v0.5 load cases,No claim of launch or unrestricted travel
+REQ-008,Thermal control,Radiator and thermal-screening package created,Closed,v0.6 thermal report,Detailed fluid-loop model pending
+REQ-009,Cabin ventilation,CO2 transient and airflow cases prepared,Closed,v0.6 CFD report,Requires Fluent CFD run and species validation
+REQ-010,Aeronautics component,Skimmer lifting body prepared for CFD studies,Closed,v0.6 watertight CFD surface,Not a validated re-entry vehicle
+REQ-011,Structural static cases,"Docking, propulsion, ring and imbalance cases documented",Closed,v0.5 load-case register; v0.8 comparison,ANSYS authoritative solve pending
+REQ-012,Modal analysis,Supported/global modal screening included,Closed,v0.5 and v0.8 modal outputs,Control-system separation pending
+REQ-013,Buckling,Buckling plan and APDL templates included,Closed,v0.5 APDL templates,Imperfection-sensitive nonlinear buckling pending
+REQ-014,Redesign closure,v0.5 structural warnings addressed in v0.8,Closed,v0.8 optimization report,Forward docking still needs detailed local model
+REQ-015,NX CAM portfolio,Four representative manufacturing parts documented,Closed,v0.7 CAM package,Not shop-validated production G-code
+REQ-016,Inspection planning,Inspection characteristics defined,Closed,v0.7 inspection plan,Requires CMM/manual measurement evidence
+REQ-017,Prototype plan,3D-printable demonstrators and test plan defined,Closed,v0.7 print files; v0.9 prototype plan,Physical testing pending
+REQ-018,GitHub presentation,Interactive web app scaffold included,Closed,web-viewer/v0_9,External CDN dependencies may need local vendoring
+REQ-019,Traceability,Requirements-verification matrix completed,Closed,verification/v0_9/requirements_verification_matrix.csv,Evidence links are repository-relative
+REQ-020,Portfolio package,"Final report, slides and video storyboard created",Closed,docs/media v0_9,Final screenshots from user PC pending
+REQ-021,Ethical accuracy,Project avoids unsupported reactionless/unrestricted claims,Closed,README and report limitations,Maintain in all public descriptions
+REQ-022,Open-source release,Public release checklist prepared,Closed,docs/v0_9/release/public_release_checklist.md,User should inspect licenses before publication
