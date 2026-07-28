@@ -1,0 +1,5 @@
+ASTERION FCTA-1 preliminary sizing
+Ring acceleration: 2.433 m/s^2
+Artificial gravity: 0.248 g
+Propulsion power: 144.0 kW
+Non-propulsion power margin: 56.0 to 156.0 kW

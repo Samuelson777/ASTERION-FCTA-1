@@ -1,0 +1,2 @@
+ASTERION Version 0.2 package validation passed.
+Vertices: 8,039; faces: 15,766

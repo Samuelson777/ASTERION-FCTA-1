@@ -1,0 +1,106 @@
+{
+  "version": "0.2.0",
+  "units": "mm",
+  "coordinate_system": {
+    "origin": "vehicle geometric centre",
+    "x": "forward",
+    "y": "starboard",
+    "z": "up"
+  },
+  "mesh": {
+    "vertices": 8101,
+    "faces": 15766,
+    "bounds_min_mm": [
+      -21055.0,
+      -29000.0,
+      -29000.0
+    ],
+    "bounds_max_mm": [
+      29000.0,
+      29000.0,
+      29000.0
+    ],
+    "extents_mm": [
+      50055.0,
+      58000.0,
+      58000.0
+    ],
+    "watertight_combined": true,
+    "note": "The combined STL is an envelope assembly and may contain intersecting closed components; subsystem STLs are intended for individual inspection."
+  },
+  "parameters": {
+    "vehicle_length": 42000.0,
+    "spine_outer_radius": 900.0,
+    "spine_truss_radius": 1200.0,
+    "ring_outer_diameter": 26000.0,
+    "ring_major_radius": 12000.0,
+    "ring_minor_radius": 1000.0,
+    "ring_axial_width": 3200.0,
+    "ring_sector_count": 12,
+    "ring_a_x": -2500.0,
+    "ring_b_x": 2500.0,
+    "solar_active_length": 20500.0,
+    "solar_deployed_span": 58000.0,
+    "solar_hinge_x": 9000.0,
+    "solar_wing_width_x": 4200.0,
+    "radiator_count": 6,
+    "radiator_length_x": 9000.0,
+    "radiator_width": 2800.0,
+    "propulsion_pod_count": 6,
+    "propulsion_frame_x": -16000.0,
+    "skimmer_dock_x": 21000.0,
+    "skimmer_length": 8000.0,
+    "solar_radial_reach": 27800.0,
+    "solar_boom_length": 7300.0,
+    "ring_axial_scale": 1.6
+  },
+  "stations": [
+    {
+      "id": "STA_00",
+      "x_mm": -21000,
+      "purpose": "Aft structural limit / thruster exit reference"
+    },
+    {
+      "id": "STA_10",
+      "x_mm": -16000,
+      "purpose": "Propulsion pod frame"
+    },
+    {
+      "id": "STA_20",
+      "x_mm": -8000,
+      "purpose": "Aft service and logistics module"
+    },
+    {
+      "id": "STA_30",
+      "x_mm": -2500,
+      "purpose": "Habitation ring A centre plane"
+    },
+    {
+      "id": "STA_40",
+      "x_mm": 2500,
+      "purpose": "Habitation ring B centre plane"
+    },
+    {
+      "id": "STA_50",
+      "x_mm": 9000,
+      "purpose": "Power and radiator service plane"
+    },
+    {
+      "id": "STA_60",
+      "x_mm": 15000,
+      "purpose": "Forward command and docking module"
+    },
+    {
+      "id": "STA_70",
+      "x_mm": 21000,
+      "purpose": "Skimmer docking plane / forward structural limit"
+    }
+  ],
+  "limitations": [
+    "Envelope geometry only; not a manufacturing definition.",
+    "Torus ring cross-sections are simplified.",
+    "Solar-array booms reconcile the active panel length with the 58 m deployed-span requirement.",
+    "Skimmer geometry is a convex lifting-body placeholder for subsequent NX surfacing.",
+    "No native Siemens NX .prt file is generated outside NX."
+  ]
+}
