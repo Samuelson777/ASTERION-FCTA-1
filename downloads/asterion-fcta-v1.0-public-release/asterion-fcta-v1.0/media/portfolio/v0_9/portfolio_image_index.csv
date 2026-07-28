@@ -1,0 +1,11 @@
+file,description,repository_path
+v0_4_full_assembly_isometric.png,Full assembly isometric render,media/portfolio/v0_9/v0_4_full_assembly_isometric.png
+v0_4_full_assembly_plan.png,Full assembly plan reference,media/portfolio/v0_9/v0_4_full_assembly_plan.png
+v0_8_optimized_structure_plan.png,Optimised structural plan view,media/portfolio/v0_9/v0_8_optimized_structure_plan.png
+v0_8_before_after_displacement.png,Before/after displacement comparison,media/portfolio/v0_9/v0_8_before_after_displacement.png
+v0_8_modal_comparison.png,Modal comparison,media/portfolio/v0_9/v0_8_modal_comparison.png
+v0_6_radiator_equilibrium_temperature.png,Radiator equilibrium temperature screening,media/portfolio/v0_9/v0_6_radiator_equilibrium_temperature.png
+v0_6_cabin_co2_transient.png,Cabin CO2 transient screening,media/portfolio/v0_9/v0_6_cabin_co2_transient.png
+v0_6_skimmer_lift_drag_coefficients.png,Skimmer aerodynamic coefficient screening,media/portfolio/v0_9/v0_6_skimmer_lift_drag_coefficients.png
+AST-TP-2101_toolpath_preview.png,Thruster-gimbal CAM preview,media/portfolio/v0_9/AST-TP-2101_toolpath_preview.png
+AST-RG-3201_toolpath_preview.png,Ring-bearing housing CAM preview,media/portfolio/v0_9/AST-RG-3201_toolpath_preview.png
