@@ -1,0 +1,4 @@
+case_id,case,flow_m3_h,steady_CO2_ppm,criterion_ppm,status
+CFD-CAB-01,Nominal ventilation,240.0,586.6666666666666,1000,PASS
+CFD-CAB-02,Degraded ventilation,80.0,920.0,1000,PASS
+CFD-CAB-03,Fan loss,0.0,not steady,1000,ACTION

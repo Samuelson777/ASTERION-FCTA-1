@@ -1,0 +1,6 @@
+model_id,component,screening_result,unit,criterion,status
+TH-RAD-01,Six-panel radiator system,361.3817756940469,K,<= 370 K nominal,PASS
+TH-RAD-FAIL,Five-panel radiator degraded case,377.9062053402053,K,<= 390 K temporary,PASS
+TH-CP-01,Electronics cold plate hotspot,324.6,K,<= 333 K,PASS
+TH-WALL-01,Habitat wall heat flux,1.2976923696937273,W/m2,<= 2 W/m2,PASS
+TH-BRK-01,Thruster bracket full-constraint stress,22.852799999999963,MPa,FoS >= 1.5,PASS

@@ -1,0 +1,7 @@
+{
+  "version": "0.6.0",
+  "errors": [],
+  "skimmer_faces": 1344,
+  "radiator_temperature_K": 361.3817756940469,
+  "nominal_CO2_ppm": 586.6666666666666
+}

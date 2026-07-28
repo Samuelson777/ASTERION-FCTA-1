@@ -1,0 +1,83 @@
+{
+  "release": "0.6.0",
+  "disclaimer": "Independent algebraic and reduced-order screening only; not solved ANSYS results.",
+  "thermal": {
+    "radiator_nominal_equilibrium_K": 361.3817756940469,
+    "radiator_five_panel_equilibrium_K": 377.9062053402053,
+    "radiating_area_m2": 144.0,
+    "planform_area_m2": 72.0,
+    "absorbed_solar_W": 2552.419833890676,
+    "cold_plate_hotspot_K": 324.6,
+    "habitat_wall_heat_flux_W_m2": 1.2976923696937273,
+    "thruster_bracket_peak_K": 334.4,
+    "thruster_bracket_full_constraint_stress_MPa": 22.852799999999963,
+    "thruster_bracket_screening_FoS": 12.077294685990358
+  },
+  "cabin": {
+    "volume_m3": 45.0,
+    "crew": 2,
+    "normal_flow_m3_h": 240.0,
+    "normal_steady_CO2_ppm": 586.6666666666666,
+    "degraded_flow_m3_h": 80.0,
+    "degraded_steady_CO2_ppm": 920.0,
+    "time_from_nominal_to_1000_ppm_after_fan_loss_min": 27.900000000000002,
+    "nominal_vent_velocity_m_s": 0.2777777777777778,
+    "air_only_temperature_rise_K": 10.118897040222617
+  },
+  "aerodynamics": [
+    {
+      "case_id": "CFD-SK-01",
+      "mach": 0.3,
+      "altitude_km": 10.0,
+      "static_temperature_K": 223.14999999999998,
+      "static_pressure_Pa": 26436.2425926916,
+      "density_kg_m3": 0.41270615318756876,
+      "velocity_m_s": 89.83894946237405,
+      "dynamic_pressure_Pa": 1665.4832833395706,
+      "Reynolds_number_L8m": 20357467.05851122,
+      "alpha_reference_deg": 5.0,
+      "CL_screening": 0.296705972839036,
+      "CD_screening": 0.03732482080457023,
+      "L_over_D_screening": 7.949293966943999,
+      "lift_kN": 11.85981210793006,
+      "drag_kN": 1.4919327624877619,
+      "stagnation_temperature_K": 227.1667
+    },
+    {
+      "case_id": "CFD-SK-02",
+      "mach": 0.8,
+      "altitude_km": 15.0,
+      "static_temperature_K": 216.65,
+      "static_pressure_Pa": 12044.563400397115,
+      "density_kg_m3": 0.19367362229311477,
+      "velocity_m_s": 236.0555948072572,
+      "dynamic_pressure_Pa": 5395.964403377907,
+      "Reynolds_number_L8m": 25728437.408560675,
+      "alpha_reference_deg": 5.0,
+      "CL_screening": 0.2792526803190927,
+      "CD_screening": 0.06247712951446359,
+      "L_over_D_screening": 4.469678464572306,
+      "lift_kN": 36.16410054119267,
+      "drag_kN": 8.090984805246642,
+      "stagnation_temperature_K": 244.38120000000004
+    },
+    {
+      "case_id": "CFD-SK-03",
+      "mach": 2.0,
+      "altitude_km": 25.0,
+      "static_temperature_K": 221.65,
+      "static_pressure_Pa": 2511.022127076607,
+      "density_kg_m3": 0.0394658000025413,
+      "velocity_m_s": 596.9099633603045,
+      "dynamic_pressure_Pa": 7030.8619558145,
+      "Reynolds_number_L8m": 13007209.747842448,
+      "alpha_reference_deg": 5.0,
+      "CL_screening": 0.19198621771937627,
+      "CD_screening": 0.08737174155883835,
+      "L_over_D_screening": 2.1973491004535814,
+      "lift_kN": 32.39588626089317,
+      "drag_kN": 14.74316768974304,
+      "stagnation_temperature_K": 398.97
+    }
+  ]
+}

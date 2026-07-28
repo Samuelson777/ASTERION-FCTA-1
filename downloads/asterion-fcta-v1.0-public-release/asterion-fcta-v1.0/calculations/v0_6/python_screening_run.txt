@@ -1,0 +1,4 @@
+Radiator equilibrium: 361.382 K
+Cabin flow 240 m3/h: 586.7 ppm steady CO2
+Cabin flow 80 m3/h: 920.0 ppm steady CO2
+Use the complete repository data tables for the aerodynamic sweeps.
