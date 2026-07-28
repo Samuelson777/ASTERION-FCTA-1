@@ -1,0 +1,6 @@
+sequence,x_mm,y_or_z_mm,move
+1,175,10,cut
+2,175,0,cut
+3,164,0,cut
+4,164,-55,cut
+5,100,-55,cut
