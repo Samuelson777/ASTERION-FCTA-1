@@ -1,0 +1,38 @@
+# ASTERION PRIMARY STRUCTURE EXPRESSIONS — VERSION 0.3
+# Apply explicit units inside Siemens NX.
+
+spine_half_length = 21000 mm
+spine_truss_radius = 1200 mm
+spine_longeron_count = 8
+spine_frame_angle = 360 deg / spine_longeron_count
+nominal_bay_pitch = 2500 mm
+
+longeron_od = 160 mm
+longeron_wall = 6 mm
+frame_od = 120 mm
+frame_wall = 5 mm
+diagonal_od = 90 mm
+diagonal_wall = 4 mm
+
+ring_support_count = 2
+ring_support_x_1 = -2500 mm
+ring_support_x_2 = 2500 mm
+ring_sector_count = 12
+ring_sector_angle = 360 deg / ring_sector_count
+ring_centroid_radius = 12000 mm
+ring_beam_od = 200 mm
+ring_beam_wall = 6 mm
+ring_spoke_od = 120 mm
+ring_spoke_wall = 5 mm
+
+propulsion_frame_x = -16000 mm
+propulsion_mount_count = 6
+propulsion_mount_radius = 3200 mm
+propulsion_boom_od = 140 mm
+propulsion_boom_wall = 5 mm
+
+docking_frame_x = 21400 mm
+docking_frame_radius = 800 mm
+docking_node_count = 8
+docking_link_od = 140 mm
+docking_link_wall = 5 mm

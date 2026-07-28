@@ -1,0 +1,19 @@
+# NX Assembly Tree — Version 0.3
+
+```text
+AST-1000-PRIMARY-STRUCTURE-ASM
+├── AST-0001-MASTER-SKELETON
+├── AST-1100-SPINE-TRUSS
+│   ├── AST-1110-LONGERON-FAMILY
+│   ├── AST-1120-TRANSVERSE-FRAME-FAMILY
+│   └── AST-1130-DIAGONAL-BRACE-FAMILY
+├── AST-1200-RING-SUPPORT-A
+│   ├── AST-1201-RING-CIRCUMFERENCE
+│   ├── AST-1202-SPOKE-FAMILY
+│   └── AST-1203-HUB-LINK-FAMILY
+├── AST-1210-RING-SUPPORT-B
+├── AST-1300-PROPULSION-FRAME
+└── AST-1400-FORWARD-DOCK-FRAME
+```
+
+Use arrangements for presentation solids, beam-centreline export and subsystem interface review.
