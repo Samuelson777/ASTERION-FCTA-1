@@ -1,0 +1,53 @@
+# ASTERION NX MASTER MODEL EXPRESSIONS — VERSION 0.1
+# Units should be assigned explicitly in NX.
+
+vehicle_length = 42000 mm
+spine_length = 42000 mm
+spine_outer_radius = 900 mm
+spine_truss_radius = 1200 mm
+
+ring_outer_diameter = 26000 mm
+ring_outer_radius = ring_outer_diameter / 2
+ring_occupied_radius = 12000 mm
+ring_width = 3200 mm
+ring_depth = 2800 mm
+ring_sector_count = 12
+ring_sector_angle = 360 deg / ring_sector_count
+ring_spacing = 5000 mm
+ring_rotation_speed = 4.3 rpm
+ring_target_gravity = 0.25
+
+solar_wing_count = 4
+solar_wing_length = 20500 mm
+solar_wing_width = 4200 mm
+solar_hinge_offset = 8500 mm
+solar_deployed_span = 58000 mm
+
+radiator_count = 6
+radiator_length = 9000 mm
+radiator_width = 2800 mm
+radiator_deploy_angle = 70 deg
+
+propulsion_pod_count = 6
+thrusters_per_pod = 2
+thruster_cant_angle = 3 deg
+propulsion_frame_station = -16000 mm
+
+skimmer_length = 8000 mm
+skimmer_width = 5500 mm
+skimmer_height = 2100 mm
+skimmer_dock_station = 21000 mm
+
+module_pitch = 2500 mm
+primary_docking_diameter = 1600 mm
+service_tunnel_diameter = 1200 mm
+
+# Station coordinates along +X
+sta_00 = -21000 mm
+sta_10 = -16000 mm
+sta_20 = -8000 mm
+sta_30 = -2500 mm
+sta_40 = 2500 mm
+sta_50 = 9000 mm
+sta_60 = 15000 mm
+sta_70 = 21000 mm
