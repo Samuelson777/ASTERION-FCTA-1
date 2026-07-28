@@ -10,6 +10,8 @@
 ![Web](https://img.shields.io/badge/web-HTML%20%7C%20CSS%20%7C%20JavaScript-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Project Type](https://img.shields.io/badge/type-open--source%20engineering%20portfolio-purple)
+[ASTERION FCTA-1 Web](https://samuelson777.github.io/ASTERION-FCTA-1/)
+[License](https://github.com/Samuelson777/ASTERION-FCTA-1/blob/main/LICENSE)
 
 **Author:** Samuelson G  
 **Project version:** 1.0  
