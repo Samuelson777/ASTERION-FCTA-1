@@ -1,0 +1,28 @@
+{
+  "project": "ASTERION FCTA-1",
+  "version": "0.4.0",
+  "generated_date": "2026-07-27",
+  "dry_mass_kg": 50542.0,
+  "dry_cg_m": [
+    2.0774801155474654,
+    -5.935657473000352e-05,
+    5.935657473003407e-05
+  ],
+  "propellant_capacity_kg": 12000.0,
+  "full_propellant_mass_kg": 62542.0,
+  "full_propellant_cg_m": [
+    -0.04796776566147549,
+    -4.7967765661536854e-05,
+    4.796776566156154e-05
+  ],
+  "mass_items": 59,
+  "mesh_vertices": 63983,
+  "mesh_faces": 34590,
+  "subsystem_mesh_files": 11,
+  "limitations": [
+    "Conceptual geometry",
+    "No solved ANSYS database",
+    "No native NX assembly",
+    "No certification claim"
+  ]
+}
