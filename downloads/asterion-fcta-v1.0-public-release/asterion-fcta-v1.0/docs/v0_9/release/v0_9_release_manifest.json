@@ -1,0 +1,24 @@
+{
+  "project": "ASTERION FCTA-1",
+  "version": "0.9",
+  "release_type": "validation and presentation",
+  "generated_date": "2026-07-27",
+  "core_status": "portfolio-ready baseline, native NX/ANSYS evidence pending",
+  "major_outputs": [
+    "final report",
+    "requirements matrix",
+    "ANSYS result templates",
+    "prototype test plan",
+    "design review deck",
+    "GitHub Pages viewer",
+    "video storyboard"
+  ],
+  "limitations": [
+    "not flight certified",
+    "not unrestricted propulsion",
+    "no native proprietary CAD/CAE files generated here"
+  ],
+  "repository_file_count": 414,
+  "requirement_count": 22,
+  "design_review_deck": "media/presentation/v0_9/ASTERION_FCTA_1_v0_9_Design_Review.pptx"
+}
