@@ -1,0 +1,60 @@
+item_id,subsystem,description,mass_kg,x_m,y_m,z_m,maturity,source
+AST-MASS-001,Structure,V0.8 optimised primary beam structure,10423.430670108912,0.0,0.0,0.0,Class IV,V0.8 optimised beam-section estimate
+AST-MASS-120,Habitation,Ring 1 pressure and protection sector 1,300.0,-2.5,12.0,0.0,Class IV,Parametric allowance
+AST-MASS-121,Habitation,Ring 1 pressure and protection sector 2,300.0,-2.5,10.3923,6.0,Class IV,Parametric allowance
+AST-MASS-122,Habitation,Ring 1 pressure and protection sector 3,300.0,-2.5,6.0,10.3923,Class IV,Parametric allowance
+AST-MASS-123,Habitation,Ring 1 pressure and protection sector 4,300.0,-2.5,0.0,12.0,Class IV,Parametric allowance
+AST-MASS-124,Habitation,Ring 1 pressure and protection sector 5,300.0,-2.5,-6.0,10.3923,Class IV,Parametric allowance
+AST-MASS-125,Habitation,Ring 1 pressure and protection sector 6,300.0,-2.5,-10.3923,6.0,Class IV,Parametric allowance
+AST-MASS-126,Habitation,Ring 1 pressure and protection sector 7,300.0,-2.5,-12.0,0.0,Class IV,Parametric allowance
+AST-MASS-127,Habitation,Ring 1 pressure and protection sector 8,300.0,-2.5,-10.3923,-6.0,Class IV,Parametric allowance
+AST-MASS-128,Habitation,Ring 1 pressure and protection sector 9,300.0,-2.5,-6.0,-10.3923,Class IV,Parametric allowance
+AST-MASS-129,Habitation,Ring 1 pressure and protection sector 10,300.0,-2.5,-0.0,-12.0,Class IV,Parametric allowance
+AST-MASS-130,Habitation,Ring 1 pressure and protection sector 11,300.0,-2.5,6.0,-10.3923,Class IV,Parametric allowance
+AST-MASS-131,Habitation,Ring 1 pressure and protection sector 12,300.0,-2.5,10.3923,-6.0,Class IV,Parametric allowance
+AST-MASS-151,Ring mechanism,"Ring 1 bearing, drive and rotary interfaces",1800.0,-2.5,0.0,0.0,Class IV,Subsystem allowance
+AST-MASS-140,Habitation,Ring 2 pressure and protection sector 1,300.0,2.5,12.0,0.0,Class IV,Parametric allowance
+AST-MASS-141,Habitation,Ring 2 pressure and protection sector 2,300.0,2.5,10.3923,6.0,Class IV,Parametric allowance
+AST-MASS-142,Habitation,Ring 2 pressure and protection sector 3,300.0,2.5,6.0,10.3923,Class IV,Parametric allowance
+AST-MASS-143,Habitation,Ring 2 pressure and protection sector 4,300.0,2.5,0.0,12.0,Class IV,Parametric allowance
+AST-MASS-144,Habitation,Ring 2 pressure and protection sector 5,300.0,2.5,-6.0,10.3923,Class IV,Parametric allowance
+AST-MASS-145,Habitation,Ring 2 pressure and protection sector 6,300.0,2.5,-10.3923,6.0,Class IV,Parametric allowance
+AST-MASS-146,Habitation,Ring 2 pressure and protection sector 7,300.0,2.5,-12.0,0.0,Class IV,Parametric allowance
+AST-MASS-147,Habitation,Ring 2 pressure and protection sector 8,300.0,2.5,-10.3923,-6.0,Class IV,Parametric allowance
+AST-MASS-148,Habitation,Ring 2 pressure and protection sector 9,300.0,2.5,-6.0,-10.3923,Class IV,Parametric allowance
+AST-MASS-149,Habitation,Ring 2 pressure and protection sector 10,300.0,2.5,-0.0,-12.0,Class IV,Parametric allowance
+AST-MASS-150,Habitation,Ring 2 pressure and protection sector 11,300.0,2.5,6.0,-10.3923,Class IV,Parametric allowance
+AST-MASS-151,Habitation,Ring 2 pressure and protection sector 12,300.0,2.5,10.3923,-6.0,Class IV,Parametric allowance
+AST-MASS-152,Ring mechanism,"Ring 2 bearing, drive and rotary interfaces",1800.0,2.5,0.0,0.0,Class IV,Subsystem allowance
+AST-MASS-200,Command,Command and navigation module,2400.0,12.0,0.0,0.0,Class IV,Subsystem allowance
+AST-MASS-201,Service,Service and environmental-control module,3000.0,-10.0,0.0,0.0,Class IV,Subsystem allowance
+AST-MASS-202,Radiation refuge,Water-shielded storm refuge,2200.0,7.0,0.0,0.0,Class IV,Subsystem allowance
+AST-MASS-203,Logistics,Logistics and spares module,1800.0,16.0,0.0,0.0,Class IV,Subsystem allowance
+AST-MASS-204,Docking,Forward docking assembly,750.0,21.4,0.0,0.0,Class IV,Subsystem allowance
+AST-MASS-221,Power,Deployable solar wing 1,900.0,3.0,15.1,0.0,Class IV,Wing mass allowance
+AST-MASS-222,Power,Deployable solar wing 2,900.0,3.0,-15.1,0.0,Class IV,Wing mass allowance
+AST-MASS-223,Power,Deployable solar wing 3,900.0,3.0,0.0,15.1,Class IV,Wing mass allowance
+AST-MASS-224,Power,Deployable solar wing 4,900.0,3.0,0.0,-15.1,Class IV,Wing mass allowance
+AST-MASS-230,Thermal,Deployable radiator panel 1,300.0,-3.0,6.9282,4.0,Class IV,Panel and boom allowance
+AST-MASS-231,Thermal,Deployable radiator panel 2,300.0,-3.0,0.0,8.0,Class IV,Panel and boom allowance
+AST-MASS-232,Thermal,Deployable radiator panel 3,300.0,-3.0,-6.9282,4.0,Class IV,Panel and boom allowance
+AST-MASS-233,Thermal,Deployable radiator panel 4,300.0,-3.0,-6.9282,-4.0,Class IV,Panel and boom allowance
+AST-MASS-234,Thermal,Deployable radiator panel 5,300.0,-3.0,-0.0,-8.0,Class IV,Panel and boom allowance
+AST-MASS-235,Thermal,Deployable radiator panel 6,300.0,-3.0,6.9282,-4.0,Class IV,Panel and boom allowance
+AST-MASS-240,Propulsion,Electric propulsion pod 1,1000.0,-16.0,4.8,0.0,Class IV,Pod dry-mass allowance
+AST-MASS-241,Propulsion,Electric propulsion pod 2,1000.0,-16.0,2.4,4.1569,Class IV,Pod dry-mass allowance
+AST-MASS-242,Propulsion,Electric propulsion pod 3,1000.0,-16.0,-2.4,4.1569,Class IV,Pod dry-mass allowance
+AST-MASS-243,Propulsion,Electric propulsion pod 4,1000.0,-16.0,-4.8,0.0,Class IV,Pod dry-mass allowance
+AST-MASS-244,Propulsion,Electric propulsion pod 5,1000.0,-16.0,-2.4,-4.1569,Class IV,Pod dry-mass allowance
+AST-MASS-245,Propulsion,Electric propulsion pod 6,1000.0,-16.0,2.4,-4.1569,Class IV,Pod dry-mass allowance
+AST-MASS-250,Propellant storage,Propellant tank 1 dry hardware,650.0,-9.0,1.2021,1.2021,Class IV,Tank dry-mass allowance
+AST-MASS-251,Propellant storage,Propellant tank 2 dry hardware,650.0,-9.0,-1.2021,1.2021,Class IV,Tank dry-mass allowance
+AST-MASS-252,Propellant storage,Propellant tank 3 dry hardware,650.0,-9.0,-1.2021,-1.2021,Class IV,Tank dry-mass allowance
+AST-MASS-253,Propellant storage,Propellant tank 4 dry hardware,650.0,-9.0,1.2021,-1.2021,Class IV,Tank dry-mass allowance
+AST-MASS-260,RCS,Reaction-control pod 1,175.0,8.0,2.2,0.0,Class IV,RCS allowance
+AST-MASS-261,RCS,Reaction-control pod 2,175.0,8.0,0.0,2.2,Class IV,RCS allowance
+AST-MASS-262,RCS,Reaction-control pod 3,175.0,8.0,-2.2,0.0,Class IV,RCS allowance
+AST-MASS-263,RCS,Reaction-control pod 4,175.0,8.0,-0.0,-2.2,Class IV,RCS allowance
+AST-MASS-270,Robotics,Robotic servicing arm,450.0,18.0,2.5,1.5,Class IV,Arm allowance
+AST-MASS-271,Aeroshuttle,Docked Skimmer aeroshuttle,5500.0,25.5,0.0,0.0,Class IV,Concept dry-mass allowance
+AST-MASS-272,Avionics,"Distributed avionics, harness and data equipment",1200.0,5.0,-0.94,-0.56,Class IV,Balance allowance

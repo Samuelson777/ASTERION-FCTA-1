@@ -1,0 +1,18 @@
+subsystem,dry_mass_kg,fraction_percent
+Structure,10423.431,19.584
+Habitation,7200.000,13.528
+Propulsion,6000.000,11.273
+Aeroshuttle,5500.000,10.334
+Power,3600.000,6.764
+Ring mechanism,3600.000,6.764
+Service,3000.000,5.637
+Propellant storage,2600.000,4.885
+Command,2400.000,4.509
+Radiation refuge,2200.000,4.134
+Logistics,1800.000,3.382
+Thermal,1800.000,3.382
+Avionics,1200.000,2.255
+Docking,750.000,1.409
+RCS,700.000,1.315
+Robotics,450.000,0.845
+TOTAL,53223.431,100.000

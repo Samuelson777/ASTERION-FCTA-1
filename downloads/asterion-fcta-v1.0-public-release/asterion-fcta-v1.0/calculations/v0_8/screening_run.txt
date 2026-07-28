@@ -1,0 +1,120 @@
+{
+  "status": "screening_only",
+  "solver": "custom linear 3-D Euler-Bernoulli frame",
+  "nodes": 222,
+  "elements": 648,
+  "structural_tube_mass_kg": 10423.430670108912,
+  "approximate_total_lumped_mass_kg": 53223.43067010891,
+  "static_cases": [
+    {
+      "load_case_id": "LC-STR-01",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 0.6965874615230333,
+      "critical_node_id": 219,
+      "max_screening_von_mises_MPa": 2.6707727047580945,
+      "critical_element_id": 569,
+      "minimum_yield_factor": 188.33500848046117,
+      "minimum_member_euler_factor": 8.101620246518904
+    },
+    {
+      "load_case_id": "LC-STR-02",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 0.2148503461176776,
+      "critical_node_id": 176,
+      "max_screening_von_mises_MPa": 1.073615687592714,
+      "critical_element_id": 75,
+      "minimum_yield_factor": 468.5102926614627,
+      "minimum_member_euler_factor": 184.48557719983637
+    },
+    {
+      "load_case_id": "LC-STR-03",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 0.14604598362720486,
+      "critical_node_id": 174,
+      "max_screening_von_mises_MPa": 2.7361626727971067,
+      "critical_element_id": 505,
+      "minimum_yield_factor": 183.83409912020926,
+      "minimum_member_euler_factor": 11.815516372270194
+    },
+    {
+      "load_case_id": "LC-STR-04",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 2.795165605791783,
+      "critical_node_id": 219,
+      "max_screening_von_mises_MPa": 1.2835969915645227,
+      "critical_element_id": 9,
+      "minimum_yield_factor": 391.86754355579654,
+      "minimum_member_euler_factor": 24.801469415115825
+    },
+    {
+      "load_case_id": "LC-STR-06",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 0.30315213353710463,
+      "critical_node_id": 199,
+      "max_screening_von_mises_MPa": 2.73810288048097,
+      "critical_element_id": 529,
+      "minimum_yield_factor": 183.70383508440122,
+      "minimum_member_euler_factor": 11.641855199973389
+    },
+    {
+      "load_case_id": "LC-STR-07",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 22.8695049967966,
+      "critical_node_id": 222,
+      "max_screening_von_mises_MPa": 7.530079304234314,
+      "critical_element_id": 9,
+      "minimum_yield_factor": 66.79876528221331,
+      "minimum_member_euler_factor": 7.9002920285570815
+    },
+    {
+      "load_case_id": "LC-STR-08",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 1.8464527340647814,
+      "critical_node_id": 208,
+      "max_screening_von_mises_MPa": 0.8750870212595403,
+      "critical_element_id": 240,
+      "minimum_yield_factor": 574.7999773508425,
+      "minimum_member_euler_factor": 13.919623471075411
+    },
+    {
+      "load_case_id": "LC-STR-09",
+      "support_model": "aft_fixed",
+      "result_source": "Independent Python Euler-Bernoulli frame screening",
+      "max_translation_mm": 3.486900488908973,
+      "critical_node_id": 181,
+      "max_screening_von_mises_MPa": 0.6129629680606593,
+      "critical_element_id": 22,
+      "minimum_yield_factor": 820.6042227827093,
+      "minimum_member_euler_factor": 20.873684415750933
+    }
+  ],
+  "supported_modal_frequencies_Hz": [
+    0.1964088051840446,
+    0.19644133264213973,
+    0.2213052556499484,
+    0.22133270851902045,
+    0.22990069165409538,
+    0.25877996892656085,
+    0.30563870170112994,
+    0.4011941565582085,
+    0.4025482045274537,
+    0.4029063455552414,
+    0.44029449537109216,
+    0.44660093940522827
+  ],
+  "limitations": [
+    "Ideal rigid beam joints",
+    "No shear deformation or warping",
+    "Simplified nearest-node placement for subsystem mass",
+    "Approximate positive rotary lumped mass",
+    "No contact, geometric nonlinearity, joint flexibility or imperfections",
+    "ANSYS Mechanical results are required for final portfolio claims"
+  ]
+}
