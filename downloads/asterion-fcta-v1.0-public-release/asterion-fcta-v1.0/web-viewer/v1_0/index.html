@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ASTERION FCTA-1 aerospace CAD/CAM/CAE portfolio." />
+  <title>ASTERION FCTA-1 — Public Engineering Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">ASTERION <span>FCTA-1</span></a>
+    <nav><a href="#viewer-section">Models</a><a href="#engineering">Engineering</a><a href="#boundary">Boundary</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Siemens NX · ANSYS · NX CAM · Python</p>
+        <h1>A spacecraft portfolio built around engineering evidence.</h1>
+        <p class="lede">A modular orbit-assembled spacecraft and detachable lifting-body aeroshuttle demonstrator covering parametric CAD, structural and thermal analysis preparation, CFD, manufacturing planning and open-source technical communication.</p>
+        <div class="badges"><span>v1.0.0</span><span>MIT</span><span>Neutral CAD</span><span>Portfolio demonstrator</span></div>
+      </div>
+      <div class="orbital" aria-hidden="true"><div class="core"></div><div class="ring r1"></div><div class="ring r2"></div></div>
+    </section>
+
+    <section class="metrics" aria-label="Key project metrics">
+      <article><strong>53.2 t</strong><span>updated dry docked mass</span></article>
+      <article><strong>57.8 m</strong><span>deployed solar span</span></article>
+      <article><strong>0.196 Hz</strong><span>first supported screening mode</span></article>
+      <article><strong>4</strong><span>NX CAM demonstrator parts</span></article>
+    </section>
+
+    <section id="viewer-section" class="viewer-section">
+      <div class="section-heading"><p class="eyebrow">Interactive models</p><h2>Explore the design evolution</h2></div>
+      <div class="model-controls" role="group" aria-label="Model selection">
+        <button class="active" data-model="assets/asterion_full_assembly.glb">Full assembly</button>
+        <button data-model="assets/asterion_optimized_structure.glb">Optimised structure</button>
+        <button data-model="assets/asterion_master_envelope.glb">Master envelope</button>
+        <button data-model="assets/thruster_gimbal_bracket.glb">Gimbal bracket</button>
+        <button data-model="assets/ring_bearing_housing.glb">Bearing housing</button>
+        <button data-model="assets/skimmer_wing_rib.glb">Skimmer rib</button>
+        <button data-model="assets/lightweight_bulkhead.glb">Bulkhead</button>
+      </div>
+      <div id="viewer" aria-label="Rotatable ASTERION 3D model"><div class="loading">Loading 3D model…</div></div>
+      <p class="viewer-help">Drag to rotate, scroll to zoom and right-drag to pan. The viewer requires an internet connection for Three.js modules.</p>
+    </section>
+
+    <section id="engineering" class="engineering">
+      <div class="section-heading"><p class="eyebrow">Engineering workflow</p><h2>From requirements to public evidence</h2></div>
+      <div class="cards">
+        <article><span>01</span><h3>Architecture</h3><p>Orbit assembly, electric propulsion, counter-rotating habitats, visible power and heat-rejection systems.</p></article>
+        <article><span>02</span><h3>NX design</h3><p>Master skeleton, expressions, WAVE-linked components, arrangements, interfaces, drawings and manufacturable demonstrators.</p></article>
+        <article><span>03</span><h3>ANSYS workflow</h3><p>Static, modal, buckling, thermal and CFD case preparation with convergence and correlation records.</p></article>
+        <article><span>04</span><h3>Iteration</h3><p>Screening exposed braking and docking flexibility; the H3 redesign added credible load paths and improved performance.</p></article>
+        <article><span>05</span><h3>Manufacturing</h3><p>Representative milling and turning processes, tools, fixtures, setup sheets, inspection plans and printable prototypes.</p></article>
+        <article><span>06</span><h3>Open release</h3><p>Neutral formats, reproducible scripts, traceability, claim boundaries and GitHub Pages presentation.</p></article>
+      </div>
+    </section>
+
+    <section id="boundary" class="boundary">
+      <p class="eyebrow">Engineering boundary</p>
+      <h2>Conceptual, transparent and intentionally non-fictional.</h2>
+      <p>ASTERION is not a certified spacecraft, production aircraft, reactionless propulsion system or unrestricted-travel claim. Numerical results are reduced-order screening unless supported by owner-generated native NX/ANSYS evidence.</p>
+    </section>
+  </main>
+  <footer><span>ASTERION FCTA-1 · Samuelson G · v1.0.0</span><span>Open-source portfolio baseline</span></footer>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
